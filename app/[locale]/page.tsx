@@ -5,7 +5,7 @@ import Pourquoi from '@/components/home/Pourquoi';
 export default async function Home() {
   return (
     < >
-      <HeroSection />
+      {/* <HeroSection /> */}
 
       <Pourquoi />
 
