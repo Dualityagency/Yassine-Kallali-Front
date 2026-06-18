@@ -3,7 +3,7 @@ import CtaButton from "../ui/CtaButton"
 
 const HeroSection = () => {
   return (
-    <section className="relative">
+    <section className="relative ">
       <Image
         src="/home/home.png"
         alt="Hero Image"
@@ -14,21 +14,21 @@ const HeroSection = () => {
 
       {/* Overlay */}
       <div className="absolute inset-0  flex items-center  pt-24 ">
-        <div className="  flex justify-start px-6 lg:px-12 max-w-[750px]">
-          <div className=" text-white">
+        <div className="  flex justify-start pl-6 lg:pl-20 max-w-[750px]">
+          <div >
 
-            <div>
-       <span className="text-[15] uppercase tracking-[0.2em] font-medium border border-white px-2 py-2 lg:px-4 lg:py-3  rounded-[24px] " >
+            <div className="pb-5">
+          <span className=" text-white text-[10px] lg:text-[15px] uppercase tracking-[0.2em] font-medium border border-white px-2 py-2 lg:px-4 lg:py-3  rounded-[24px] " >
               EXCELLENCE EN IMPLANTOLOGIE
             </span>
 
             </div>
      
-            <h1 className="text-[32px] lg:text-[60px] font-semibold leading-none tracking-normal pt-5">
+            <h1 className=" text-white text-[32px] lg:text-[60px] font-semibold leading-none tracking-normal pt-5">
       Votre dent extraite, votre implant posé. Le même jour À Sousse.
             </h1>
 
-            <p className=" text-[15px] lg:text-[20px] font-normal leading-none tracking-normal text-gray-100 pt-5 pb-8 lg:pt-8 lg:pb-14">
+            <p className=" text-[15px] lg:text-[20px] font-normal leading-none tracking-normal text-gray-100 pt-5 pb-5 lg:pt-8 lg:pb-14">
            Cabinet spécialisé en implantologie et esthétique dentaire. Patients internationaux reçus sur rendez-vous.
             </p>
 

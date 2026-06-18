@@ -1,13 +1,16 @@
+import Confiance from '@/components/home/Confiance';
 import HeroSection from '@/components/home/HeroSection';
-import CtaButton from '@/components/ui/CtaButton';
-import {getTranslations} from 'next-intl/server';
+import Pourquoi from '@/components/home/Pourquoi';
 
 export default async function Home() {
-  const t = await getTranslations('test');
   return (
     < >
       <HeroSection />
 
+      <Pourquoi />
+
+
+      <Confiance />
     </>
   );
 }

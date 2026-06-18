@@ -76,7 +76,7 @@ const Navbar = () => {
     <>
       <div
         ref={navRef}
-        className="fixed top-0 inset-x-0 z-50 w-full lg:px-4 lg:py-3 transition-all duration-300 xl:px-20 xl:py-4"
+        className="fixed top-0 inset-x-0 z-50 w-full lg:px-0 lg:py-0 transition-all duration-300 xl:px-20 xl:py-4"
       >
         <div
           className={`flex items-center justify-between bg-primary px-4 py-3 transition-all duration-300 xl:rounded-[16px] xl:px-9 xl:py-4 ${
