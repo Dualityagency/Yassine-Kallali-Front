@@ -6,7 +6,7 @@ export default async function Home() {
   const t = await getTranslations('test');
   return (
     < >
-      <HeroSection />
+      {/* <HeroSection /> */}
 
     </>
   );

@@ -1,5 +1,54 @@
 {
     "test":{
         "title": "test"
+    },
+    "implant-immediat":{
+        "inovation": {
+            "badge":"INNOVATION & PRÉCISION",
+            "title":"Comprendre l'Implantologie de Demain.",
+            "questionOne":"Qu'est-ce que l'implant immédiat ?",
+            "answerOne":"L'implant est posé dans l'alvéole immédiatement  après l'extraction, sans période d'attente. Cette technique réduit le nombre de séances,  préserve le volume osseux, et raccourcit considérablement le séjour du patient.",
+            "answerOneBadges":["Scanner 3D","Guide Chirurgical"],
+            "questionTwo":"Pourquoi cette technique est-elle rare ?",
+            "answer2":"Elle exige une planification précise, un bilan radiologique 3D (cone beam), et une maîtrise chirurgicale avancée. Tous les cas ne sont pas  éligibles le Dr. Yassine KALLALI évalue chaque situation individuellement."
+        }
+    },
+    "footer":{
+        "description": "Illuminez votre sourire avec confiance et soin.",
+        "contact_info":  [{
+                            "title":"Adresse",
+                            "list":["Av. 14 Janvier, Centre Médical El Kantaoui,","Imm. B43 4ème étage, Hammam Sousse."]
+                        },
+                        {
+                            "title":"Contact",
+                            "list":["+216 21 802 858","+216 70 633 966"]
+                        },
+                         {
+                            "title":"Email",
+                            "list":["yassinekalleli@gmail.com"]
+                        },
+                        {
+                            "title":"Horaire",
+                            "list":["Lundi - Samedi : 08:00 – 18:00"]
+                        }
+                        ],  
+        "navigation":"Navigation",      
+        "home":"Accueil",
+        "nav-docter":"Docteur",
+        "nav-blog":"Blog",
+        "nav-contact":"Contact",
+        "treatments":"Traitements",
+        "treatment-implant":"Implant Immédiat",
+        "treatment-esthetic":" Esthétique Dentaire",
+        "information":"Information",
+        "legal-notice":"Mentions légales",
+        "gdpr":"RGPD",
+        "social-media":"Réseaux Sociaux",
+        "social-facebook":"Facebook",
+        "social-instagram":"Instagram",
+        "social-linkedin":"LinkedIn",
+        "docter": "Dr. Yassine KALLALI", 
+        "copyright": "© 2026 Dr. Yassine Kallali. Tous droits réservés. Enregistrement CNOMDT N°12345",
+        "designed_by": "Conçu pary"
     }
 }
