@@ -16,7 +16,11 @@ const badgeVariants = cva(
           "bg-gray3 text-black font-medium text-[14px] px-[12px] py-[4px] rounded-[12px] leading-[20px] [a]:hover:bg-primary/80",
         withIcon:
           "bg-gray3 text-black2 font-medium text-[10.6px] lg:text-[14px] px-[11.3px] lg:px-[16px] py-[5px] lg:py-[8px] rounded-[16.25px] lg:rounded-[12px] leading-[15.14px] lg:leading-[20px] [a]:hover:bg-primary/80",
-      },
+    
+          transparent:
+         "bg-transparent text-white uppercase font-medium text-[10.6px] lg:text-[15px] px-[11.3px] lg:px-[16px] py-[5px] lg:py-[7px] rounded-[16.25px] lg:rounded-[23px] leading-[15.14px] lg:leading-[21px] border-[0.76px] lg:border-[1px] border-white",
+    
+        },
     },
     defaultVariants: {
       variant: "default",

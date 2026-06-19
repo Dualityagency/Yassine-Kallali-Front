@@ -13,7 +13,7 @@ export default function LocaleLayout({
   return (
     <>
       <NextIntlClientProvider>
-        {/* <Navbar /> */}
+        <Navbar /> 
         {children}
         <Footer />
         </NextIntlClientProvider>
