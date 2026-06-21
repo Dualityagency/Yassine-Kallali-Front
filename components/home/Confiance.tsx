@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import { useEffect, useRef, useState } from "react"
+import { Badge } from "../ui/badge"
 
 const stats = [
   { target: 15,   suffix: "+", pad: true,  label: "Années d'expérience" },
@@ -71,24 +72,30 @@ const Confiance = () => {
   }, [])
 
   return (
-    <div className="pb-16">
+    <div className=" pb-12  lg:pb-16">
       <div className="bg-background px-6 py-11 lg:py-19  lg:px-20">
 
         {/* Badge + titre */}
-        <div className="flex flex-col items-center gap-4  text-center">
-          <div className="w-fit items-center rounded-full bg-primary px-4 py-2">
-            <span className="whitespace-nowrap text-[14px] font-medium text-white">
-              Preuves de confiance
-            </span>
-          </div>
-          <h2 className="title2">
+        <div className="flex flex-col items-center  text-center">
+   
+
+          <Badge>
+Preuves de confiance
+          </Badge>
+
+    <div className="  py-6 lg:pt-10     ">
+      
+          <span className="title2">
             Des garanties de confiance et de qualité médicale.
-          </h2>
+          </span>
+
+    </div>
+
         </div>
 
         <div
           ref={sectionRef}
-          className="mt-10 flex flex-col lg:flex-row gap-10 "
+          className="mt-10 flex flex-col lg:flex-row gap-10  "
         >
           <div className="flex flex-col gap-8 flex-1">
 

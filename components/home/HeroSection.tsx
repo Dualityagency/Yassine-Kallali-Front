@@ -1,5 +1,6 @@
 import Image from "next/image"
 import CtaButton from "../ui/CtaButton"
+import { Badge } from "../ui/badge"
 
 const HeroSection = () => {
   return (
@@ -13,15 +14,17 @@ const HeroSection = () => {
       />
 
       {/* Overlay */}
-      <div className="absolute inset-0  flex items-center  pt-24 ">
+      <div className="absolute inset-0  flex items-center pt-15  lg:pt-24 ">
         <div className="  flex justify-start pl-6 lg:pl-20 max-w-[750px]">
           <div >
 
-            <div className="pb-5">
-          <span className=" text-white text-[10px] lg:text-[15px] uppercase tracking-[0.2em] font-medium border border-white px-2 py-2 lg:px-4 lg:py-3  rounded-[24px] " >
-              EXCELLENCE EN IMPLANTOLOGIE
-            </span>
+            <div className="py-5">
+   
 
+            <Badge variant={"transparent"}>
+ EXCELLENCE EN IMPLANTOLOGIE
+            </Badge>
+           
             </div>
      
             <h1 className=" text-white text-[32px] lg:text-[60px] font-semibold leading-none tracking-normal pt-5">

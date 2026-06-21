@@ -17,9 +17,8 @@ const badgeVariants = cva(
         withIcon:
           "bg-gray3 text-black2 font-medium text-[10.6px] lg:text-[14px] px-[11.3px] lg:px-[16px] py-[5px] lg:py-[8px] rounded-[16.25px] lg:rounded-[12px] leading-[15.14px] lg:leading-[20px] [a]:hover:bg-primary/80",
     
-          transparent:
-         "bg-transparent text-white uppercase font-medium text-[10.6px] lg:text-[15px] px-[11.3px] lg:px-[16px] py-[5px] lg:py-[7px] rounded-[16.25px] lg:rounded-[23px] leading-[15.14px] lg:leading-[21px] border-[0.76px] lg:border-[1px] border-white",
-    
+     transparent:
+  "bg-transparent text-white uppercase font-medium border-[0.75px] lg:border-[1.07px] border-white rounded-[16.19px] lg:rounded-[23px] px-[11.26px] lg:px-[16px] py-[4.93px] lg:py-[7px] text-[10.56px] lg:text-[15px] leading-[15.08px] lg:leading-[21.43px] tracking-[0.53px] lg:tracking-[0.75px] flex items-center justify-center gap-[6.03px] lg:gap-[8.57px]",
         },
     },
     defaultVariants: {

@@ -13,17 +13,21 @@ const marches = [
 
 const Marches = () => {
   return (
-    <div className="pb-16">
+    <div className="pb-12  lg:pb-15">
       <div className="bg-background px-6 py-11 lg:py-19 lg:px-20">
 
         <div className="flex flex-col justify-center items-center gap-4 text-center">
-          <Badge>Marchés desservis</Badge>
+<div className="pb-8">
+ <Badge>Marchés desservis</Badge>
+</div>
+         
+
           <h2 className="title2">
             Des garanties de confiance et de qualité médicale.
           </h2>
         </div>
 
-        <div className="mt-10">
+        <div className=" pt-7 lg:pt-13">
           {marches.map((item) => (
             <div
               key={item.num}

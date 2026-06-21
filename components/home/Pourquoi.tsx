@@ -61,8 +61,8 @@ const Card = ({ icon, title, text, iconClassName }: CardProps) => {
 
 const PourquoiNous = () => {
   return (
-    <div className="lg:pt-19 lg:pb-20 px-6 lg:px-20">
-      <div className="flex flex-col gap-4 pt-12 lg:flex-row lg:items-start ">
+    <div className=" py-12  lg:pt-19 lg:pb-20 px-6 lg:px-20">
+      <div className="flex flex-col gap-4  lg:flex-row lg:items-start ">
         <div className="inline-flex w-fit items-center rounded-full bg-primary px-4 py-2">
           <span className="whitespace-nowrap text-[14px] font-medium text-white">
             Pourquoi nous
@@ -85,7 +85,7 @@ const PourquoiNous = () => {
         </div>
       </div>
 
-      <div className="mt-10 w-full flex justify-center lg:px-20">
+      <div className="mt-10 w-full flex justify-center ">
         <Carousel
           opts={{
             align: "center",

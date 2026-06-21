@@ -7,17 +7,15 @@ const Autorise = () => {
     <div className="px-6 lg:px-20 pb-18">
 
       {/* Badge + titre */}
-      <div className="flex flex-col gap-4 lg:flex-row lg:justify-between lg:items-start">
-        <Badge>
-          AUTORITÉ & EXPERTISE
-        </Badge>
-        <span className="title2 lg:max-w-[600px]">
+      <div className="flex flex-col gap-4 items-center lg:flex-row lg:justify-between lg:items-start  pb-6  lg:pb-12 ">
+        <Badge>AUTORITÉ & EXPERTISE</Badge>
+        <span className="title2 text-center lg:text-left lg:max-w-[600px]">
           Un Praticien Formateur & Conférencier International.
         </span>
       </div>
 
       {/* Image + carte */}
-      <div className="mt-8 flex flex-col items-center lg:flex-row lg:items-stretch lg:gap-6">
+      <div className=" flex flex-col items-center lg:flex-row lg:items-stretch lg:gap-6">
 
         {/* Image */}
         <div className="flex justify-center lg:justify-start flex-shrink-0 lg:w-[45%] xl:w-[55%]">
@@ -30,11 +28,11 @@ const Autorise = () => {
           />
         </div>
 
-        {/* Carte */}
+        {/* Carte - FIXED: Responsive width and height */}
         <div className="
           flex flex-col justify-between gap-6 rounded-[15px] bg-background p-6
-          w-[339px] h-[346px] -mt-6
-          lg:w-auto lg:h-auto lg:mt-0 lg:p-10 lg:flex-1
+          w-full max-w-[339px] h-auto -mt-6
+          lg:w-auto lg:h-auto lg:mt-0 lg:p-10 lg:flex-1 lg:max-w-none
         ">
 
           {/* Top: name + title */}
@@ -55,7 +53,7 @@ const Autorise = () => {
               régulièrement des sessions de formation clinique et intervient lors
               de congrès internationaux majeurs.
             </p>
-            <CtaButton className="w-fit">
+            <CtaButton variant="blue" className="w-fit">
               À Propos le docteur
             </CtaButton>
           </div>
