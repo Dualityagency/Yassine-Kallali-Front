@@ -8,11 +8,11 @@ import { useEffect, useRef, useState } from "react"
 
 const navLinks = [
   { name: "Accueil", href: "/" },
-  { name: "Implant Immédiat", href: "/Implant" },
-  { name: "Esthétique dentaire", href: "#" },
+  { name: "Implant Immédiat", href: "/implant-immediat" },
+  { name: "Esthétique dentaire", href: "/esthetique-dentaire" },
   { name: "Docteur", href: "#" },
   { name: "Blog", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Contact", href: "#" }
 ]
 
 const languages = ["Fr", "En", "It", "Ar"]
