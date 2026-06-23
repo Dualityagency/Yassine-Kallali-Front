@@ -5,12 +5,14 @@ type CtaButtonProps = {
   children: ReactNode
   onClick?: () => void
   className?: string
+  variant?: "default" | "blue"
 }
 
 const CtaButton = ({
   children,
   onClick,
   className = "",
+  variant = "default",
 }: CtaButtonProps) => {
   return (
     <button
@@ -19,12 +21,12 @@ const CtaButton = ({
     >
       <span className="absolute inset-0 z-0 rounded-[8px] bg-primary transition-all duration-500 ease-in-out group-hover:left-[calc(100%-2.5rem)] lg:group-hover:left-[calc(100%-3.3rem)]" />
 
-      <span className="text-white relative z-10 whitespace-nowrap text-[12.93px] lg:text-[16px] font-medium transition-colors duration-300 px-2">
+      <span className={`relative z-10 whitespace-nowrap text-[12.93px] lg:text-[16px] font-medium transition-colors duration-300 px-2 text-white ${variant === "blue" ? "group-hover:text-primary" : ""}`}>
         {children}
       </span>
 
       <div className="relative z-10 flex size-7 shrink-0 items-center justify-center lg:size-10 bg-white rounded-[7px]">
-        <ArrowRight className="text-primary -rotate-45 text-secondary transition-transform duration-500 group-hover:rotate-0 size-3.5 lg:size-5" />
+        <ArrowRight className="text-primary -rotate-45 transition-transform duration-500 group-hover:rotate-0 size-3.5 lg:size-5" />
       </div>
     </button>
   )

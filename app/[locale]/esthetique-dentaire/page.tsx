@@ -1,10 +1,11 @@
-import CtaButton from "@/components/ui/CtaButton"
+import Naturel from "@/components/esthetique-dentaire/Naturel"
 
 const page = () => {
   return (
     <div>
+        
 
-aaa
+<Naturel/>
 
 
     </div>
