@@ -5,8 +5,6 @@ import { NextIntlClientProvider } from "next-intl";
 import Footer from "@/components/layout/Footer";
 
 
-
-
 export default function LocaleLayout({
   children,
 }: {
