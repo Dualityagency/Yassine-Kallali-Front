@@ -10,7 +10,7 @@ const navLinks = [
   { name: "Accueil", href: "/" },
   { name: "Implant Immédiat", href: "/implant-immediat" },
   { name: "Esthétique dentaire", href: "/esthetique-dentaire" },
-  { name: "Docteur", href: "#" },
+  { name: "Docteur", href: "/docteur" },
   { name: "Blog", href: "#" },
   { name: "Contact", href: "#" }
 ]
