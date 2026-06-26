@@ -35,7 +35,7 @@ export default function PrendreContact(){
                     Découvrez si vous êtes éligible à un implant immédiat en moins de 48h.
                 </h3>
 
-                <CtaButton>Demander une évaluation gratuite</CtaButton>
+                <CtaButton variant="white">Demander une évaluation gratuite</CtaButton>
             </div>
         </div>
     )

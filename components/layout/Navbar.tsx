@@ -36,8 +36,8 @@ const Navbar = () => {
     { name: t("links.implant"), href: "/implant-immediat" },
     { name: t("links.esthetique"), href: "/esthetique-dentaire" },
     { name: t("links.docteur"), href: "/docteur" },
-    { name: t("links.blog"), href: "#blog" },
-    { name: t("links.contact"), href: "#contact" },
+    { name: t("links.blog"), href: "/blog" },
+    { name: t("links.contact"), href: "/contact" },
   ]
 
   const contactInfo = [

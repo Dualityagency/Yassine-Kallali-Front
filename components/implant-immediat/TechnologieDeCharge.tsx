@@ -33,7 +33,7 @@ export default function TechnologieDeCharge(){
 
                 <div className="w-full lg:w-[36%] flex flex-col gap-y-8.25 lg:gap-y-14">
                 <p className="paragraph1">{t('technologie-de-charge.description')}</p>
-                <CtaButton className="w-fit">
+                <CtaButton variant="blue" textWhenHover="blue" className="w-fit">
                     {t('technologie-de-charge.ctaButton')}
                 </CtaButton>
                 </div>

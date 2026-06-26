@@ -250,87 +250,6 @@
       "cta": "Demander une consultation gratuite"
     }
   },
-  "implant-immediat": {
-    "technologie-de-charge": {
-      "bagde": "Technologie de Charge Immédiate",
-      "title-PartOne": "L'implant immédiat post-extraction : ",
-      "title-PartTwo": "Technique, protocole et résultats.",
-      "description": "L’implant immédiat post-extraction permet de remplacer une dent dès son extraction, lors de la même séance chirurgicale. Découvrez comment fonctionne cette technique d’implant dentaire le même jour en Tunisie, ses indications, ses avantages, le protocole de traitement et les résultats attendus.",
-      "ctaButton": "Demander une évaluation gratuite"
-    },
-    "inovation": {
-      "badge": "INNOVATION & PRÉCISION",
-      "title": "Comprendre l'Implantologie de Demain.",
-      "questionOne": "Qu'est-ce que l'implant immédiat ?",
-      "answerOne": "L'implant est posé dans l'alvéole immédiatement  après l'extraction, sans période d'attente. Cette technique réduit le nombre de séances,  préserve le volume osseux, et raccourcit considérablement le séjour du patient.",
-      "answerOneBadge1": "Scanner 3D",
-      "answerOneBadge2": "Scanner 3D",
-      "questionTwo": "Pourquoi cette technique est-elle rare ?",
-      "answerTwo": "Elle exige une planification précise, un bilan radiologique 3D (cone beam), et une maîtrise chirurgicale avancée. Tous les cas ne sont pas  éligibles le Dr. Yassine KALLALI évalue chaque situation individuellement."
-    },
-    "protocole": {
-      "badge": "LE PROTOCOLE",
-      "title": "Comment se déroule la procédure ?",
-      "description": "Une organisation optimisée pour les patients locaux et internationaux.",
-      "list": [
-        {
-          "title": "Consultation + Bilan",
-          "description": "Analyse radiologique complète par Cone Beam pour valider la densité osseuse."
-        },
-        {
-          "title": "Extraction & Pose",
-          "description": "Extraction atraumatique et mise en place immédiate de l'implant en titane."
-        },
-        {
-          "title": " Couronne Provisoire",
-          "description": "Pose d'une dent esthétique provisoire fixe. Vous repartez avec un sourire complet."
-        },
-        {
-          "title": "Suivi à distance",
-          "description": "Visioconférence pour les patients étrangers afin de monitorer la cicatrisation."
-        }
-      ]
-    },
-    "qa": {
-      "badge": "Questions fréquentes (implant-immediat)",
-      "title": "Ce qu’il faut savoir avant votre séjour à Sousse.",
-      "qaList": [
-        {
-          "q": "Temps de récupération après l'intervention ?",
-          "a": "La durée du séjour varie selon votre situation clinique. Pour un implant immédiat, la plupart des patients restent entre 2 et 5 jours afin de réaliser le traitement et les contrôles nécessaires."
-        },
-        {
-          "q": "Peut-on prendre l’avion après la pose d’un implant ?",
-          "a": "Oui. Dans la majorité des cas, il est possible de voyager en avion 24 à 48 heures après l’intervention, sous réserve de respecter les recommandations post-opératoires."
-        },
-        {
-          "q": "Le suivi est-il possible depuis la France, l’Italie ou le Royaume-Uni ?",
-          "a": "Oui. Le suivi post-opératoire peut être assuré à distance par visioconférence et échanges de documents médicaux, quel que soit votre pays de résidence."
-        },
-        {
-          "q": "Comment envoyer mes radios ?",
-          "a": "Vous pouvez transmettre vos radios panoramiques, scanners ou Cone Beam directement via notre formulaire sécurisé, par e-mail ou via WhatsApp."
-        },
-        {
-          "q": "Est-ce douloureux ?",
-          "a": "L’intervention est réalisée sous anesthésie locale. La plupart des patients décrivent un inconfort léger à modéré pendant les premiers jours, généralement bien contrôlé par les médicaments prescrits."
-        },
-        {
-          "q": "Quelle est la durée de vie d’un implant immédiat ?",
-          "a": "Avec une bonne hygiène bucco-dentaire et un suivi régulier, un implant dentaire peut durer de nombreuses années, voire plusieurs décennies."
-        },
-        {
-          "q": "Existe-t-il des vols directs depuis Paris, Milan, Bruxelles ou Londres ?",
-          "a": "Oui. Des vols directs ou avec escale courte sont régulièrement disponibles depuis plusieurs grandes villes européennes vers les aéroports desservant la région de Sousse."
-        },
-        {
-          "q": "Quels hébergements sont disponibles à Sousse ?",
-          "a": "Sousse propose un large choix d’hébergements : hôtels, résidences et appartements adaptés à tous les budgets. Notre équipe peut vous conseiller des options proches du cabinet."
-        }
-      ]
-    }
-  },
-
   "doctor": {
     "expertise": {
       "badge": "Une expertise reconnue et transmise",
@@ -506,49 +425,6 @@
     }
   },
 
-  "footer": {
-    "description": "Illuminez votre sourire avec confiance et soin.",
-    "contact_info": [
-      {
-        "title": "Adresse",
-        "list": [
-          "Av. 14 Janvier, Centre Médical El Kantaoui,",
-          "Imm. B43 4ème étage, Hammam Sousse."
-        ]
-      },
-      {
-        "title": "Contact",
-        "list": ["+216 21 802 858", "+216 70 633 966"]
-      },
-      {
-        "title": "Email",
-        "list": ["yassinekalleli@gmail.com"]
-      },
-      {
-        "title": "Horaire",
-        "list": ["Lundi - Samedi : 08:00 – 18:00"]
-      }
-    ],
-    "navigation": "Navigation",
-    "home": "Accueil",
-    "nav-docter": "Docteur",
-    "nav-blog": "Blog",
-    "nav-contact": "Contact",
-    "treatments": "Traitements",
-    "treatment-implant": "Implant Immédiat",
-    "treatment-esthetic": " Esthétique Dentaire",
-    "information": "Information",
-    "legal-notice": "Mentions légales",
-    "gdpr": "RGPD",
-    "social-media": "Réseaux Sociaux",
-    "social-facebook": "Facebook",
-    "social-instagram": "Instagram",
-    "social-linkedin": "LinkedIn",
-    "docter": "Dr. Yassine KALLALI",
-    "copyright": "© 2026 Dr. Yassine Kallali. Tous droits réservés. Enregistrement CNOMDT N°12345",
-    "designed_by": "Conçu pary"
-  },
-
   "implant-immediat": {
     "technologie-de-charge": {
       "bagde": "Technologie de Charge Immédiate",
@@ -638,6 +514,48 @@
       "title": "Prêt à transformer votre sourire ?",
       "description": "Obtenez une consultation personnalisée et un devis détaillé pour vos soins d'implantologie ou d'esthétique dentaire à Sousse.",
       "cta-button": "Prendre contact avec le Dr. Yassine KALLALI"
+    }
+  },
+  "blog-details": {
+   "qa": {
+      "badge": "Questions fréquentes",
+      "title": "Ce que les patients demandent le plus souvent.",
+      "qaList": [
+        {
+          "q": "Temps de récupération après l'intervention ?",
+          "a": "La durée du séjour varie selon votre situation clinique. Pour un implant immédiat, la plupart des patients restent entre 2 et 5 jours afin de réaliser le traitement et les contrôles nécessaires."
+        },
+        {
+          "q": "Peut-on prendre l’avion après la pose d’un implant ?",
+          "a": "Oui. Dans la majorité des cas, il est possible de voyager en avion 24 à 48 heures après l’intervention, sous réserve de respecter les recommandations post-opératoires."
+        },
+        {
+          "q": "Comment envoyer mes radios ?",
+          "a": "Vous pouvez transmettre vos radios panoramiques, scanners ou Cone Beam directement via notre formulaire sécurisé, par e-mail ou via WhatsApp."
+        },
+        {
+          "q": "Est-ce douloureux ?",
+          "a": "L’intervention est réalisée sous anesthésie locale. La plupart des patients décrivent un inconfort léger à modéré pendant les premiers jours, généralement bien contrôlé par les médicaments prescrits."
+        },
+        {
+          "q": "Quelle est la durée de vie d’un implant immédiat ?",
+          "a": "Avec une bonne hygiène bucco-dentaire et un suivi régulier, un implant dentaire peut durer de nombreuses années, voire plusieurs décennies."
+        },
+        {
+          "q": "Existe-t-il des vols directs depuis Paris, Milan, Bruxelles ou Londres ?",
+          "a": "Oui. Des vols directs ou avec escale courte sont régulièrement disponibles depuis plusieurs grandes villes européennes vers les aéroports desservant la région de Sousse."
+        },
+        {
+          "q": "Quels hébergements sont disponibles à Sousse ?",
+          "a": "Sousse propose un large choix d’hébergements : hôtels, résidences et appartements adaptés à tous les budgets. Notre équipe peut vous conseiller des options proches du cabinet."
+        }
+      ]
+    } ,
+    "contact": {
+      "badge": "Prendre contact",
+      "title": "Faites le premier pas vers votre nouveau sourire.",
+      "description": "Vous souhaitez savoir si vous êtes éligible à un implant immédiat ?  Remplissez notre formulaire de pré-évaluation — réponse personnalisée sous 48h.",
+      "cta-button": "Demander une évaluation gratuite"
     }
   },
   "contact": {
