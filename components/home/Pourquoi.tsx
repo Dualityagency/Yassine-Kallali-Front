@@ -33,7 +33,7 @@ const pourquoiNousCards = [
 
 const Card = ({ icon, title, text, iconClassName }: CardProps) => {
   return (
-    <div className="flex w-[338.85px] lg:w-[414px] flex-shrink-0 flex-row gap-4 rounded-[16px] bg-background p-6 lg:p-8 h-auto min-h-[196px] lg:min-h-[240px]">
+    <div className="flex w-[338.85px] lg:w-[414px] flex-shrink-0 flex-row gap-4 rounded-[16px] bg-background p-6 lg:p-8 h-full min-h-[196px] lg:min-h-[240px]">
       <div className="flex size-14 shrink-0 items-center justify-center rounded-[12px] bg-primary">
         <Image
           src={icon}
@@ -85,7 +85,7 @@ const PourquoiNous = () => {
           opts={{ align: "center", loop: false }}
           className="w-full min-w-0 flex justify-center"
         >
-          <CarouselContent>
+          <CarouselContent className="items-stretch">
             {pourquoiNousCards.map((card) => (
               <CarouselItem key={card.key} className="basis-auto">
                 <Card

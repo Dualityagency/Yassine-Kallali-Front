@@ -28,7 +28,7 @@ const Praticien = () => {
       <div className="flex flex-col xl:flex-row xl:justify-between gap-8 xl:gap-4">
 
         {/* Left — title + text */}
-        <div className="flex flex-col gap-4 xl:max-w-[400px]">
+        <div className="flex flex-col gap-4 xl:max-w-[600px]">
           <span className="title2">{t("title")}</span>
           <p className="paragraph1">{t("description")}</p>
         </div>

@@ -8,7 +8,7 @@ const Expertise = () => {
 
   return (
     <div className="px-4 sm:px-8 lg:px-24 py-12 lg:py-20">
-      <Badge variant="secondary" className="self-start">
+      <Badge variant="secondary" >
         {t("badge")}
       </Badge>
 
