@@ -53,7 +53,7 @@ const Autorise = () => {
             <p className="paragraph2">
               {t("doctor.description")}
             </p>
-            <CtaButton variant="blue" className="w-fit">
+            <CtaButton variant="blue" textWhenHover="blue" className="w-fit">
               {t("doctor.cta")}
             </CtaButton>
           </div>

@@ -12,7 +12,7 @@ export default function Contact() {
       <p className="w-full lg:w-[47%] paragraph1 mb-6 lg:mb-6.25 text-center">
         {t("contact.description")}
       </p>
-      <CtaButton variant="blue">{t("contact.cta-button")}</CtaButton>
+      <CtaButton variant="blue" textWhenHover="blue">{t("contact.cta-button")}</CtaButton>
     </div>
   );
 }

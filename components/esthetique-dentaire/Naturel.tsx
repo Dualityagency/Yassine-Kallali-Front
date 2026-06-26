@@ -60,7 +60,7 @@ const Naturel = () => {
             <p className="font-normal text-primary text-[15px] lg:text-[16px] leading-[100%] py-4">
               {t("cardBottom.text")}
             </p>
-            <CtaButton variant="blue">
+            <CtaButton variant="blue" textWhenHover="blue">
               {t("cardBottom.cta")}
             </CtaButton>
           </div>

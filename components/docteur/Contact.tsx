@@ -11,7 +11,7 @@ const Contact = () => {
         <Badge>{t("badge")}</Badge>
         <span className="title1">{t("title")}</span>
         <span className="paragraph1">{t("description")}</span>
-        <CtaButton variant="blue">{t("cta")}</CtaButton>
+        <CtaButton variant="blue" textWhenHover="blue">{t("cta")}</CtaButton>
       </div>
     </div>
   )

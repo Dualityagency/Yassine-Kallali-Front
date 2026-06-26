@@ -107,7 +107,7 @@ export default function DemandeDevis() {
         <p className="w-full lg:w-[85%] font-normal text-[#43474F] text-base leading-6">{t('form.uploadFormats')}</p>
         </div>
 
-        <CtaButton className="w-fit">{t('form.cta-button')}</CtaButton>
+        <CtaButton className="w-fit" textWhenHover="blue">{t('form.cta-button')}</CtaButton>
       </form>
     </div>
   );

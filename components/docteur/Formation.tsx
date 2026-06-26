@@ -79,7 +79,7 @@ const Formation = () => {
             {/* Info card */}
             <div className="w-[339px] h-[190px] xl:w-[396px] xl:h-[209px] border border-border rounded-[15px] p-6 flex flex-col justify-between">
               <p className="paragraph1 text-sm leading-relaxed">{t("infoCard.text")}</p>
-              <CtaButton className="w-fit" variant="blue">
+              <CtaButton className="w-fit" variant="blue" textWhenHover="blue">
                 {t("infoCard.cta")}
               </CtaButton>
             </div>

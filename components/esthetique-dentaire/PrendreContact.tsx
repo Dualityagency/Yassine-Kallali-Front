@@ -27,7 +27,7 @@ const PrendreContact = () => {
             {t("subtitle")}
           </span>
           <div>
-            <CtaButton className="w-fit">{t("cta")}</CtaButton>
+            <CtaButton className="w-fit" textWhenHover="blue">{t("cta")}</CtaButton>
           </div>
         </div>
 
