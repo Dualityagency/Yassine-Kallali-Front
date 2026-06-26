@@ -2,7 +2,25 @@
   "test": {
     "title": "test"
   },
-
+  "MetaData": {
+    "title": "Dr. Yassine Kallali | Implant Immédiat & Esthétique Dentaire à Sousse, Tunisie",
+    "description": "Cabinet dentaire spécialisé en implantologie immédiate et esthétique dentaire à Sousse, Tunisie. Plus de 20 ans d'expertise. Patients internationaux bienvenus. Dr. Yassine Kallali - Chirurgien-Dentiste & Implantologiste.",
+    "keywords": [
+      "implant dentaire Sousse",
+      "implant immédiat Tunisie",
+      "esthétique dentaire Sousse",
+      "Dr. Yassine Kallali",
+      "chirurgien dentiste Tunisie",
+      "implantologie Sousse",
+      "tourisme dentaire Tunisie",
+      "dentisterie esthétique Tunisie",
+      "implant le jour même",
+      "clinique dentaire Sousse",
+      "dentiste francophone Tunisie",
+      "dentiste anglophone Tunisie",
+      "dentiste italophone Tunisie"
+    ]
+  },
   "navbar": {
     "links": {
       "accueil": "Accueil",
@@ -25,7 +43,6 @@
     },
     "copyright": "© 2026 Dr. Yassine Kallali. Tous droits réservés. Enregistrement CNOMDT N°12345."
   },
-
   "home": {
     "hero": {
       "badge": "EXCELLENCE EN IMPLANTOLOGIE",
@@ -65,7 +82,6 @@
         }
       }
     },
-
     "autorise": {
       "badge": "AUTORITÉ & EXPERTISE",
       "title": "Un Praticien Formateur & Conférencier International.",
@@ -76,7 +92,6 @@
         "cta": "À Propos le docteur"
       }
     },
-
     "marches": {
       "badge": "Marchés desservis",
       "title": "Des garanties de confiance et de qualité médicale.",
@@ -118,7 +133,6 @@
       "cta": "Prendre contact"
     }
   },
-
   "esthetique": {
     "naturel": {
       "badge": "L'art du sourire naturel",
@@ -306,8 +320,14 @@
           "heading": "Partager l'expertise, transmettre le savoir.",
           "text": "Au-delà de son cabinet, le Dr. Yassine KALLALI intervient en tant que conférencier dans des séminaires professionnels dédiés à l'implantologie et à l'esthétique dentaire. Il a présenté ses protocoles lors de [placeholder : congrès dentaires, journées scientifiques, rencontres interprofessionnelles] en Tunisie et à l'étranger.",
           "stats": {
-            "conferences": { "value": "10+", "label": "Conférences" },
-            "implants": { "value": "1000+", "label": "Implants posés/an" }
+            "conferences": {
+              "value": "10+",
+              "label": "Conférences"
+            },
+            "implants": {
+              "value": "1000+",
+              "label": "Implants posés/an"
+            }
           }
         },
         "langues": {
@@ -315,7 +335,12 @@
           "subtitle": "Langues disponibles en consultation.",
           "heading": "Un accompagnement sans frontières.",
           "text": "Le Dr. Yassine KALLALI reçoit et communique avec ses patients en français, anglais, arabe et italien. Les devis, comptes-rendus post-opératoires et suivis à distance sont rédigés dans la langue du patient.",
-          "list": ["Français", "Anglais", "Arabe", "Italien"]
+          "list": [
+            "Français",
+            "Anglais",
+            "Arabe",
+            "Italien"
+          ]
         }
       }
     },
@@ -424,7 +449,6 @@
       "cta": "Prendre contact avec le Dr. Yassine KALLALI"
     }
   },
-
   "implant-immediat": {
     "technologie-de-charge": {
       "bagde": "Technologie de Charge Immédiate",
@@ -517,7 +541,7 @@
     }
   },
   "blog-details": {
-   "qa": {
+    "qa": {
       "badge": "Questions fréquentes",
       "title": "Ce que les patients demandent le plus souvent.",
       "qaList": [
@@ -550,7 +574,7 @@
           "a": "Sousse propose un large choix d’hébergements : hôtels, résidences et appartements adaptés à tous les budgets. Notre équipe peut vous conseiller des options proches du cabinet."
         }
       ]
-    } ,
+    },
     "contact": {
       "badge": "Prendre contact",
       "title": "Faites le premier pas vers votre nouveau sourire.",
@@ -598,9 +622,16 @@
       "country-label": "Pays de résidence",
       "country-placeholder": "Ex. : France, Tunisie, Canada...",
       "lang-label": "Langue préférée",
-      "languages": ["Français", "English", "Italiano", "العربية"],
+      "languages": [
+        "Français",
+        "English",
+        "Italiano",
+        "العربية"
+      ],
       "typeCare-label": "Type de soins",
-      "types": ["Implant immédiat"],
+      "types": [
+        "Implant immédiat"
+      ],
       "message-label": "Votre Message",
       "message-placeholder": "Décrivez vos besoins ou posez vos questions...",
       "uploadTitle": "Joindre une radio dentaire",
@@ -621,15 +652,22 @@
       },
       {
         "title": "Contact",
-        "list": ["+216 21 802 858", "+216 70 633 966"]
+        "list": [
+          "+216 21 802 858",
+          "+216 70 633 966"
+        ]
       },
       {
         "title": "Email",
-        "list": ["yassinekalleli@gmail.com"]
+        "list": [
+          "yassinekalleli@gmail.com"
+        ]
       },
       {
         "title": "Horaire",
-        "list": ["Lundi - Samedi : 08:00 – 18:00"]
+        "list": [
+          "Lundi - Samedi : 08:00 – 18:00"
+        ]
       }
     ],
     "navigation": "Navigation",
