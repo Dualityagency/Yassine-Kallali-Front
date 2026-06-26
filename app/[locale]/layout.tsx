@@ -32,7 +32,7 @@ export async function generateMetadata({
     authors: [
       {
         name: "Dr. Yassine Kallali",
-        url: "https://www.dr-yassine-kallali.com",
+        url: "https://www.dryassinekallali.com",
       },
     ],
 
