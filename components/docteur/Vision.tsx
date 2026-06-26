@@ -6,23 +6,24 @@ const Vision = () => {
   const t = useTranslations("doctor.vision")
 
   return (
-    <section className="pb-12 lg:pb-20 px-6 lg:px-20">
+    <section className="pb-12 lg:pb-20 px-6 lg:px-20 overflow-hidden">
       <div className="flex justify-center pb-20">
-      <Badge>{t("badge")}</Badge>
-
+        <Badge>{t("badge")}</Badge>
       </div>
 
-
       {/* ── DESKTOP ── */}
-      <div className="hidden lg:flex flex-col  relative">
-<div className="flex justify-center ">
-  <p className="relative z-50 italic font-medium text-[60px] leading-[120%] tracking-normal text-primary lg:max-w-[1100px]">
-    {t("quote")}
-  </p>
-</div>
+      <div className="hidden lg:block relative">
+        {/* Quote - absolute positioned between columns */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/1 z-10 w-full pointer-events-none">
+          <div className="flex justify-center">
+            <p className="italic font-medium text-[60px] leading-[120%] tracking-normal text-primary max-w-[1000px] ">
+              {t("quote")}
+            </p>
+          </div>
+        </div>
 
-        {/* 2 columns — behind the quote */}
-        <div className="flex gap-8 -mt-20">
+        {/* 2 columns */}
+        <div className="flex gap-8 relative">
           {/* LEFT COL */}
           <div className="flex flex-col flex-1">
             <div className="flex justify-start">
@@ -92,16 +93,16 @@ const Vision = () => {
 
         <div className="flex gap-8">
           <div>
-            <p className="text-2xl font-bold text-[#1a2e4a]">{t("stats.satisfaction.value")}</p>
-            <p className="text-xs uppercase tracking-widest text-gray-400">{t("stats.satisfaction.label")}</p>
+            <p className="text-2xl font-bold text-primary">{t("stats.satisfaction.value")}</p>
+            <p className="text-xs uppercase tracking-widest text-[#383838]">{t("stats.satisfaction.label")}</p>
           </div>
           <div>
-            <p className="text-2xl font-bold text-[#1a2e4a]">{t("stats.smiles.value")}</p>
-            <p className="text-xs uppercase tracking-widest text-gray-400">{t("stats.smiles.label")}</p>
+            <p className="text-2xl font-bold text-primary">{t("stats.smiles.value")}</p>
+            <p className="text-xs uppercase tracking-widest text-[#383838]">{t("stats.smiles.label")}</p>
           </div>
           <div>
-            <p className="text-2xl font-bold text-[#1a2e4a]">{t("stats.google.value")}</p>
-            <p className="text-xs uppercase tracking-widest text-gray-400">{t("stats.google.label")}</p>
+            <p className="text-2xl font-bold text-primary">{t("stats.google.value")}</p>
+            <p className="text-xs uppercase tracking-widest text-[#383838] ">{t("stats.google.label")}</p>
           </div>
         </div>
 

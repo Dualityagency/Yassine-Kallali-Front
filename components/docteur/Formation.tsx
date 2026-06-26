@@ -40,14 +40,20 @@ const Formation = () => {
 
             {/* Testimonial card */}
             <div className="w-[339px] h-[301px] xl:w-[495px] xl:h-[262px] border border-border rounded-[15px] p-6 flex flex-col justify-between">
-              <span className="text-primary text-3xl font-serif leading-none">"</span>
+              <Image
+                src="/doctor/quote.png"
+                alt=""
+                width={24}
+                height={24}
+                className="w-6 h-6 object-contain"
+              />
               <p className="paragraph1 mt-2 text-sm">{t("testimonial.text")}</p>
               <p className="mt-4 font-semibold text-sm">{t("testimonial.author")}</p>
             </div>
 
             {/* Primary bg card */}
             <div className="w-[339px] h-[209px] xl:w-[434px] xl:h-[209px] bg-primary rounded-[15px] p-6 flex flex-col justify-between">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 border border-white w-fit p-2 rounded-[20px] " >
                 <div className="flex -space-x-2">
                   {[1, 2, 3].map((i) => (
                     <div
