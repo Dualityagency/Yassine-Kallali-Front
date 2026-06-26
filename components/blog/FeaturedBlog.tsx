@@ -37,7 +37,6 @@ export default function FeaturedBlog() {
         "Comprendre les protocoles de mise en charge immédiate et les précautions essentielles pour assurer la réussite et la pérennité de votre implant. Découvrez les points clés à connaître avant de vous lancer.",
     },
   };
-  console.log(blog[locale]);
   return (
     <div
       className={cn(

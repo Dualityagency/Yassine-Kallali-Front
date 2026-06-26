@@ -4,29 +4,34 @@ import { routing } from "./i18n/routing";
 
 const handleI18nRouting = createMiddleware(routing);
 
+function getProtocol(request: NextRequest, host: string): string {
+  const forwarded = request.headers.get("x-forwarded-proto");
+  if (forwarded) return forwarded;
+  if (host.startsWith("localhost") || host.startsWith("127.0.0.1")) return "http";
+  return "https";
+}
+
 /**
- * Removes the internal port from an absolute URL and fixes relative URLs.
- * Preserves the original hostname (www or non-www) from the Location header
- * or falls back to the request's Host header for relative redirects.
+ * Rewrites redirect targets to use the public host from the incoming request.
+ * Keeps the port when present (e.g. localhost:3000 in dev) and drops internal
+ * hostnames/ports that may appear in upstream Location headers in production.
  */
 function fixRedirectLocation(location: string, request: NextRequest): string {
+  const publicHost = request.headers.get("host");
+  if (!publicHost) return location;
+
+  const protocol = getProtocol(request, publicHost);
+
   // Case 1: relative path (e.g. "/" or "/some-path")
   if (location.startsWith("/")) {
-    // Get the public host from the request's Host header
-    const publicHost = request.headers.get("host") ;
-    const protocol = request.headers.get("x-forwarded-proto") || "https";
     return `${protocol}://${publicHost}${location}`;
   }
 
-  // Case 2: absolute URL – remove port from hostname if present
+  // Case 2: absolute URL – replace host with the request's public host
   try {
     const url = new URL(location);
-    // Remove any port (e.g. :3006) from the hostname
-    const hostWithoutPort = url.hostname + (url.port ? "" : "");
-    // Rebuild with the same protocol and hostname (no port)
-    return `${url.protocol}//${hostWithoutPort}${url.pathname}${url.search}${url.hash}`;
+    return `${protocol}://${publicHost}${url.pathname}${url.search}${url.hash}`;
   } catch {
-    // Invalid URL – leave unchanged
     return location;
   }
 }
@@ -41,9 +46,7 @@ export default function proxy(request: NextRequest) {
 
   const location = response.headers.get("location");
   if (!location) return response;
-  console.log("Original Location:", location);
   const fixedLocation = fixRedirectLocation(location, request);
-  console.log("Fixed Location:", fixedLocation);
   if (fixedLocation === location) return response;
 
   return NextResponse.redirect(fixedLocation, response.status);

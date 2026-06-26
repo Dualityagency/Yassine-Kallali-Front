@@ -130,19 +130,21 @@ body {
 }
 
  @keyframes scrollX {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-33.33%);
-          }
-        }
-        .animate-infinite-scroll {
-          animation: scrollX 10s linear infinite;
-        }
-        .hover\\:pause:hover {
-          animation-play-state: paused;
-        }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.33%);
+  }
+}
+
+.animate-infinite-scroll {
+  animation: scrollX 10s linear infinite;
+}
+
+@utility pause {
+  animation-play-state: paused;
+}
  
 .dark {
   --background: oklch(0.145 0 0);

@@ -9,7 +9,6 @@ import { useTranslations } from "next-intl";
 export default function ImplantImmediat() {
     const t= useTranslations("implant-immediat")
     const qaList= t.raw("qa.qaList")
-    console.log(qaList);
     
     return (
         <div className="flex flex-col gap-y-12 lg:gap-y-18.25">
