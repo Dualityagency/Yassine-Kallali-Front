@@ -106,7 +106,7 @@ body {
 
 @layer component {
   .title1 {
-    @apply font-semibold text-primary text-[32px] lg:text-[60px] leading-[100%];
+    @apply font-semibold text-primary text-[32px] lg:text-[60px] leading-[110%];
   }
   .title2 {
     @apply font-semibold text-primary text-[25px] lg:text-[30px] leading-[100%];
@@ -118,7 +118,7 @@ body {
     @apply font-semibold text-primary text-[14px] lg:text-[16px] leading-[100%];
   }
   .paragraph1 {
-    @apply font-normal text-gray text-[15px] lg:text-[20px] leading-[100%];
+    @apply font-normal text-gray text-[15px] lg:text-[20px] leading-[120%];
   }
   .paragraph2 {
     @apply font-normal text-gray text-[13px] lg:text-[16px] leading-[100%];

@@ -9,11 +9,11 @@ const badgeVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-white font-medium text-[11.79px] lg:text-[15px] px-[12.57px] lg:px-[16px] py-[5.5px] lg:py-[7px] rounded-[18.07px] lg:rounded-[23px] [a]:hover:bg-primary/80",
+        default: "uppercase bg-primary text-white font-medium text-[11.79px] lg:text-[15px] px-[12.57px] lg:px-[16px] py-[5.5px] lg:py-[7px] rounded-[18.07px] lg:rounded-[23px] [a]:hover:bg-primary/80",
         secondary:
-          "bg-transparent text-primary font-medium text-[10.6px] lg:text-[15px] px-[11.3px] lg:px-[16px] py-[5px] lg:py-[7px] rounded-[16.25px] lg:rounded-[23px] leading-[15.14px] lg:leading-[21px] border-[0.76px] lg:border-[1px] border-primary [a]:hover:bg-primary/80",
+          "uppercase bg-transparent text-primary font-medium text-[10.6px] lg:text-[15px] px-[11.3px] lg:px-[16px] py-[5px] lg:py-[7px] rounded-[16.25px] lg:rounded-[23px] leading-[15.14px] lg:leading-[21px] border-[0.76px] lg:border-[1px] border-primary [a]:hover:bg-primary/80",
           tertiary:
-          "bg-transparent text-white font-medium text-[10.6px] lg:text-[15px] px-[11.3px] lg:px-[16px] py-[5px] lg:py-[7px] rounded-[16.25px] lg:rounded-[23px] leading-[15.14px] lg:leading-[21px] border-[0.76px] lg:border-[1px] border-white [a]:hover:bg-primary/80",
+          "uppercase bg-transparent text-white font-medium text-[10.6px] lg:text-[15px] px-[11.3px] lg:px-[16px] py-[5px] lg:py-[7px] rounded-[16.25px] lg:rounded-[23px] leading-[15.14px] lg:leading-[21px] border-[0.76px] lg:border-[1px] border-white [a]:hover:bg-primary/80",
           gray:
           "bg-gray3 text-black font-medium text-[14px] px-[12px] py-[4px] rounded-[12px] leading-[20px] [a]:hover:bg-primary/80",
         withIcon:
@@ -29,7 +29,7 @@ const badgeVariants = cva(
   }
 )
 
-function Badge({
+function   Badge({
   className,
   variant = "default",
   render,
