@@ -1,14 +1,26 @@
+import Esthetique from "@/components/esthetique-dentaire/Esthetique"
+import Harmonie from "@/components/esthetique-dentaire/Harmonie"
 import Naturel from "@/components/esthetique-dentaire/Naturel"
+import PrendreContact from "@/components/esthetique-dentaire/PrendreContact"
+import QA from "@/components/layout/QA"
+import { useTranslations } from "next-intl"
 
 const page = () => {
+  const t = useTranslations("esthetique")
+  const qaList = t.raw("qa.qaList")
+
   return (
-    <div>
-        
-
-<Naturel/>
-
-
-    </div>
+    <>
+      <Naturel />
+      <Harmonie />
+      <Esthetique />
+      <QA
+        badge={t("qa.badge")}
+        title={t("qa.title")}
+        qaList={qaList}
+      />
+      <PrendreContact />
+    </>
   )
 }
 

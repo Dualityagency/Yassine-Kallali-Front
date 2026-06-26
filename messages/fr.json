@@ -1,4 +1,534 @@
 {
+    "test":{
+        "title": "test"
+    },
+
+    "navbar": {
+  "links": {
+    "accueil": "Accueil",
+    "implant": "Implant Immédiat",
+    "esthetique": "Esthétique dentaire",
+    "docteur": "Docteur",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "langue": "Langue",
+  "contact": {
+    "adresse_label": "Adresse",
+    "adresse_value": "Av. 14 Janvier, Centre Médical El Kantaoui, Imm. B43 4ème étage, Hammam Sousse.",
+    "contact_label": "Contact",
+    "contact_value": "+216 21 802 858 / +216 70 633 966",
+    "email_label": "Email",
+    "email_value": "yassinekalleli@gmail.com",
+    "horaire_label": "Horaire",
+    "horaire_value": "Lundi - Samedi : 08:00 – 18:00"
+  },
+  "copyright": "© 2026 Dr. Yassine Kallali. Tous droits réservés. Enregistrement CNOMDT N°12345."
+},
+
+"home": {
+  "hero": {
+    "badge": "EXCELLENCE EN IMPLANTOLOGIE",
+    "title": "Votre dent extraite, votre implant posé. Le même jour À Sousse.",
+    "description": "Cabinet spécialisé en implantologie et esthétique dentaire. Patients internationaux reçus sur rendez-vous.",
+    "cta": "Demander un devis gratuit"
+  },
+  "pourquoiNous": {
+    "badge": "Pourquoi nous",
+    "title": "L'excellence au service de votre sourire, avec une expertise dédiée à votre bien-être, votre confort et la beauté naturelle de chaque sourire.",
+    "description": "Parce que chaque sourire est unique, nous mettons à votre disposition des soins dentaires modernes, personnalisés et réalisés avec passion afin de vous offrir confiance, santé et sérénité au quotidien.",
+    "cards": {
+      "technique": {
+        "title": "Technique de l'implant immédiat",
+        "text": "Réduction du temps de traitement grâce à la pose immédiate de l'implant après extraction, préservant os et gencive."
+      },
+      "esthetique": {
+        "title": "Esthétique dentaire aux normes mondiales",
+        "text": "Protocoles cliniques rigoureux et matériaux premium (Titane Grade 5 / Zircone), conformes aux normes européennes CE."
+      },
+      "suivi": {
+        "title": "Suivi à distance possible après retour",
+        "text": "Pour nos patients à l'étranger, nous assurons un suivi post-opératoire personnalisé via téléconsultation sécurisée."
+      }
+    }
+  },
+  "confiance": {
+    "badge": "Preuves de confiance",
+    "title": "Des garanties de confiance et de qualité médicale.",
+    "quote": "Nous accueillons des patients du monde entier, parlant couramment Français, Anglais, Italien et Arabe pour une communication transparente.",
+    "stats": {
+      "experience": {
+        "label": "Années d'expérience"
+      },
+      "implants": {
+        "label": "Implants posés"
+      }
+    }
+  },
+
+  "autorise": {
+    "badge": "AUTORITÉ & EXPERTISE",
+    "title": "Un Praticien Formateur & Conférencier International.",
+    "doctor": {
+      "name": "Dr. Yassine KALLALI",
+      "experience": "20 Années D'experience",
+      "description": "Le Dr. Yassine KALLALI ne se contente pas de soigner ; il transmet. Expert reconnu en implantologie guidée par ordinateur, il dirige régulièrement des sessions de formation clinique et intervient lors de congrès internationaux majeurs.",
+      "cta": "À Propos le docteur"
+    }
+  },
+
+ "marches": {
+    "badge": "Marchés desservis",
+    "title": "Des garanties de confiance et de qualité médicale.",
+    "items": {
+      "france": {
+        "city": "France",
+        "text": "Des soins dentaires modernes pour une communauté maghrébine bien implantée."
+      },
+      "belgique": {
+        "city": "Belgique",
+        "text": "Un accompagnement de proximité dans un environnement multiculturel."
+      },
+      "suisse": {
+        "city": "Suisse",
+        "text": "Excellence, précision et confort au service de votre sourire."
+      },
+      "italie": {
+        "city": "Italie",
+        "text": "Des soins accessibles et adaptés aux besoins des familles internationales."
+      },
+      "uk": {
+        "city": "UK",
+        "text": "Une approche professionnelle dédiée à une patientèle cosmopolite."
+      },
+      "canada": {
+        "city": "Canada",
+        "text": "Une expertise dentaire moderne pour une communauté en pleine croissance."
+      },
+      "diaspora": {
+        "city": "Diaspora maghrébine en Europe",
+        "text": "Des soins de confiance avec une compréhension culturelle et linguistique."
+      }
+    }
+  },
+"prendre": {
+    "badge": "Prendre contact",
+    "title": "Planifiez votre séjour dentaire à Sousse",
+    "description": "Recevez un accompagnement personnalisé par notre équipe attentive et professionnelle, bénéficiez de conseils adaptés à vos besoins, et obtenez votre devis rapidement en toute simplicité pour concrétiser votre projet en toute confiance.",
+    "cta": "Prendre contact"
+  }
+},
+
+"esthetique": {
+  "naturel": {
+    "badge": "L'art du sourire naturel",
+    "title": "Votre Expert en Esthétique Dentaire à Sousse.",
+    "heroAlt": "Dr Yassine Kallali – esthétique dentaire",
+    "productAlt": "Produits dentaires",
+    "cardSmall": {
+      "title": "Un sourire pensé pour vous.",
+      "text": "Parce qu'un beau sourire n'est pas seulement esthétique, il doit aussi être naturel, harmonieux et en accord avec votre visage."
+    },
+    "cardBottom": {
+      "title": "L'art d'un sourire harmonieux",
+      "text": "Un sourire harmonieux influence directement la confiance en soi. Le Dr Yassine KALLALI propose une approche esthétique personnalisée, adaptée à chaque morphologie.",
+      "cta": "Demander une consultation"
+    }
+  },
+  "harmonie": {
+    "badge": "ESTHÉTIQUE & HARMONIE",
+    "title": "Nos Solutions Esthétiques Personnalisées.",
+    "description": "Une approche conservatrice utilisant les dernières technologies pour un résultat durable et naturel.",
+    "services": {
+      "facettes": {
+        "title": "Facettes en céramique",
+        "badges": ["Beauté & Naturel", "Facettes en Céramique", "Sourire sur Mesure", "Esthétique Minimalement Invasive", "Esthétique Premium"]
+      },
+      "composite": {
+        "title": "Composite dentaire",
+        "badges": ["Résultat Immédiat", "Sourire Naturel", "Esthétique Rapide", "Technique Mini-Invasive", "Une Seule Séance"]
+      },
+      "blanchiment": {
+        "title": "Blanchiment Professionnel",
+        "badges": ["Résultats Durables", "Solution Efficace", "Service Haut De Gamme", "Traitement Professionnel", "Qualité Professionnelle"]
+      },
+      "smileDesign": {
+        "title": "Smile Design & Simulation Digitale",
+        "badges": ["Correction Esthétique", "Retouche Du Sourire", "Service Haut De Gamme", "Résine Composite", "Technique Moderne"]
+      }
+    }
+  },
+   "esthetiqueSection": {
+    "badge": "ESTHÉTIQUE ET IMPLANTOLOGIE",
+    "title": "Synergie entre Esthétique et Implants.",
+    "description1": "Un beau sourire ne se limite pas à la blancheur. C'est l'équilibre parfait entre la santé des gencives, la structure osseuse et l'esthétique des dents.",
+    "description2": "Pour nos patients nécessitant des implants, nous intégrons systématiquement une approche esthétique globale. Chaque implant est couronné par une pièce en céramique conçue pour se fondre invisiblement dans votre sourire existant, alliant fonction mécanique et beauté naturelle.",
+    "rehab": {
+      "title": "Réhabilitation complète",
+      "text": "Remplacer et embellir simultanément."
+    },
+    "materiaux": {
+      "title": "Matériaux Bio-compatibles",
+      "text": "Zircone et céramique de grade médical."
+    }
+  },
+       "qa": {
+  "badge": "Questions fréquentes (ésthétique dentaire)",
+  "title": "Ce qu'il faut savoir avant votre séjour à Sousse.",
+  "qaList": [
+    {
+      "q": "Les facettes font-elles mal ?",
+      "a": "Non, la pose de facettes est généralement peu ou pas douloureuse. La préparation des dents est minimale et, si nécessaire, une anesthésie locale peut être utilisée pour garantir votre confort."
+    },
+    {
+      "q": "Combien de séances sont nécessaires ?",
+      "a": "En général, 2 à 3 séances suffisent :",
+      "list": [
+        "Consultation et planification du traitement",
+        "Préparation des dents et prise d'empreintes",
+        "Pose définitive des facettes"
+      ]
+    },
+    {
+      "q": "La teinte est-elle naturelle ?",
+      "a": "Oui. La teinte est choisie en fonction de votre visage, de votre teint et de vos dents naturelles afin d'obtenir un résultat harmonieux et réaliste."
+    },
+    {
+      "q": "Combien de temps durent les facettes céramique ?",
+      "a": "Avec une bonne hygiène bucco-dentaire et un suivi régulier, les facettes en céramique peuvent durer entre 10 et 15 ans, voire davantage."
+    },
+    {
+      "q": "Peut-on combiner blanchiment et facettes au cours d'un même séjour ?",
+      "a": "Oui. Le blanchiment est souvent réalisé avant la pose des facettes afin d'obtenir une teinte globale plus lumineuse et parfaitement harmonisée."
+    },
+    {
+      "q": "Le résultat est-il visible immédiatement ?",
+      "a": "Oui. Dès la pose des facettes, le changement est visible et le sourire est transformé instantanément."
+    },
+    {
+      "q": "Comment entretenir ses facettes ?",
+      "a": "L'entretien est simple :",
+      "list": [
+        "Brossez-vous les dents deux fois par jour",
+        "Utilisez du fil dentaire ou des brossettes interdentaires",
+        "Effectuez des contrôles réguliers chez le dentiste",
+        "Évitez de mordiller des objets très durs (glaçons, stylos, etc.)"
+      ],
+      "footer": "Les facettes ne nécessitent pas de soins particuliers, seulement une bonne hygiène bucco-dentaire quotidienne."
+    }
+  ]
+},
+  "prendreContact": {
+    "badge": "Prendre contact",
+    "title": "Votre sourire idéal commence ici.",
+    "description": "Que vous envisagiez des facettes, un blanchiment, du composite esthétique ou une transformation complète du sourire, notre équipe vous accompagne à chaque étape de votre projet. De la première consultation virtuelle jusqu'à votre traitement à Sousse, nous créons un plan personnalisé pour obtenir un résultat naturel, harmonieux et durable.",
+    "subtitle": "Demander une consultation gratuite et découvrez les possibilités de votre futur sourire.",
+    "cta": "Demander une consultation gratuite"
+  }
+},
+
+
+
+
+    "implant-immediat":{
+        "technologie-de-charge":{
+            "bagde":"Technologie de Charge Immédiate",
+            "title-PartOne":"L'implant immédiat post-extraction : ",
+            "title-PartTwo":"Technique, protocole et résultats.",
+            "description":"L’implant immédiat post-extraction permet de remplacer une dent dès son extraction, lors de la même séance chirurgicale. Découvrez comment fonctionne cette technique d’implant dentaire le même jour en Tunisie, ses indications, ses avantages, le protocole de traitement et les résultats attendus.",
+            "ctaButton":"Demander une évaluation gratuite"
+        },
+        "inovation": {
+            "badge":"INNOVATION & PRÉCISION",
+            "title":"Comprendre l'Implantologie de Demain.",
+            "questionOne":"Qu'est-ce que l'implant immédiat ?",
+            "answerOne":"L'implant est posé dans l'alvéole immédiatement  après l'extraction, sans période d'attente. Cette technique réduit le nombre de séances,  préserve le volume osseux, et raccourcit considérablement le séjour du patient.",
+            "answerOneBadge1":"Scanner 3D",
+            "answerOneBadge2":"Scanner 3D",
+            "questionTwo":"Pourquoi cette technique est-elle rare ?",
+            "answerTwo":"Elle exige une planification précise, un bilan radiologique 3D (cone beam), et une maîtrise chirurgicale avancée. Tous les cas ne sont pas  éligibles le Dr. Yassine KALLALI évalue chaque situation individuellement."
+        },
+        "protocole":{
+            "badge":"LE PROTOCOLE",
+            "title":"Comment se déroule la procédure ?",
+            "description":"Une organisation optimisée pour les patients locaux et internationaux.",
+            "list":[
+                {
+                    "title":"Consultation + Bilan",
+                    "description":"Analyse radiologique complète par Cone Beam pour valider la densité osseuse."
+                },
+                {
+                    "title":"Extraction & Pose",
+                    "description":"Extraction atraumatique et mise en place immédiate de l'implant en titane."
+                },
+                {
+                    "title":" Couronne Provisoire",
+                    "description":"Pose d'une dent esthétique provisoire fixe. Vous repartez avec un sourire complet."
+                },
+                {
+                    "title":"Suivi à distance",
+                    "description":"Visioconférence pour les patients étrangers afin de monitorer la cicatrisation."
+                } 
+            ]
+        },
+        "qa":{
+            "badge":"Questions fréquentes (implant-immediat)",
+            "title":"Ce qu’il faut savoir avant votre séjour à Sousse.",
+            "qaList":[
+            {
+                "q":"Temps de récupération après l'intervention ?",
+                "a":"La durée du séjour varie selon votre situation clinique. Pour un implant immédiat, la plupart des patients restent entre 2 et 5 jours afin de réaliser le traitement et les contrôles nécessaires."
+            },
+            {
+                "q":"Peut-on prendre l’avion après la pose d’un implant ?",
+                "a":"Oui. Dans la majorité des cas, il est possible de voyager en avion 24 à 48 heures après l’intervention, sous réserve de respecter les recommandations post-opératoires."
+            },
+            {
+                "q":"Le suivi est-il possible depuis la France, l’Italie ou le Royaume-Uni ?",
+                "a":"Oui. Le suivi post-opératoire peut être assuré à distance par visioconférence et échanges de documents médicaux, quel que soit votre pays de résidence."
+            },
+            {
+                "q":"Comment envoyer mes radios ?",
+                "a":"Vous pouvez transmettre vos radios panoramiques, scanners ou Cone Beam directement via notre formulaire sécurisé, par e-mail ou via WhatsApp."
+            },
+            {
+                "q":"Est-ce douloureux ?",
+                "a":"L’intervention est réalisée sous anesthésie locale. La plupart des patients décrivent un inconfort léger à modéré pendant les premiers jours, généralement bien contrôlé par les médicaments prescrits."
+            },
+            {
+                "q":"Quelle est la durée de vie d’un implant immédiat ?",
+                "a":"Avec une bonne hygiène bucco-dentaire et un suivi régulier, un implant dentaire peut durer de nombreuses années, voire plusieurs décennies."
+            },
+            {
+                "q":"Existe-t-il des vols directs depuis Paris, Milan, Bruxelles ou Londres ?",
+                "a":"Oui. Des vols directs ou avec escale courte sont régulièrement disponibles depuis plusieurs grandes villes européennes vers les aéroports desservant la région de Sousse."
+            },
+            {
+                "q":"Quels hébergements sont disponibles à Sousse ?",
+                "a":"Sousse propose un large choix d’hébergements : hôtels, résidences et appartements adaptés à tous les budgets. Notre équipe peut vous conseiller des options proches du cabinet."
+            }
+        ]
+        }
+    },
+
+    "doctor": {
+  "expertise": {
+    "badge": "Une expertise reconnue et transmise",
+    "name": "Dr. Yassine KALLALI,",
+    "title": "Chirurgien-dentiste, implantologiste et formateur.",
+    "description": "Fort de plus de 20 ans d'expérience, le Dr. Yassine KALLALI, chirurgien-dentiste et implantologiste à Sousse, est reconnu pour son expertise en restauration dentaire complète et en implants dentaires. Également formateur, il partage son savoir-faire auprès de praticiens en Tunisie et à l'international.",
+    "badges": {
+      "languages": "FR, EN, IT, AR",
+      "trainer": "Formateur Certifié"
+    }
+  },
+  "parcours": {
+    "badge": "Parcours et expertise",
+    "title": "L'excellence clinique au cœur de chaque traitement.",
+    "description": "Un savoir-faire reconnu par des patients et des praticiens venus de Tunisie et de l'étranger.",
+    "items": {
+      "parcoursPro": {
+        "title": "Parcours professionnel",
+        "subtitle": "Parcours professionnel et expertise.",
+        "heading": "Une expertise forgée par l'expérience.",
+        "text": "Le Dr. Yassine KALLALI est chirurgien-dentiste diplômé de [Faculté / Université], spécialisé en implantologie et en esthétique dentaire. Installé à Sousse depuis 2015, il a développé une pratique centrée sur l'implant immédiat post-extraction, une technique exigeante qu'il a progressivement affinée et qu'il enseigne aujourd'hui à d'autres praticiens. Son cabinet reçoit des patients en provenance de France, de Belgique, de Suisse, d'Italie, du Royaume-Uni et du Canada, ainsi que de la diaspora maghrébine résidant en Europe. Il consulte en français, en anglais, en arabe et en italien.",
+        "order": "Il est inscrit au Tableau de l'Ordre des Chirurgiens-Dentistes de Tunisie sous le numéro N°12345."
+      },
+      "formation": {
+        "title": "Formation académique",
+        "subtitle": "Formation et qualifications.",
+        "heading": "Un parcours académique d'excellence.",
+        "items": [
+          {
+            "title": "Diplôme de chirurgie dentaire.",
+            "sub": "Doctorat en Médecin Dentaire.",
+            "place": "Faculté de Médecine Dentaire de Monastir, Tunisie (2003)."
+          },
+          {
+            "title": "Spécialisation en implantologie.",
+            "sub": "Diplôme Universitaire d'Implantologie Orale.",
+            "place": "Université Paris Cité, France (2008)."
+          },
+          {
+            "title": "Formation en Esthétique Dentaire & Smile Design.",
+            "sub": "Certification en Esthétique Dentaire et Digital Smile Design (DSD).",
+            "place": "Digital Smile Design Academy, Madrid, Espagne (2015)."
+          },
+          {
+            "title": "Masterclass en Réhabilitation Complète sur Implants.",
+            "sub": "Certification en Réhabilitation Complète sur Implants.",
+            "place": "Malo Clinic, Lisbonne, Portugal (2019)."
+          }
+        ]
+      },
+      "seminaires": {
+        "title": "Séminaires et conférences",
+        "subtitle": "Activités de formation et d'enseignement.",
+        "heading": "Partager l'expertise, transmettre le savoir.",
+        "text": "Au-delà de son cabinet, le Dr. Yassine KALLALI intervient en tant que conférencier dans des séminaires professionnels dédiés à l'implantologie et à l'esthétique dentaire. Il a présenté ses protocoles lors de [placeholder : congrès dentaires, journées scientifiques, rencontres interprofessionnelles] en Tunisie et à l'étranger.",
+        "stats": {
+          "conferences": { "value": "10+", "label": "Conférences" },
+          "implants": { "value": "1000+", "label": "Implants posés/an" }
+        }
+      },
+      "langues": {
+        "title": "Langues de consultation",
+        "subtitle": "Langues disponibles en consultation.",
+        "heading": "Un accompagnement sans frontières.",
+        "text": "Le Dr. Yassine KALLALI reçoit et communique avec ses patients en français, anglais, arabe et italien. Les devis, comptes-rendus post-opératoires et suivis à distance sont rédigés dans la langue du patient.",
+        "list": ["Français", "Anglais", "Arabe", "Italien"]
+
+      }
+    }
+    
+  },
+  "vision": {
+  "badge": "La vision du Dr. Yassine Kallali",
+  "quote": "\"Former d'autres chirurgiens-dentistes m'oblige à rester à la pointe. C'est une discipline autant qu'une responsabilité.\"",
+  "name": "Dr. Yassine KALLALI",
+  "tagline": "Reconnu par des milliers de patients pour l'excellence de ses soins dentaires\u00a0!",
+  "img1Alt": "Outils dentaires",
+  "img2Alt": "Dr. Yassine Kallali au travail",
+  "stats": {
+    "satisfaction": {
+      "value": "98 %",
+      "label": "Satisfaction"
+    },
+    "smiles": {
+      "value": "5,000",
+      "label": "Des sourires révélés"
+    },
+    "google": {
+      "value": "4.9",
+      "label": "Avis Google"
+    }
+  }
+},
+"formation": {
+  "badge": "Formation des praticiens",
+  "title": "Un praticien qui forme d'autres praticiens.",
+  "description": "Une approche conservatrice utilisant les dernières technologies pour un résultat durable et naturel.",
+  "img1Alt": "Outils dentaires",
+  "img2Alt": "Aligneur dentaire",
+  "testimonial": {
+    "text": "Une formation d'une grande précision clinique et d'un haut niveau d'exigence. Le Dr. Yassine KALLALI partage des protocoles clairs, structurés et directement applicables en pratique quotidienne, permettant une mise en œuvre immédiate des techniques enseignées.",
+    "author": "Dr. A. K., Chirurgien-dentiste, France"
+  },
+  "primaryCard": {
+    "practitioners": "+80 Praticiens",
+    "text": "Reconnu pour son expertise en implantologie et ses protocoles rigoureux, le Dr. Yassine KALLALI anime des formations cliniques sur l'implant immédiat post-extraction."
+  },
+  "infoCard": {
+    "text": "Ces formations ont lieu au cabinet, en conditions réelles sur patients, en petits groupes, avec des praticiens tunisiens et internationaux.",
+    "cta": "Contactez-nous"
+  }
+},
+"praticien": {
+  "badge": "Praticien formateur",
+  "title": "Pourquoi choisir un praticien formateur reconnu en implantologie et en chirurgie implantaire avancée ?",
+  "description": "Une expertise clinique avancée fondée sur la maîtrise des techniques, la rigueur des protocoles et la transmission du savoir auprès de chirurgiens-dentistes en formation, dans un cadre structuré et orienté vers l'excellence.",
+  "cards": [
+    {
+      "title": "Maîtrise et transmission.",
+      "text": "Un praticien qui enseigne sa technique à d'autres est un praticien qui la maîtrise pleinement. La transmission exige une compréhension profonde, une précision constante et une expérience clinique solide."
+    },
+    {
+      "title": "Protocoles rigoureux et actualisés.",
+      "text": "Il ne peut pas se permettre l'approximation. Chaque protocole est documenté, justifié et régulièrement actualisé afin de garantir une pratique fiable, moderne et reproductible."
+    },
+    {
+      "title": "Exigence et confiance internationale",
+      "text": "Pour un patient qui se déplace depuis Paris, Milan ou Londres, ce niveau d'exigence n'est pas un détail. C'est une garantie de sérieux, de sécurité et de qualité clinique constante."
+    }
+  ]
+},
+"technologie": {
+  "badge": "Technologie et équipements",
+  "title": "Des équipements de pointe au service de l'excellence clinique.",
+  "previewAlt": "Aperçu",
+  "equipments": [
+    {
+      "image": "/doctor/tech1.png",
+      "title": "Scanner Cone Beam 3D.",
+      "description": "Permet une imagerie 3D précise pour la planification pré-implantaire et une analyse détaillée de l'anatomie osseuse. Cette technologie permet une évaluation fiable des structures anatomiques et optimise la précision des traitements implantaires."
+    },
+    {
+      "image": "/doctor/tech2.png",
+      "title": "Bloc opératoire dédié à l’implantologie.",
+      "description": "Espace chirurgical entièrement équipé pour garantir des interventions implantaires dans des conditions optimales de sécurité et de stérilité. Il est conçu pour assurer un confort opératoire maximal et une prise en charge conforme aux standards internationaux."
+    },
+    {
+      "image": "/doctor/tech3.png",
+      "title": "Protocoles de stérilisation conformes aux normes CE..",
+      "description": "Procédures strictes assurant une asepsie maximale, conformes aux standards européens en matière d’hygiène et de sécurité médicale. Chaque étape est contrôlée afin de garantir un environnement clinique parfaitement sécurisé."
+    },
+    {
+      "image": "/doctor/tech4.png",
+      "title": "Traçabilité complète des implants.",
+      "description": "Chaque implant posé est documenté avec un suivi complet, et les certificats peuvent être fournis sur demande pour garantir transparence et sécurité. Cette traçabilité assure une totale confiance dans le suivi des dispositifs médicaux utilisés."
+    },
+    {
+      "image": "/doctor/tech5.png",
+      "title": "Implants et matériaux certifiés CE.",
+      "description": "Utilisation de dispositifs médicaux certifiés conformes aux normes européennes, avec des marques de référence disponibles selon les indications cliniques. Cette sélection garantit fiabilité, biocompatibilité et résultats durables."
+    }
+  ]
+},
+"cabinet": {
+  "badge": "Le cabinet en mouvement",
+  "title": "Des équipements de pointe au service de l'excellence clinique.",
+  "mainAlt": "Cabinet dentaire",
+  "previewAlt": "Aperçu"
+},
+"contact": {
+  "badge": "Prendre contact",
+  "title": "Prêt pour votre transformation ?",
+  "description": "Le Dr. Yassine KALLALI et son équipe vous accompagnent pour retrouver votre sourire et votre confiance en un temps record.",
+  "cta": "Prendre contact avec le Dr. Yassine KALLALI"
+}
+},
+
+
+
+
+    "footer":{
+        "description": "Illuminez votre sourire avec confiance et soin.",
+        "contact_info":  [{
+                            "title":"Adresse",
+                            "list":["Av. 14 Janvier, Centre Médical El Kantaoui,","Imm. B43 4ème étage, Hammam Sousse."]
+                        },
+                        {
+                            "title":"Contact",
+                            "list":["+216 21 802 858","+216 70 633 966"]
+                        },
+                         {
+                            "title":"Email",
+                            "list":["yassinekalleli@gmail.com"]
+                        },
+                        {
+                            "title":"Horaire",
+                            "list":["Lundi - Samedi : 08:00 – 18:00"]
+                        }
+                        ],  
+        "navigation":"Navigation",      
+        "home":"Accueil",
+        "nav-docter":"Docteur",
+        "nav-blog":"Blog",
+        "nav-contact":"Contact",
+        "treatments":"Traitements",
+        "treatment-implant":"Implant Immédiat",
+        "treatment-esthetic":" Esthétique Dentaire",
+        "information":"Information",
+        "legal-notice":"Mentions légales",
+        "gdpr":"RGPD",
+        "social-media":"Réseaux Sociaux",
+        "social-facebook":"Facebook",
+        "social-instagram":"Instagram",
+        "social-linkedin":"LinkedIn",
+        "docter": "Dr. Yassine KALLALI", 
+        "copyright": "© 2026 Dr. Yassine Kallali. Tous droits réservés. Enregistrement CNOMDT N°12345",
+        "designed_by": "Conçu pary"
+    }
   "test": {
     "title": "test"
   },
