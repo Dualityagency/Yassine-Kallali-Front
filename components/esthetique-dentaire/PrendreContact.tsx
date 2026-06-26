@@ -10,7 +10,7 @@ const PrendreContact = () => {
     <div className="flex flex-col gap-6 px-4 sm:px-6 lg:px-20 pt-12 lg:pt-15">
       <Badge className="w-fit">{t("badge")}</Badge>
 
-      <div className="flex flex-col items-center gap-4 lg:flex-row lg:items-center lg:justify-between w-full">
+      <div className="flex flex-col items-center gap-4 lg:flex-row lg:items-center lg:justify-between lg:gap-0 w-full">
 
         <Image
           src="/esthetique/contact.png"
