@@ -32,7 +32,7 @@ const HeroSection = () => {
             <p className="text-[15px] lg:text-[20px] font-normal leading-none tracking-normal text-gray-100 pt-5 pb-5 lg:pt-8 lg:pb-14">
               {t("description")}
             </p>
-            <Link href={"/blog"}>
+            <Link href={"/contact"}>
               <CtaButton>{t("cta")}</CtaButton>
             </Link>
           </div>
