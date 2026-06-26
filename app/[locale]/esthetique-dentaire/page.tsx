@@ -10,7 +10,7 @@ const page = () => {
   const qaList = t.raw("qa.qaList")
 
   return (
-    <>
+    <div className="mt-12 lg:mt-20">
       <Naturel />
       <Harmonie />
       <Esthetique />
@@ -20,7 +20,7 @@ const page = () => {
         qaList={qaList}
       />
       <PrendreContact />
-    </>
+    </div>
   )
 }
 

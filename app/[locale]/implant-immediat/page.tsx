@@ -11,7 +11,7 @@ export default function ImplantImmediat() {
     const qaList= t.raw("qa.qaList")
     
     return (
-        <div className="flex flex-col gap-y-12 lg:gap-y-18.25">
+        <div className="flex flex-col gap-y-12 lg:gap-y-18.25 mt-12 lg:mt-20">
             <TechnologieDeCharge />
             <Innovation />
             <Protocole/>

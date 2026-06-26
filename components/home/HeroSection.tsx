@@ -1,10 +1,11 @@
-import Image from "next/image"
-import CtaButton from "../ui/CtaButton"
-import { Badge } from "../ui/badge"
-import { useTranslations } from "next-intl"
+import Image from "next/image";
+import CtaButton from "../ui/CtaButton";
+import { Badge } from "../ui/badge";
+import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const HeroSection = () => {
-  const t = useTranslations("home.hero")
+  const t = useTranslations("home.hero");
 
   return (
     <section className="relative">
@@ -31,13 +32,14 @@ const HeroSection = () => {
             <p className="text-[15px] lg:text-[20px] font-normal leading-none tracking-normal text-gray-100 pt-5 pb-5 lg:pt-8 lg:pb-14">
               {t("description")}
             </p>
-
-            <CtaButton>{t("cta")}</CtaButton>
+            <Link href={"/blog"}>
+              <CtaButton>{t("cta")}</CtaButton>
+            </Link>
           </div>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;

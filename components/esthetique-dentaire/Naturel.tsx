@@ -2,6 +2,7 @@ import Image from "next/image";
 import CtaButton from "../ui/CtaButton";
 import { Badge } from "../ui/badge";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const Naturel = () => {
   const t = useTranslations("esthetique.naturel");
@@ -13,10 +14,8 @@ const Naturel = () => {
       </div>
 
       <div className="flex flex-col md:flex-row md:items-stretch gap-6 md:gap-12">
-
         {/* ── LEFT COL ── */}
         <div className="flex flex-col gap-6 md:gap-0 md:justify-between md:w-1/2 md:h-[675px]">
-
           <div className="py-6">
             <h1 className="title1">{t("title")}</h1>
           </div>
@@ -61,11 +60,12 @@ const Naturel = () => {
             <p className="font-normal text-primary text-[15px] md:text-[16px] leading-[100%] py-4">
               {t("cardBottom.text")}
             </p>
-            <CtaButton variant="blue" textWhenHover="blue">
-              {t("cardBottom.cta")}
-            </CtaButton>
+            <Link href={"/contact"}>
+              <CtaButton variant="blue" textWhenHover="blue">
+                {t("cardBottom.cta")}
+              </CtaButton>
+            </Link>
           </div>
-
         </div>
 
         {/* ── RIGHT COL — hero image desktop only ── */}
@@ -78,7 +78,6 @@ const Naturel = () => {
             priority
           />
         </div>
-
       </div>
     </div>
   );

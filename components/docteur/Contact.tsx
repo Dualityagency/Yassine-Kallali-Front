@@ -1,9 +1,10 @@
-import { useTranslations } from "next-intl"
-import { Badge } from "../ui/badge"
-import CtaButton from "../ui/CtaButton"
+import { useTranslations } from "next-intl";
+import { Badge } from "../ui/badge";
+import CtaButton from "../ui/CtaButton";
+import Link from "next/link";
 
 const Contact = () => {
-  const t = useTranslations("doctor.contact")
+  const t = useTranslations("doctor.contact");
 
   return (
     <div className="bg-background px-4 sm:px-6 py-11 lg:py-19 lg:px-20">
@@ -11,10 +12,14 @@ const Contact = () => {
         <Badge>{t("badge")}</Badge>
         <span className="title1">{t("title")}</span>
         <span className="paragraph1">{t("description")}</span>
-        <CtaButton variant="blue" textWhenHover="blue">{t("cta")}</CtaButton>
+        <Link href={"/contact"}>
+          <CtaButton variant="blue" textWhenHover="blue">
+            {t("cta")}
+          </CtaButton>
+        </Link>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

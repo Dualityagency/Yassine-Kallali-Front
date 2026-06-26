@@ -2,6 +2,7 @@ import { cn } from "@/lib/utils";
 import { useLocale, useTranslations } from "next-intl";
 import { Badge } from "../ui/badge";
 import CtaButton from "../ui/CtaButton";
+import Link from "next/link";
 
 export default function FeaturedBlog() {
   const locale = useLocale() as "fr" | "en" | "it" | "ar";
@@ -39,9 +40,7 @@ export default function FeaturedBlog() {
   };
   return (
     <div
-      className={cn(
-        "w-full px-6 lg:px-20 pt-6.5 lg:pt-15.75 pb-6 lg:pb-13.75",
-      )}
+      className={cn("w-full px-6 lg:px-20 pt-6.5 lg:pt-15.75 pb-6 lg:pb-13.75")}
       style={{
         backgroundImage: `url(${blog.img})`,
         backgroundSize: "cover",
@@ -57,7 +56,9 @@ export default function FeaturedBlog() {
       <p className="paragraph1 text-white! mb-6 lg:mb-7.5">
         {blog[locale]?.desription}
       </p>
-      <CtaButton>{t("cta-read")}</CtaButton>
+      <Link href={"/blog/implant-immediat-post-extraction"}>
+        <CtaButton>{t("cta-read")}</CtaButton>
+      </Link>
     </div>
   );
 }
