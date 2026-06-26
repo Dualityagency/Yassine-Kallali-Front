@@ -19,7 +19,7 @@ const CtaButton = ({
   return (
     <button
       onClick={onClick}
-      className={`group relative flex flex-row items-center overflow-hidden rounded-[8px] bg-transparent px-1.5 py-1.5 transition-all duration-300 hover:bg-transparent lg:gap-4 ${className}`}
+      className={`group relative flex flex-row items-center overflow-hidden rounded-[8px] bg-transparent px-1.5 py-1.5 transition-all duration-300 hover:bg-transparent lg:gap-4 cursor-pointer ${className}`}
     >
       <span className={`absolute inset-0 z-0 rounded-[8px] ${variant =="white" ? "bg-white":"bg-primary"} transition-all duration-500 ease-in-out group-hover:left-[calc(100%-2.5rem)] lg:group-hover:left-[calc(100%-3.3rem)]`} />
 
