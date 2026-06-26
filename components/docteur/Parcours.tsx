@@ -1,258 +1,181 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 import { Badge } from "../ui/badge";
 import { ArrowUpRight, ArrowRight } from "lucide-react";
 
-const items = [
-  {
-    id: 0,
-    title: "Parcours professionnel",
-    subtitle: "Parcours professionnel et expertise.",
-    content: (
-      <div className="flex flex-col gap-5">
-        <p className="text-[#0f2a5e] font-semibold text-2xl leading-none">Une expertise forgée par l'expérience.</p>
-        <p className="text-slate-600 text-xl leading-none">
-          Le Dr. Yassine KALLALI est chirurgien-dentiste diplômé de [Faculté / Université], spécialisé en implantologie
-          et en esthétique dentaire. Installé à Sousse depuis 2015, il a développé une pratique centrée sur l'implant
-          immédiat post-extraction, une technique exigeante qu'il a progressivement affinée et qu'il enseigne
-          aujourd'hui à d'autres praticiens. Son cabinet reçoit des patients en provenance de France, de Belgique, de
-          Suisse, d'Italie, du Royaume-Uni et du Canada, ainsi que de la diaspora maghrébine résidant en Europe. Il
-          consulte en français, en anglais, en arabe et en italien.
-        </p>
-        <p className="text-[#0f2a5e] font-semibold text-[18px] leading-none">
-          Il est inscrit au Tableau de l'Ordre des Chirurgiens-Dentistes de Tunisie sous le numéro N°12345.
-        </p>
-      </div>
-    ),
-    mobileContent: (
-      <div className="flex flex-col gap-5">
-        <p className="text-[#0f2a5e] font-semibold text-xl leading-none">Une expertise forgée par l'expérience.</p>
-        <p className="text-slate-600 text-[15px] leading-none">
-          Le Dr. Yassine KALLALI est chirurgien-dentiste diplômé de [Faculté / Université], spécialisé en implantologie
-          et en esthétique dentaire. Installé à Sousse depuis 2015, il a développé une pratique centrée sur l'implant
-          immédiat post-extraction, une technique exigeante qu'il a progressivement affinée et qu'il enseigne
-          aujourd'hui à d'autres praticiens. Son cabinet reçoit des patients en provenance de France, de Belgique, de
-          Suisse, d'Italie, du Royaume-Uni et du Canada, ainsi que de la diaspora maghrébine résidant en Europe. Il
-          consulte en français, en anglais, en arabe et en italien.
-        </p>
-        <p className="text-[#0f2a5e] font-semibold text-[18px] leading-none">
-          Il est inscrit au Tableau de l'Ordre des Chirurgiens-Dentistes de Tunisie sous le numéro N°12345.
-        </p>
-      </div>
-    ),
-  },
-{
-  id: 1,
-  title: "Formation académique",
-  subtitle: "Formation et qualifications.",
-  content: (
-    <div className="flex flex-col gap-5">
-      <p className="text-[#0f2a5e] font-semibold text-2xl leading-none">
-        Un parcours académique d'excellence.
-      </p>
-
-      <div className="flex flex-col">
-        {[
-          {
-            title: "Diplôme de chirurgie dentaire.",
-            sub: "Doctorat en Médecin Dentaire.",
-            place: "Faculté de Médecine Dentaire de Monastir, Tunisie (2003).",
-          },
-          {
-            title: "Spécialisation en implantologie.",
-            sub: "Diplôme Universitaire d'Implantologie Orale.",
-            place: "Université Paris Cité, France (2008).",
-          },
-          {
-            title: "Formation en Esthétique Dentaire & Smile Design.",
-            sub: "Certification en Esthétique Dentaire et Digital Smile Design (DSD).",
-            place: "Digital Smile Design Academy, Madrid, Espagne (2015).",
-          },
-          {
-            title: "Masterclass en Réhabilitation Complète sur Implants.",
-            sub: "Certification en Réhabilitation Complète sur Implants.",
-            place: "Malo Clinic, Lisbonne, Portugal (2019).",
-          },
-        ].map((item, i, arr) => (
-          <div key={i} className="flex gap-4 items-start">
-            {/* Timeline */}
-            <div className="relative flex justify-center flex-shrink-0 w-3">
-              {i < arr.length - 1 && (
-                <div className="absolute top-4 bottom-[-36px] w-px bg-slate-300" />
-              )}
-
-              <div className="relative z-10 w-3 h-3 rounded-full bg-[#0f2a5e] mt-1" />
-            </div>
-
-            {/* Content */}
-            <div className="flex flex-col gap-2 pb-8">
-              <p className="text-[#0f2a5e] font-semibold text-[18px] leading-tight">
-                {item.title}
-              </p>
-
-              <p className="text-slate-600 text-xl leading-relaxed">
-                {item.sub}
-              </p>
-
-              <p className="text-slate-400 text-xl leading-relaxed">
-                {item.place}
-              </p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  ),
-
-  mobileContent: (
-    <div className="flex flex-col gap-5">
-      <p className="text-[#0f2a5e] font-semibold text-xl leading-none">
-        Un parcours académique d'excellence.
-      </p>
-
-      <div className="flex flex-col">
-        {[
-          {
-            title: "Diplôme de chirurgie dentaire.",
-            sub: "Doctorat en Médecin Dentaire.",
-            place: "Faculté de Médecine Dentaire de Monastir, Tunisie (2003).",
-          },
-          {
-            title: "Spécialisation en implantologie.",
-            sub: "Diplôme Universitaire d'Implantologie Orale.",
-            place: "Université Paris Cité, France (2008).",
-          },
-          {
-            title: "Formation en Esthétique Dentaire & Smile Design.",
-            sub: "Certification en Esthétique Dentaire et Digital Smile Design (DSD).",
-            place: "Digital Smile Design Academy, Madrid, Espagne (2015).",
-          },
-          {
-            title: "Masterclass en Réhabilitation Complète sur Implants.",
-            sub: "Certification en Réhabilitation Complète sur Implants.",
-            place: "Malo Clinic, Lisbonne, Portugal (2019).",
-          },
-        ].map((item, i, arr) => (
-          <div key={i} className="flex gap-4 items-start">
-            {/* Timeline */}
-            <div className="relative flex justify-center flex-shrink-0 w-3">
-              {i < arr.length - 1 && (
-                <div className="absolute top-4 bottom-[-32px] w-px bg-slate-300" />
-              )}
-
-              <div className="relative z-10 w-3 h-3 rounded-full bg-[#0f2a5e] mt-1" />
-            </div>
-
-            {/* Content */}
-            <div className="flex flex-col gap-1.5 pb-7">
-              <p className="text-[#0f2a5e] font-semibold text-[18px] leading-tight">
-                {item.title}
-              </p>
-
-              <p className="text-slate-600 text-[15px] leading-relaxed">
-                {item.sub}
-              </p>
-
-              <p className="text-slate-400 text-[15px] leading-relaxed">
-                {item.place}
-              </p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  ),
-},
-  {
-    id: 2,
-    title: "Séminaires et conférences",
-    subtitle: "Activités de formation et d'enseignement.",
-    content: (
-      <div className="flex flex-col gap-5">
-        <p className="text-[#0f2a5e] font-semibold text-2xl leading-none">Partager l'expertise, transmettre le savoir.</p>
-        <p className="text-slate-600 text-xl leading-none">
-          Au-delà de son cabinet, le Dr. Yassine KALLALI intervient en tant que conférencier dans des séminaires
-          professionnels dédiés à l'implantologie et à l'esthétique dentaire. Il a présenté ses protocoles lors de
-          [placeholder : congrès dentaires, journées scientifiques, rencontres interprofessionnelles] en Tunisie et à
-          l'étranger.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-3">
-          <div className="flex-1 bg-[#0f2a5e] rounded-[10px] p-5">
-            <p className="text-white font-bold text-3xl">10+</p>
-            <p className="text-slate-300 text-xs uppercase tracking-wider mt-1">Conférences</p>
-          </div>
-          <div className="flex-1 bg-[#0f2a5e] rounded-[10px] p-5">
-            <p className="text-white font-bold text-3xl">1000+</p>
-            <p className="text-slate-300 text-xs uppercase tracking-wider mt-1">Implants posés/an</p>
-          </div>
-        </div>
-      </div>
-    ),
-    mobileContent: (
-      <div className="flex flex-col gap-5">
-        <p className="text-[#0f2a5e] font-semibold text-xl leading-none">Partager l'expertise, transmettre le savoir.</p>
-        <p className="text-slate-600 text-[15px] leading-none">
-          Au-delà de son cabinet, le Dr. Yassine KALLALI intervient en tant que conférencier dans des séminaires
-          professionnels dédiés à l'implantologie et à l'esthétique dentaire. Il a présenté ses protocoles lors de
-          [placeholder : congrès dentaires, journées scientifiques, rencontres interprofessionnelles] en Tunisie et à
-          l'étranger.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-3">
-          <div className="flex-1 bg-[#0f2a5e] rounded-[10px] p-5">
-            <p className="text-white font-bold text-3xl">10+</p>
-            <p className="text-slate-300 text-xs uppercase tracking-wider mt-1">Conférences</p>
-          </div>
-          <div className="flex-1 bg-[#0f2a5e] rounded-[10px] p-5">
-            <p className="text-white font-bold text-3xl">1000+</p>
-            <p className="text-slate-300 text-xs uppercase tracking-wider mt-1">Implants posés/an</p>
-          </div>
-        </div>
-      </div>
-    ),
-  },
-  {
-    id: 3,
-    title: "Langues de consultation",
-    subtitle: "Langues disponibles en consultation.",
-    content: (
-      <div className="flex flex-col gap-5">
-        <p className="text-[#0f2a5e] font-semibold text-2xl leading-none">Un accompagnement sans frontières.</p>
-        <p className="text-slate-600 text-xl leading-none">
-          Le Dr. Yassine KALLALI reçoit et communique avec ses patients en français, anglais, arabe et italien. Les
-          devis, comptes-rendus post-opératoires et suivis à distance sont rédigés dans la langue du patient.
-        </p>
-        <div className="flex flex-wrap gap-2">
-          {["🌐 Français", "🌐 Anglais", "🌐 Arabe", "🌐 Italien"].map((lang) => (
-            <Badge key={lang} variant="gray">
-              {lang}
-            </Badge>
-          ))}
-        </div>
-      </div>
-    ),
-    mobileContent: (
-      <div className="flex flex-col gap-5">
-        <p className="text-[#0f2a5e] font-semibold text-xl leading-none">Un accompagnement sans frontières.</p>
-        <p className="text-slate-600 text-[15px] leading-none">
-          Le Dr. Yassine KALLALI reçoit et communique avec ses patients en français, anglais, arabe et italien. Les
-          devis, comptes-rendus post-opératoires et suivis à distance sont rédigés dans la langue du patient.
-        </p>
-        <div className="flex flex-wrap gap-2">
-          {["🌐 Français", "🌐 Anglais", "🌐 Arabe", "🌐 Italien"].map((lang) => (
-            <Badge key={lang} variant="gray">
-              {lang}
-            </Badge>
-          ))}
-        </div>
-      </div>
-    ),
-  },
-];
-
 const Parcours = () => {
+  const t = useTranslations("doctor.parcours");
   const [activeId, setActiveId] = useState<number>(0);
   const [openMobileId, setOpenMobileId] = useState<number | null>(null);
+
+  const formationItems = [
+    {
+      title: t("items.formation.items.0.title"),
+      sub: t("items.formation.items.0.sub"),
+      place: t("items.formation.items.0.place"),
+    },
+    {
+      title: t("items.formation.items.1.title"),
+      sub: t("items.formation.items.1.sub"),
+      place: t("items.formation.items.1.place"),
+    },
+    {
+      title: t("items.formation.items.2.title"),
+      sub: t("items.formation.items.2.sub"),
+      place: t("items.formation.items.2.place"),
+    },
+    {
+      title: t("items.formation.items.3.title"),
+      sub: t("items.formation.items.3.sub"),
+      place: t("items.formation.items.3.place"),
+    },
+  ];
+
+  const langues = [
+    t("items.langues.list.0"),
+    t("items.langues.list.1"),
+    t("items.langues.list.2"),
+    t("items.langues.list.3"),
+  ];
+
+  // Shared content renderers (used for both desktop and mobile)
+  const renderParcoursPro = () => (
+    <div className="flex flex-col gap-5">
+      <p className="text-[#0f2a5e] font-semibold text-2xl leading-none">
+        {t("items.parcoursPro.heading")}
+      </p>
+      <p className="text-slate-600 text-xl leading-none">
+        {t("items.parcoursPro.text")}
+      </p>
+      <p className="text-[#0f2a5e] font-semibold text-[18px] leading-none">
+        {t("items.parcoursPro.order")}
+      </p>
+    </div>
+  );
+
+  const renderParcoursMobile = () => (
+    <div className="flex flex-col gap-5">
+      <p className="text-[#0f2a5e] font-semibold text-xl leading-none">
+        {t("items.parcoursPro.heading")}
+      </p>
+      <p className="text-slate-600 text-[15px] leading-none">
+        {t("items.parcoursPro.text")}
+      </p>
+      <p className="text-[#0f2a5e] font-semibold text-[18px] leading-none">
+        {t("items.parcoursPro.order")}
+      </p>
+    </div>
+  );
+
+  const renderTimeline = (textSize: string, pbSize: string, gapSize: string, bottomOffset: string) => (
+    <div className="flex flex-col">
+      {formationItems.map((item, i, arr) => (
+        <div key={i} className="flex gap-4 items-start">
+          <div className="relative flex justify-center flex-shrink-0 w-3">
+            {i < arr.length - 1 && (
+              <div className={`absolute top-4 ${bottomOffset} w-px bg-slate-300`} />
+            )}
+            <div className="relative z-10 w-3 h-3 rounded-full bg-[#0f2a5e] mt-1" />
+          </div>
+          <div className={`flex flex-col gap-2 ${pbSize}`}>
+            <p className="text-[#0f2a5e] font-semibold text-[18px] leading-tight">{item.title}</p>
+            <p className={`text-slate-600 ${textSize} leading-relaxed`}>{item.sub}</p>
+            <p className={`text-slate-400 ${textSize} leading-relaxed`}>{item.place}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+
+  const renderFormation = () => (
+    <div className="flex flex-col gap-5">
+      <p className="text-[#0f2a5e] font-semibold text-2xl leading-none">
+        {t("items.formation.heading")}
+      </p>
+      {renderTimeline("text-xl", "pb-8", "gap-2", "bottom-[-36px]")}
+    </div>
+  );
+
+  const renderFormationMobile = () => (
+    <div className="flex flex-col gap-5">
+      <p className="text-[#0f2a5e] font-semibold text-xl leading-none">
+        {t("items.formation.heading")}
+      </p>
+      {renderTimeline("text-[15px]", "pb-7", "gap-1.5", "bottom-[-32px]")}
+    </div>
+  );
+
+  const renderSeminaires = (textSize: string, headingSize: string) => (
+    <div className="flex flex-col gap-5">
+      <p className={`text-[#0f2a5e] font-semibold ${headingSize} leading-none`}>
+        {t("items.seminaires.heading")}
+      </p>
+      <p className={`text-slate-600 ${textSize} leading-none`}>
+        {t("items.seminaires.text")}
+      </p>
+      <div className="flex flex-col sm:flex-row gap-3">
+        <div className="flex-1 bg-[#0f2a5e] rounded-[10px] p-5">
+          <p className="text-white font-bold text-3xl">{t("items.seminaires.stats.conferences.value")}</p>
+          <p className="text-slate-300 text-xs uppercase tracking-wider mt-1">{t("items.seminaires.stats.conferences.label")}</p>
+        </div>
+        <div className="flex-1 bg-[#0f2a5e] rounded-[10px] p-5">
+          <p className="text-white font-bold text-3xl">{t("items.seminaires.stats.implants.value")}</p>
+          <p className="text-slate-300 text-xs uppercase tracking-wider mt-1">{t("items.seminaires.stats.implants.label")}</p>
+        </div>
+      </div>
+    </div>
+  );
+
+  const renderLangues = (textSize: string, headingSize: string) => (
+    <div className="flex flex-col gap-5">
+      <p className={`text-[#0f2a5e] font-semibold ${headingSize} leading-none`}>
+        {t("items.langues.heading")}
+      </p>
+      <p className={`text-slate-600 ${textSize} leading-none`}>
+        {t("items.langues.text")}
+      </p>
+      <div className="flex flex-wrap gap-2">
+        {langues.map((lang) => (
+          <Badge key={lang} variant="gray">
+            🌐 {lang}
+          </Badge>
+        ))}
+      </div>
+    </div>
+  );
+
+  const items = [
+    {
+      id: 0,
+      title: t("items.parcoursPro.title"),
+      subtitle: t("items.parcoursPro.subtitle"),
+      content: renderParcoursPro(),
+      mobileContent: renderParcoursMobile(),
+    },
+    {
+      id: 1,
+      title: t("items.formation.title"),
+      subtitle: t("items.formation.subtitle"),
+      content: renderFormation(),
+      mobileContent: renderFormationMobile(),
+    },
+    {
+      id: 2,
+      title: t("items.seminaires.title"),
+      subtitle: t("items.seminaires.subtitle"),
+      content: renderSeminaires("text-xl", "text-2xl"),
+      mobileContent: renderSeminaires("text-[15px]", "text-xl"),
+    },
+    {
+      id: 3,
+      title: t("items.langues.title"),
+      subtitle: t("items.langues.subtitle"),
+      content: renderLangues("text-xl", "text-2xl"),
+      mobileContent: renderLangues("text-[15px]", "text-xl"),
+    },
+  ];
 
   const active = items.find((i) => i.id === activeId)!;
 
@@ -263,15 +186,11 @@ const Parcours = () => {
         {/* Header */}
         <div className="flex flex-col gap-4">
           <div className="pb-4 lg:pb-8">
-            <Badge>Parcours et expertise</Badge>
+            <Badge>{t("badge")}</Badge>
           </div>
           <div className="flex flex-col lg:flex-row justify-between gap-4 lg:gap-8">
-            <span className="title2">
-              L'excellence clinique au cœur de chaque traitement.
-            </span>
-            <span className="paragraph1">
-              Un savoir-faire reconnu par des patients et des praticiens venus de Tunisie et de l'étranger.
-            </span>
+            <span className="title2">{t("title")}</span>
+            <span className="paragraph1">{t("description")}</span>
           </div>
         </div>
 

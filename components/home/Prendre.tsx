@@ -1,13 +1,16 @@
 import Image from "next/image"
 import CtaButton from "../ui/CtaButton"
 import { Badge } from "../ui/badge"
+import { useTranslations } from "next-intl"
 
 const Prendre = () => {
+  const t = useTranslations("home.prendre")
+
   return (
     <div className="relative w-full h-[410px] lg:h-[454px] overflow-hidden">
       <Image
         src="/home/Prendre.png"
-        alt="Prendre contact"
+        alt={t("title")}
         fill
         priority
         className="object-cover"
@@ -15,24 +18,17 @@ const Prendre = () => {
 
       {/* Overlay content */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 gap-4">
-        <Badge variant="transparent">
-          Prendre contact
-        </Badge>
+        <Badge variant="transparent">{t("badge")}</Badge>
 
         <h2 className="font-semibold text-white text-[17.92px] lg:text-[22.41px] leading-[100%]">
-          Planifiez votre séjour dentaire à Sousse
+          {t("title")}
         </h2>
 
         <p className="text-[15px] lg:text-[17px] text-white max-w-[550px]">
-          Recevez un accompagnement personnalisé par notre équipe attentive et
-          professionnelle, bénéficiez de conseils adaptés à vos besoins, et
-          obtenez votre devis rapidement en toute simplicité pour concrétiser
-          votre projet en toute confiance.
+          {t("description")}
         </p>
 
-        <CtaButton className="mt-2">
-          Prendre contact
-        </CtaButton>
+        <CtaButton className="mt-2">{t("cta")}</CtaButton>
       </div>
     </div>
   )

@@ -5,6 +5,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel"
+import { useTranslations } from "next-intl"
 
 const images = [
   "/esthetique/esthetique1.png",
@@ -13,29 +14,23 @@ const images = [
 ]
 
 const Esthetique = () => {
+  const t = useTranslations("esthetique.esthetiqueSection")
+
   return (
     <div className="w-full px-4 sm:px-6 lg:px-20 py-11 lg:py-19">
 
       {/* Section 1 - Badge + Title + Text */}
       <div className="flex flex-col lg:flex-row justify-between gap-6 lg:gap-12">
         <div className="shrink-0">
-          <Badge className="w-fit">ESTHÉTIQUE ET IMPLANTOLOGIE</Badge>
+          <Badge className="w-fit">{t("badge")}</Badge>
         </div>
 
         <div className="flex flex-col gap-4 lg:gap-6 lg:max-w-[850px]">
-          <span className="title2">
-            Synergie entre Esthétique et Implants.
-          </span>
+          <span className="title2">{t("title")}</span>
           <span className="paragraph1">
-            Un beau sourire ne se limite pas à la blancheur. C&apos;est
-            l&apos;équilibre parfait entre la santé des gencives, la structure
-            osseuse et l&apos;esthétique des dents.
+            {t("description1")}
             <br /><br />
-            Pour nos patients nécessitant des implants, nous intégrons
-            systématiquement une approche esthétique globale. Chaque implant est
-            couronné par une pièce en céramique conçue pour se fondre
-            invisiblement dans votre sourire existant, alliant fonction
-            mécanique et beauté naturelle.
+            {t("description2")}
           </span>
         </div>
       </div>
@@ -46,17 +41,13 @@ const Esthetique = () => {
         {/* Text */}
         <div className="flex flex-col gap-1">
           <span className="text-sm lg:text-[14px] font-semibold text-primary leading-tight">
-            Réhabilitation complète
+            {t("rehab.title")}
           </span>
-          <span className="paragraph1">
-            Remplacer et embellir simultanément.
-          </span>
+          <span className="paragraph1">{t("rehab.text")}</span>
           <span className="text-sm lg:text-[14px] font-semibold text-primary leading-tight mt-3">
-            Matériaux Bio-compatibles
+            {t("materiaux.title")}
           </span>
-          <span className="paragraph1">
-            Zircone et céramique de grade médical.
-          </span>
+          <span className="paragraph1">{t("materiaux.text")}</span>
         </div>
 
         {/* Carousel */}
@@ -70,7 +61,7 @@ const Esthetique = () => {
                 <div className="relative w-[191.72px] h-[193px] lg:w-[300px] lg:h-[302px] rounded-[9.59px] lg:rounded-[15px] overflow-hidden shrink-0">
                   <Image
                     src={src}
-                    alt={`Esthétique ${index + 1}`}
+                    alt={`${t("title")} ${index + 1}`}
                     fill
                     className="object-cover"
                   />

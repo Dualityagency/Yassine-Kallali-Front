@@ -1,31 +1,27 @@
-import { Badge } from "../ui/badge"
+"use client";
+
+import { useTranslations } from "next-intl";
+import { Badge } from "../ui/badge";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-} from "@/components/ui/carousel"
-
-const cards = [
-  {
-    title: "Maîtrise et transmission.",
-    text: "Un praticien qui enseigne sa technique à d'autres est un praticien qui la maîtrise pleinement. La transmission exige une compréhension profonde, une précision constante et une expérience clinique solide.",
-  },
-  {
-    title: "Protocoles rigoureux et actualisés.",
-    text: "Il ne peut pas se permettre l'approximation. Chaque protocole est documenté, justifié et régulièrement actualisé afin de garantir une pratique fiable, moderne et reproductible.",
-  },
-  {
-    title: "Exigence et confiance internationale",
-    text: "Pour un patient qui se déplace depuis Paris, Milan ou Londres, ce niveau d'exigence n'est pas un détail. C'est une garantie de sérieux, de sécurité et de qualité clinique constante.",
-  },
-]
+} from "@/components/ui/carousel";
 
 const Praticien = () => {
+  const t = useTranslations("doctor.praticien");
+
+  const cards = [
+    { title: t("cards.0.title"), text: t("cards.0.text") },
+    { title: t("cards.1.title"), text: t("cards.1.text") },
+    { title: t("cards.2.title"), text: t("cards.2.text") },
+  ];
+
   return (
     <div className="px-4 sm:px-6 py-11 lg:py-19 lg:px-20">
 
       <div className="pb-6 lg:pb-10">
-        <Badge>Praticien formateur</Badge>
+        <Badge>{t("badge")}</Badge>
       </div>
 
       {/* Main layout */}
@@ -33,15 +29,9 @@ const Praticien = () => {
 
         {/* Left — title + text */}
         <div className="flex flex-col gap-4 xl:max-w-[400px]">
-          <span className="title2">
-            Pourquoi choisir un praticien formateur reconnu en implantologie et en chirurgie implantaire avancée ?
-          </span>
-          <p className="paragraph1">
-            Une expertise clinique avancée fondée sur la maîtrise des techniques, la rigueur des protocoles et la transmission du savoir auprès de chirurgiens-dentistes en formation, dans un cadre structuré et orienté vers l'excellence.
-          </p>
+          <span className="title2">{t("title")}</span>
+          <p className="paragraph1">{t("description")}</p>
         </div>
-
-        {/* Right — desktop: stacked cards, mobile: carousel */}
 
         {/* Desktop cards */}
         <div className="hidden xl:flex flex-col gap-4">
@@ -74,7 +64,7 @@ const Praticien = () => {
 
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Praticien
+export default Praticien;

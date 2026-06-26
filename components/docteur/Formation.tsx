@@ -1,8 +1,11 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { Badge } from "../ui/badge";
 import CtaButton from "../ui/CtaButton";
 
 const Formation = () => {
+  const t = useTranslations("doctor.formation");
+
   return (
     <div className="pb-12 lg:pb-15">
       <div className="bg-background px-4 sm:px-6 py-11 lg:py-19 lg:px-20">
@@ -10,16 +13,11 @@ const Formation = () => {
         {/* Header */}
         <div className="flex flex-col gap-4">
           <div className="pb-4 lg:pb-8">
-            <Badge>Formation des praticiens</Badge>
+            <Badge>{t("badge")}</Badge>
           </div>
           <div className="flex flex-col lg:flex-row justify-between gap-4 lg:gap-8">
-            <span className="title2">
-              Un praticien qui forme d'autres praticiens.
-            </span>
-            <span className="paragraph1">
-              Une approche conservatrice utilisant les dernières technologies pour un résultat durable
-              et naturel.
-            </span>
+            <span className="title2">{t("title")}</span>
+            <span className="paragraph1">{t("description")}</span>
           </div>
         </div>
 
@@ -30,7 +28,7 @@ const Formation = () => {
           <div className="flex-shrink-0">
             <Image
               src="/doctor/vid.png"
-              alt="Outils dentaires"
+              alt={t("img1Alt")}
               width={413}
               height={491}
               className="w-[339px] h-[299px] xl:w-[413px] xl:h-[491px] object-cover rounded-[12.31px] xl:rounded-[15px]"
@@ -43,15 +41,8 @@ const Formation = () => {
             {/* Testimonial card */}
             <div className="w-[339px] h-[301px] xl:w-[495px] xl:h-[262px] border border-border rounded-[15px] p-6 flex flex-col justify-between">
               <span className="text-primary text-3xl font-serif leading-none">"</span>
-              <p className="paragraph1 mt-2 text-sm">
-                Une formation d'une grande précision clinique et d'un haut niveau d'exigence.
-                Le Dr. Yassine KALLALI partage des protocoles clairs, structurés et directement
-                applicables en pratique quotidienne, permettant une mise en œuvre immédiate des
-                techniques enseignées.
-              </p>
-              <p className="mt-4 font-semibold text-sm">
-                Dr. A. K., Chirurgien-dentiste, France
-              </p>
+              <p className="paragraph1 mt-2 text-sm">{t("testimonial.text")}</p>
+              <p className="mt-4 font-semibold text-sm">{t("testimonial.author")}</p>
             </div>
 
             {/* Primary bg card */}
@@ -65,12 +56,10 @@ const Formation = () => {
                     />
                   ))}
                 </div>
-                <span className="text-primary-foreground font-semibold text-sm">+80 Praticiens</span>
+                <span className="text-primary-foreground font-semibold text-sm">{t("primaryCard.practitioners")}</span>
               </div>
               <p className="text-primary-foreground/90 text-sm mt-4 leading-relaxed">
-                Reconnu pour son expertise en implantologie et ses protocoles rigoureux,
-                le Dr. Yassine KALLALI anime des formations cliniques sur l'implant immédiat
-                post-extraction.
+                {t("primaryCard.text")}
               </p>
             </div>
           </div>
@@ -81,7 +70,7 @@ const Formation = () => {
             {/* Aligner image */}
             <Image
               src="/doctor/formation1.png"
-              alt="Aligneur dentaire"
+              alt={t("img2Alt")}
               width={331}
               height={262}
               className="w-[339px] h-[226px] xl:w-[331px] xl:h-[262px] object-cover rounded-[8.02px] xl:rounded-[15px]"
@@ -89,12 +78,9 @@ const Formation = () => {
 
             {/* Info card */}
             <div className="w-[339px] h-[190px] xl:w-[396px] xl:h-[209px] border border-border rounded-[15px] p-6 flex flex-col justify-between">
-              <p className="paragraph1 text-sm leading-relaxed">
-                Ces formations ont lieu au cabinet, en conditions réelles sur patients,
-                en petits groupes, avec des praticiens tunisiens et internationaux.
-              </p>
+              <p className="paragraph1 text-sm leading-relaxed">{t("infoCard.text")}</p>
               <CtaButton className="w-fit" variant="blue">
-                Contactez-nous
+                {t("infoCard.cta")}
               </CtaButton>
             </div>
           </div>

@@ -4,6 +4,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel"
+import { useTranslations } from "next-intl"
 
 type CardProps = {
   icon: string
@@ -14,21 +15,18 @@ type CardProps = {
 
 const pourquoiNousCards = [
   {
+    key: "technique",
     icon: "/home/Technique.png",
-    title: "Technique de l'implant immédiat",
-    text: "Réduction du temps de traitement grâce à la pose immédiate de l'implant après extraction, préservant os et gencive.",
     iconClassName: "w-[15px] h-[20.73px] lg:w-[18.67px] lg:h-[25.33px]",
   },
   {
+    key: "esthetique",
     icon: "/home/Esthetique.png",
-    title: "Esthétique dentaire aux normes mondiales",
-    text: "Protocoles cliniques rigoureux et matériaux premium (Titane Grade 5 / Zircone), conformes aux normes européennes CE.",
     iconClassName: "w-[28.76px] h-[27.45px] lg:w-[29.33px] lg:h-[28px]",
   },
   {
+    key: "suivi",
     icon: "/home/suivi.png",
-    title: "Suivi à distance possible après retour",
-    text: "Pour nos patients à l'étranger, nous assurons un suivi post-opératoire personnalisé via téléconsultation sécurisée.",
     iconClassName: "w-[26.67px] h-[24px] lg:w-[26.67px] lg:h-[24px]",
   },
 ]
@@ -60,49 +58,40 @@ const Card = ({ icon, title, text, iconClassName }: CardProps) => {
 }
 
 const PourquoiNous = () => {
+  const t = useTranslations("home.pourquoiNous")
+
   return (
-    <div className=" py-12  lg:pt-19 lg:pb-20 px-6 lg:px-20">
-      <div className="flex flex-col gap-4  lg:flex-row lg:items-start ">
+    <div className="py-12 lg:pt-19 lg:pb-20 px-6 lg:px-20">
+      <div className="flex flex-col gap-4 lg:flex-row lg:items-start">
         <div className="inline-flex w-fit items-center rounded-full bg-primary px-4 py-2">
           <span className="whitespace-nowrap text-[14px] font-medium text-white">
-            Pourquoi nous
+            {t("badge")}
           </span>
         </div>
 
         <div className="lg:ml-auto lg:max-w-[700px]">
           <h2 className="text-primary text-[25px] font-semibold leading-none tracking-normal lg:text-[30px]">
-            L'excellence au service de votre sourire, avec une expertise
-            dédiée à votre bien-être, votre confort et la beauté naturelle de
-            chaque sourire.
+            {t("title")}
           </h2>
 
           <p className="mt-3 text-[15px] font-normal leading-[1.6] tracking-normal text-[#383838] lg:text-[20px]">
-            Parce que chaque sourire est unique, nous mettons à votre
-            disposition des soins dentaires modernes, personnalisés et
-            réalisés avec passion afin de vous offrir confiance, santé et
-            sérénité au quotidien.
+            {t("description")}
           </p>
         </div>
       </div>
 
-      <div className="mt-10 w-full flex justify-center ">
+      <div className="mt-10 w-full flex justify-center">
         <Carousel
-          opts={{
-            align: "center",
-            loop: false,
-          }}
+          opts={{ align: "center", loop: false }}
           className="w-full min-w-0 flex justify-center"
         >
           <CarouselContent>
             {pourquoiNousCards.map((card) => (
-              <CarouselItem
-                key={card.title}
-                className="basis-auto"
-              >
+              <CarouselItem key={card.key} className="basis-auto">
                 <Card
                   icon={card.icon}
-                  title={card.title}
-                  text={card.text}
+                  title={t(`cards.${card.key}.title`)}
+                  text={t(`cards.${card.key}.text`)}
                   iconClassName={card.iconClassName}
                 />
               </CarouselItem>
