@@ -95,6 +95,22 @@ export default function Footer() {
               </Link>
             </div>
           </div>
+
+                {/* Mentions Legales */}
+          <div className="flex flex-col basis-1/2 lg:basis-0 gap-6.5 lg:gap-y-7.25">
+            <h4 className="font-medium text-primary text-[17.75px] lg:text-xl leading-[120%] ">
+             Information
+            </h4>
+            <div className="flex flex-col gap-y-3.5 lg:gap-y-4">
+              <Link
+                href="/MentionsLegales"
+                className="font-normal text-gray2 text-[14.2px] lg:text-base leading-[140%]"
+              >
+                Mentions légales
+              </Link>
+      
+            </div>
+          </div>
           {/* Réseaux Sociaux */}
           <div className="flex flex-col basis-1/2 lg:basis-0 gap-6.5 lg:gap-y-7.25">
             <h4 className="font-medium text-primary text-[17.75px] lg:text-xl leading-[120%] ">

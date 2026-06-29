@@ -688,5 +688,78 @@
         "docter": "Dr. Yassine KALLALI",
         "copyright": "© 2026 Dr. Yassine Kallali. Tutti i diritti riservati. Registrazione CNOMDT N°12345",
         "designed_by": "Progettato da"
+    },
+    "legal": {
+  "header": {
+    "title": "Note Legali & GDPR.",
+    "subtitle": "Trasparenza e protezione dei tuoi dati sanitari presso la Clinique Dentaire Sousse."
+  },
+  "footer": "Ultimo aggiornamento: Giugno 2025 · contact@cliniquedentairesousse.com",
+  "sidebar": {
+    "badge": "Navigazione Legale",
+    "help": {
+      "title": "Hai bisogno di aiuto?",
+      "desc": "Per qualsiasi domanda relativa ai tuoi dati personali.",
+      "cta": "Contattaci"
     }
+  },
+  "sections": {
+    "s1": {
+      "title": "Identità del Professionista",
+      "intro": "Il presente sito è pubblicato dalla",
+      "clinic": "Clinique Dentaire Sousse",
+      "directedBy": "diretta da:",
+      "rows": {
+        "responsable": { "label": "Responsabile", "value": "Dr. Yassine KALLALI" },
+        "cnomdt": { "label": "Iscrizione CNOMDT", "value": "N° 12345 (Consiglio Nazionale dell'Ordine dei Medici Dentisti della Tunisia)" },
+        "siege": { "label": "Sede Legale", "value": "Avenue du 14 Janvier, 4000 Sousse, Tunisia" },
+        "contact": { "label": "Contatto", "value": "contact@cliniquedentairesousse.com" }
+      }
+    },
+    "s2": {
+      "title": "Finalità del Trattamento dei Dati",
+      "items": {
+        "contact": { "label": "Contatto", "desc": "Risposta alle richieste di informazioni inviate tramite i nostri moduli." },
+        "devis": { "label": "Preventivi", "desc": "Elaborazione di piani di trattamento e stime finanziarie personalizzate." },
+        "suivi": { "label": "Monitoraggio Medico", "desc": "Gestione della cartella clinica e continuità delle cure post-operatorie." }
+      }
+    },
+    "s3": {
+      "title": "Periodo di Conservazione",
+      "items": {
+        "contact": { "label": "DATI DI CONTATTO", "value": "3 Anni", "desc": "Conservazione massima dopo l'ultimo contatto da parte dell'utente." },
+        "medical": { "label": "CARTELLA CLINICA", "value": "Durata Legale", "desc": "In conformità alle normative vigenti per gli archivi medici." }
+      }
+    },
+    "s4": {
+      "title": "Sicurezza dei Dati Medici",
+      "cardTitle": "Protezione dell'imaging dentale",
+      "desc": "Prestiamo particolare attenzione ai tuoi dati radiografici (Panoramiche, CBCT 3D). Tutte le radiografie dentali sono archiviate su",
+      "highlight1": "server altamente sicuri",
+      "mid": "con",
+      "highlight2": "crittografia end-to-end",
+      "end": ". L'accesso è riservato esclusivamente al personale sanitario autenticato.",
+      "badge1": "CRITTOGRAFIA AES-256",
+      "badge2": "HOSTING CERTIFICATO"
+    },
+    "s5": {
+      "title": "Sub-responsabili & Cookie",
+      "headers": { "partner": "Partner", "role": "Ruolo", "policy": "Informativa" },
+      "rows": {
+        "hebergeur": { "name": "Hosting Cloud", "role": "Hosting tecnico del sito", "policy": "Visualizza accordo DPA" },
+        "analytics": { "name": "Google Analytics", "role": "Misurazione dell'audience (anonimizzata)", "policy": "Scopri di più" }
+      },
+      "note": "Nota: I cookie pubblicitari vengono attivati solo dopo il tuo consenso esplicito tramite il banner dei cookie."
+    },
+    "s6": {
+      "title": "I Tuoi Diritti",
+      "items": {
+        "acces": { "label": "Diritto di accesso", "desc": "Ottenere una copia dei tuoi dati personali." },
+        "rectification": { "label": "Diritto di rettifica", "desc": "Correggere informazioni inesatte o incomplete." },
+        "effacement": { "label": "Diritto alla cancellazione", "desc": "Richiedere l'eliminazione dei tuoi dati di contatto." },
+        "portabilite": { "label": "Portabilità", "desc": "Trasferire i tuoi dati a un altro professionista." }
+      }
+    }
+  }
+}
 }
