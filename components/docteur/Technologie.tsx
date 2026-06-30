@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 import { Badge } from "../ui/badge"
@@ -9,12 +9,15 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  type CarouselApi,
 } from "@/components/ui/carousel"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
 const Technologie = () => {
   const t = useTranslations("doctor.technologie")
   const [activeIndex, setActiveIndex] = useState(0)
+  const [desktopApi, setDesktopApi] = useState<CarouselApi>()
+  const [mobileApi, setMobileApi] = useState<CarouselApi>()
 
   const equipments = [
     { image: "/doctor/tech1.png", title: t("equipments.0.title"), description: t("equipments.0.description") },
@@ -26,11 +29,36 @@ const Technologie = () => {
 
   const active = equipments[activeIndex]
 
+  const goTo = (i: number) => {
+    setActiveIndex(i)
+    desktopApi?.scrollTo(i)
+    mobileApi?.scrollTo(i)
+  }
+
   const handlePrev = () =>
-    setActiveIndex((prev) => (prev - 1 + equipments.length) % equipments.length)
+    goTo((activeIndex - 1 + equipments.length) % equipments.length)
 
   const handleNext = () =>
-    setActiveIndex((prev) => (prev + 1) % equipments.length)
+    goTo((activeIndex + 1) % equipments.length)
+
+  // Keep carousels in sync if the user swipes them directly
+  useEffect(() => {
+    if (!desktopApi) return
+    const onSelect = () => setActiveIndex(desktopApi.selectedScrollSnap())
+    desktopApi.on("select", onSelect)
+    return () => {
+      desktopApi.off("select", onSelect)
+    }
+  }, [desktopApi])
+
+  useEffect(() => {
+    if (!mobileApi) return
+    const onSelect = () => setActiveIndex(mobileApi.selectedScrollSnap())
+    mobileApi.on("select", onSelect)
+    return () => {
+      mobileApi.off("select", onSelect)
+    }
+  }, [mobileApi])
 
   return (
     <div className="pb-12 lg:pb-15">
@@ -69,13 +97,13 @@ const Technologie = () => {
             <div className="flex flex-col gap-4 mt-8">
 
               {/* Desktop thumbnails */}
-              <div className="hidden xl:flex justify-end overflow-hidden">
-                <Carousel opts={{ align: "start" }}>
+              <div className="hidden xl:block w-full overflow-hidden">
+                <Carousel opts={{ align: "start" }} setApi={setDesktopApi} className="w-full">
                   <CarouselContent className="-ml-3">
                     {equipments.map((eq, i) => (
                       <CarouselItem key={i} className="pl-3 basis-auto">
                         <button
-                          onClick={() => setActiveIndex(i)}
+                          onClick={() => goTo(i)}
                           className={`relative w-[145px] h-[145px] rounded-[15px] overflow-hidden block transition-all duration-200 border-2 ${
                             activeIndex === i
                               ? "border-primary"
@@ -97,13 +125,13 @@ const Technologie = () => {
               </div>
 
               {/* Mobile thumbnails */}
-              <div className="xl:hidden flex justify-end overflow-hidden">
-                <Carousel opts={{ align: "start" }}>
+              <div className="xl:hidden w-full overflow-hidden">
+                <Carousel opts={{ align: "start" }} setApi={setMobileApi} className="w-full">
                   <CarouselContent className="-ml-3">
                     {equipments.map((eq, i) => (
                       <CarouselItem key={i} className="pl-3 basis-auto">
                         <button
-                          onClick={() => setActiveIndex(i)}
+                          onClick={() => goTo(i)}
                           className={`relative w-[117px] h-[117px] rounded-[15px] overflow-hidden block transition-all duration-200 border-2 ${
                             activeIndex === i
                               ? "border-primary"

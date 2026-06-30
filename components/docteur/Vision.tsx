@@ -7,7 +7,7 @@ const Vision = () => {
 
   return (
     <section className="pb-12 lg:pb-20 px-6 lg:px-20 overflow-hidden">
-      <div className="flex justify-center pb-20">
+      <div className="flex justify-center pb-8  lg:pb-20">
         <Badge>{t("badge")}</Badge>
       </div>
 

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Badge } from "../ui/badge";
 import { ArrowUpRight, ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 const Parcours = () => {
   const t = useTranslations("doctor.parcours");
@@ -40,16 +41,15 @@ const Parcours = () => {
     t("items.langues.list.3"),
   ];
 
-  // Shared content renderers (used for both desktop and mobile)
   const renderParcoursPro = () => (
     <div className="flex flex-col gap-5">
-      <p className="text-[#0f2a5e] font-semibold text-2xl leading-none">
+      <p className="text-primary font-semibold text-2xl leading-none">
         {t("items.parcoursPro.heading")}
       </p>
-      <p className="text-slate-600 text-xl leading-none">
+      <p className="text-gray text-xl leading-none">
         {t("items.parcoursPro.text")}
       </p>
-      <p className="text-[#0f2a5e] font-semibold text-[18px] leading-none">
+      <p className="text-gray font-semibold text-[18px] leading-none">
         {t("items.parcoursPro.order")}
       </p>
     </div>
@@ -109,20 +109,20 @@ const Parcours = () => {
 
   const renderSeminaires = (textSize: string, headingSize: string) => (
     <div className="flex flex-col gap-5">
-      <p className={`text-[#0f2a5e] font-semibold ${headingSize} leading-none`}>
+      <p className={`text-primary font-semibold text-[24px] ${headingSize} leading-none`}>
         {t("items.seminaires.heading")}
       </p>
-      <p className={`text-slate-600 ${textSize} leading-none`}>
+      <p className={`text-[#383838]   text-[15px]  lg:text-[20px] ${textSize} leading-none`}>
         {t("items.seminaires.text")}
       </p>
       <div className="flex flex-col sm:flex-row gap-3">
-        <div className="flex-1 bg-[#0f2a5e] rounded-[10px] p-5">
+        <div className="flex-1 bg-primary rounded-[10px] p-5">
           <p className="text-white font-bold text-3xl">{t("items.seminaires.stats.conferences.value")}</p>
-          <p className="text-slate-300 text-xs uppercase tracking-wider mt-1">{t("items.seminaires.stats.conferences.label")}</p>
+          <p className="text-white text-xs uppercase tracking-wider mt-1">{t("items.seminaires.stats.conferences.label")}</p>
         </div>
-        <div className="flex-1 bg-[#0f2a5e] rounded-[10px] p-5">
+        <div className="flex-1 bg-primary rounded-[10px] p-5">
           <p className="text-white font-bold text-3xl">{t("items.seminaires.stats.implants.value")}</p>
-          <p className="text-slate-300 text-xs uppercase tracking-wider mt-1">{t("items.seminaires.stats.implants.label")}</p>
+          <p className="text-white text-xs uppercase tracking-wider mt-1">{t("items.seminaires.stats.implants.label")}</p>
         </div>
       </div>
     </div>
@@ -139,7 +139,8 @@ const Parcours = () => {
       <div className="flex flex-wrap gap-2">
         {langues.map((lang) => (
           <Badge key={lang} variant="gray">
-            🌐 {lang}
+            <Image src="/icons/language.png" alt="" width={14} height={14} className="inline-block mr-1" />
+            {lang}
           </Badge>
         ))}
       </div>
