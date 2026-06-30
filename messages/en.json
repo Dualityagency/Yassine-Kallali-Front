@@ -860,4 +860,769 @@
       }
     }
   }
+    "test": {
+        "title": "test"
+    },
+    "MetaData": {
+        "title": "Dr. Yassine Kallali | Immediate Implant & Dental Aesthetics in Sousse, Tunisia",
+        "description": "Specialized dental clinic in immediate implantology and aesthetic dentistry in Sousse, Tunisia. Over 20 years of expertise. International patients welcome. Dr. Yassine Kallali - Dental Surgeon & Implantologist.",
+        "keywords": [
+            "dental implant Sousse",
+            "immediate implant Tunisia",
+            "dental aesthetics Sousse",
+            "Dr. Yassine Kallali",
+            "dental surgeon Tunisia",
+            "implantology Sousse",
+            "dental tourism Tunisia",
+            "cosmetic dentistry Tunisia",
+            "same day implant",
+            "dental clinic Sousse",
+            "French speaking dentist Tunisia",
+            "English speaking dentist Tunisia",
+            "Italian speaking dentist Tunisia"
+        ]
+    },
+    "navbar": {
+        "links": {
+            "accueil": "Home",
+            "implant": "Immediate Implant",
+            "esthetique": "Dental Aesthetics",
+            "docteur": "Doctor",
+            "blog": "Blog",
+            "contact": "Contact"
+        },
+        "langue": "Language",
+        "contact": {
+            "adresse_label": "Address",
+            "adresse_value": "Av. 14 Janvier, El Kantaoui Medical Center, Bldg B43 4th floor, Hammam Sousse.",
+            "contact_label": "Contact",
+            "contact_value": "+216 21 802 858 / +216 70 633 966",
+            "email_label": "Email",
+            "email_value": "yassinekalleli@gmail.com",
+            "horaire_label": "Hours",
+            "horaire_value": "Monday - Saturday: 08:00 – 18:00"
+        },
+        "copyright": "© 2026 Dr. Yassine Kallali. All rights reserved. CNOMDT Registration N°12345."
+    },
+    "home": {
+        "hero": {
+            "badge": "EXCELLENCE IN IMPLANTOLOGY",
+            "title": "Your tooth extracted, your implant placed. The same day in Sousse.",
+            "description": "Clinic specialized in implantology and dental aesthetics. International patients seen by appointment.",
+            "cta": "Request a free quote"
+        },
+        "pourquoiNous": {
+            "badge": "Why us",
+            "title": "Excellence at the service of your smile, with expertise dedicated to your well-being, your comfort and the natural beauty of every smile.",
+            "description": "Because every smile is unique, we provide modern, personalized dental care delivered with passion to offer you confidence, health and serenity every day.",
+            "cards": {
+                "technique": {
+                    "title": "Immediate Implant Technique",
+                    "text": "Reduced treatment time thanks to immediate implant placement after extraction, preserving bone and gum."
+                },
+                "esthetique": {
+                    "title": "World-Class Dental Aesthetics",
+                    "text": "Rigorous clinical protocols and premium materials (Titanium Grade 5 / Zirconia), compliant with European CE standards."
+                },
+                "suivi": {
+                    "title": "Remote follow-up possible after return",
+                    "text": "For our patients abroad, we provide personalized post-operative follow-up via secure teleconsultation."
+                }
+            }
+        },
+        "confiance": {
+            "badge": "Proof of trust",
+            "title": "Guarantees of trust and medical quality.",
+            "quote": "We welcome patients from around the world, speaking fluently French, English, Italian and Arabic for transparent communication.",
+            "stats": {
+                "experience": {
+                    "label": "Years of experience"
+                },
+                "implants": {
+                    "label": "Implants placed"
+                }
+            }
+        },
+        "autorise": {
+            "badge": "AUTHORITY & EXPERTISE",
+            "title": "A Practitioner, Trainer & International Speaker.",
+            "doctor": {
+                "name": "Dr. Yassine KALLALI",
+                "experience": "20 Years of experience",
+                "description": "Dr. Yassine KALLALI doesn't just treat; he teaches. A recognized expert in computer-guided implantology, he regularly leads clinical training sessions and speaks at major international congresses.",
+                "cta": "About the doctor"
+            }
+        },
+        "marches": {
+            "badge": "Markets served",
+            "title": "Guarantees of trust and medical quality.",
+            "items": {
+                "france": {
+                    "city": "France",
+                    "text": "Modern dental care for a well-established Maghreb community."
+                },
+                "belgique": {
+                    "city": "Belgium",
+                    "text": "Close support in a multicultural environment."
+                },
+                "suisse": {
+                    "city": "Switzerland",
+                    "text": "Excellence, precision and comfort at the service of your smile."
+                },
+                "italie": {
+                    "city": "Italy",
+                    "text": "Accessible care adapted to the needs of international families."
+                },
+                "uk": {
+                    "city": "UK",
+                    "text": "A professional approach dedicated to a cosmopolitan patient base."
+                },
+                "canada": {
+                    "city": "Canada",
+                    "text": "Modern dental expertise for a growing community."
+                },
+                "diaspora": {
+                    "city": "Maghreb Diaspora in Europe",
+                    "text": "Trusted care with cultural and linguistic understanding."
+                }
+            }
+        },
+        "prendre": {
+            "badge": "Get in touch",
+            "title": "Plan your dental stay in Sousse",
+            "description": "Receive personalized support from our attentive and professional team, benefit from advice tailored to your needs, and get your quote quickly and easily to bring your project to life with complete confidence.",
+            "cta": "Get in touch"
+        }
+    },
+    "esthetique": {
+        "naturel": {
+            "badge": "The art of the natural smile",
+            "title": "Your Dental Aesthetics Expert in Sousse.",
+            "heroAlt": "Dr Yassine Kallali – dental aesthetics",
+            "productAlt": "Dental products",
+            "cardSmall": {
+                "title": "A smile designed for you.",
+                "text": "Because a beautiful smile is not only aesthetic, it must also be natural, harmonious and in harmony with your face."
+            },
+            "cardBottom": {
+                "title": "The art of a harmonious smile",
+                "text": "A harmonious smile directly influences self-confidence. Dr. Yassine KALLALI offers a personalized aesthetic approach, adapted to each facial morphology.",
+                "cta": "Request a consultation"
+            }
+        },
+        "harmonie": {
+            "badge": "AESTHETICS & HARMONY",
+            "title": "Our Personalized Aesthetic Solutions.",
+            "description": "A conservative approach using the latest technologies for a lasting and natural result.",
+            "services": {
+                "facettes": {
+                    "title": "Ceramic Veneers",
+                    "badges": [
+                        "Beauty & Natural",
+                        "Ceramic Veneers",
+                        "Custom Smile",
+                        "Minimally Invasive Aesthetics",
+                        "Premium Aesthetics"
+                    ]
+                },
+                "composite": {
+                    "title": "Dental Composite",
+                    "badges": [
+                        "Immediate Result",
+                        "Natural Smile",
+                        "Quick Aesthetics",
+                        "Minimally Invasive Technique",
+                        "Single Session"
+                    ]
+                },
+                "blanchiment": {
+                    "title": "Professional Whitening",
+                    "badges": [
+                        "Lasting Results",
+                        "Effective Solution",
+                        "High-End Service",
+                        "Professional Treatment",
+                        "Professional Quality"
+                    ]
+                },
+                "smileDesign": {
+                    "title": "Smile Design & Digital Simulation",
+                    "badges": [
+                        "Aesthetic Correction",
+                        "Smile Makeover",
+                        "High-End Service",
+                        "Composite Resin",
+                        "Modern Technique"
+                    ]
+                }
+            }
+        },
+        "esthetiqueSection": {
+            "badge": "AESTHETICS AND IMPLANTOLOGY",
+            "title": "Synergy between Aesthetics and Implants.",
+            "description1": "A beautiful smile is not limited to whiteness. It is the perfect balance between gum health, bone structure and dental aesthetics.",
+            "description2": "For our patients requiring implants, we systematically integrate a comprehensive aesthetic approach. Each implant is crowned with a ceramic piece designed to blend invisibly into your existing smile, combining mechanical function and natural beauty.",
+            "rehab": {
+                "title": "Complete rehabilitation",
+                "text": "Replace and enhance simultaneously."
+            },
+            "materiaux": {
+                "title": "Bio-compatible Materials",
+                "text": "Medical-grade zirconia and ceramic."
+            }
+        },
+        "qa": {
+            "badge": "Frequent questions (dental aesthetics)",
+            "title": "What you need to know before your stay in Sousse.",
+            "qaList": [
+                {
+                    "q": "Do veneers hurt?",
+                    "a": "No, placing veneers is generally painless or causes little discomfort. Tooth preparation is minimal and, if necessary, local anesthesia can be used to ensure your comfort."
+                },
+                {
+                    "q": "How many sessions are needed?",
+                    "a": "Generally, 2 to 3 sessions are sufficient:",
+                    "list": [
+                        "Consultation and treatment planning",
+                        "Tooth preparation and impressions",
+                        "Final veneer placement"
+                    ]
+                },
+                {
+                    "q": "Is the shade natural?",
+                    "a": "Yes. The shade is chosen based on your face, your skin tone and your natural teeth to achieve a harmonious and realistic result."
+                },
+                {
+                    "q": "How long do ceramic veneers last?",
+                    "a": "With good oral hygiene and regular follow-up, ceramic veneers can last between 10 and 15 years, or even longer."
+                },
+                {
+                    "q": "Can whitening and veneers be combined during the same stay?",
+                    "a": "Yes. Whitening is often performed before placing veneers to achieve a brighter and perfectly harmonized overall shade."
+                },
+                {
+                    "q": "Is the result visible immediately?",
+                    "a": "Yes. As soon as the veneers are placed, the change is visible and the smile is transformed instantly."
+                },
+                {
+                    "q": "How to maintain veneers?",
+                    "a": "Maintenance is simple:",
+                    "list": [
+                        "Brush your teeth twice a day",
+                        "Use dental floss or interdental brushes",
+                        "Have regular check-ups with your dentist",
+                        "Avoid biting very hard objects (ice cubes, pens, etc.)"
+                    ],
+                    "footer": "Veneers do not require special care, just good daily oral hygiene."
+                }
+            ]
+        },
+        "prendreContact": {
+            "badge": "Get in touch",
+            "title": "Your ideal smile starts here.",
+            "description": "Whether you are considering veneers, whitening, aesthetic composite or a complete smile transformation, our team supports you at every stage of your project. From the first virtual consultation to your treatment in Sousse, we create a personalized plan to achieve a natural, harmonious and lasting result.",
+            "subtitle": "Request a free consultation and discover the possibilities for your future smile.",
+            "cta": "Request a free consultation"
+        }
+    },
+    "doctor": {
+        "expertise": {
+            "badge": "Recognized and shared expertise",
+            "name": "Dr. Yassine KALLALI,",
+            "title": "Dental surgeon, implantologist and trainer.",
+            "description": "With over 20 years of experience, Dr. Yassine KALLALI, dental surgeon and implantologist in Sousse, is recognized for his expertise in complete dental restoration and dental implants. Also a trainer, he shares his knowledge with practitioners in Tunisia and internationally.",
+            "badges": {
+                "languages": "FR, EN, IT, AR",
+                "trainer": "Certified Trainer"
+            }
+        },
+        "parcours": {
+            "badge": "Background and expertise",
+            "title": "Clinical excellence at the heart of every treatment.",
+            "description": "Expertise recognized by patients and practitioners from Tunisia and abroad.",
+            "items": {
+                "parcoursPro": {
+                    "title": "Professional background",
+                    "subtitle": "Professional background and expertise.",
+                    "heading": "Expertise forged by experience.",
+                    "text": "Dr. Yassine KALLALI is a dental surgeon graduated from [Faculty / University], specialized in implantology and dental aesthetics. Based in Sousse since 2015, he has developed a practice focused on immediate post-extraction implants, a demanding technique that he has progressively refined and now teaches to other practitioners. His clinic welcomes patients from France, Belgium, Switzerland, Italy, the United Kingdom and Canada, as well as from the Maghreb diaspora residing in Europe. He consults in French, English, Arabic and Italian.",
+                    "order": "He is registered with the Tunisian Order of Dental Surgeons under number N°12345."
+                },
+                "formation": {
+                    "title": "Academic training",
+                    "subtitle": "Training and qualifications.",
+                    "heading": "A path of academic excellence.",
+                    "items": [
+                        {
+                            "title": "Degree in Dental Surgery.",
+                            "sub": "Doctorate in Dental Medicine.",
+                            "place": "Faculty of Dental Medicine of Monastir, Tunisia (2003)."
+                        },
+                        {
+                            "title": "Specialization in implantology.",
+                            "sub": "University Diploma in Oral Implantology.",
+                            "place": "Paris Cité University, France (2008)."
+                        },
+                        {
+                            "title": "Training in Dental Aesthetics & Smile Design.",
+                            "sub": "Certification in Dental Aesthetics and Digital Smile Design (DSD).",
+                            "place": "Digital Smile Design Academy, Madrid, Spain (2015)."
+                        },
+                        {
+                            "title": "Masterclass in Complete Implant Rehabilitation.",
+                            "sub": "Certification in Complete Implant Rehabilitation.",
+                            "place": "Malo Clinic, Lisbon, Portugal (2019)."
+                        }
+                    ]
+                },
+                "seminaires": {
+                    "title": "Seminars and conferences",
+                    "subtitle": "Training and teaching activities.",
+                    "heading": "Sharing expertise, transmitting knowledge.",
+                    "text": "Beyond his practice, Dr. Yassine KALLALI participates as a speaker in professional seminars dedicated to implantology and dental aesthetics. He has presented his protocols at [placeholder: dental congresses, scientific days, interprofessional meetings] in Tunisia and abroad.",
+                    "stats": {
+                        "conferences": {
+                            "value": "10+",
+                            "label": "Conferences"
+                        },
+                        "implants": {
+                            "value": "1000+",
+                            "label": "Implants placed/year"
+                        }
+                    }
+                },
+                "langues": {
+                    "title": "Consultation languages",
+                    "subtitle": "Languages available for consultation.",
+                    "heading": "Support without borders.",
+                    "text": "Dr. Yassine KALLALI welcomes and communicates with his patients in French, English, Arabic and Italian. Quotes, post-operative reports and remote follow-ups are written in the patient's language.",
+                    "list": [
+                        "French",
+                        "English",
+                        "Arabic",
+                        "Italian"
+                    ]
+                }
+            }
+        },
+        "vision": {
+            "badge": "Dr. Yassine Kallali's vision",
+            "quote": "\"Training other dental surgeons forces me to stay at the cutting edge. It's as much a discipline as a responsibility.\"",
+            "name": "Dr. Yassine KALLALI",
+            "tagline": "Recognized by thousands of patients for the excellence of his dental care!",
+            "img1Alt": "Dental tools",
+            "img2Alt": "Dr. Yassine Kallali at work",
+            "stats": {
+                "satisfaction": {
+                    "value": "98%",
+                    "label": "Satisfaction"
+                },
+                "smiles": {
+                    "value": "5,000",
+                    "label": "Smiles revealed"
+                },
+                "google": {
+                    "value": "4.9",
+                    "label": "Google Reviews"
+                }
+            }
+        },
+        "formation": {
+            "badge": "Practitioner training",
+            "title": "A practitioner who trains other practitioners.",
+            "description": "A conservative approach using the latest technologies for a lasting and natural result.",
+            "img1Alt": "Dental tools",
+            "img2Alt": "Dental aligner",
+            "testimonial": {
+                "text": "Training of great clinical precision and a high level of requirement. Dr. Yassine KALLALI shares clear, structured protocols directly applicable in daily practice, allowing immediate implementation of the techniques taught.",
+                "author": "Dr. A. K., Dental Surgeon, France"
+            },
+            "primaryCard": {
+                "practitioners": "+80 Practitioners",
+                "text": "Recognized for his expertise in implantology and his rigorous protocols, Dr. Yassine KALLALI leads clinical training on immediate post-extraction implants."
+            },
+            "infoCard": {
+                "text": "These trainings take place at the clinic, under real conditions on patients, in small groups, with Tunisian and international practitioners.",
+                "cta": "Contact us"
+            }
+        },
+        "praticien": {
+            "badge": "Trainer practitioner",
+            "title": "Why choose a recognized trainer practitioner in implantology and advanced implant surgery?",
+            "description": "Advanced clinical expertise based on mastery of techniques, rigorous protocols and knowledge transfer to dental surgeons in training, within a structured framework oriented towards excellence.",
+            "cards": [
+                {
+                    "title": "Mastery and transmission.",
+                    "text": "A practitioner who teaches his technique to others is a practitioner who fully masters it. Transmission requires deep understanding, constant precision and solid clinical experience."
+                },
+                {
+                    "title": "Rigorous and updated protocols.",
+                    "text": "He cannot afford approximation. Each protocol is documented, justified and regularly updated to ensure reliable, modern and reproducible practice."
+                },
+                {
+                    "title": "High standards and international trust",
+                    "text": "For a patient traveling from Paris, Milan or London, this level of requirement is not a detail. It is a guarantee of seriousness, safety and consistent clinical quality."
+                }
+            ]
+        },
+        "technologie": {
+            "badge": "Technology and equipment",
+            "title": "State-of-the-art equipment at the service of clinical excellence.",
+            "previewAlt": "Overview",
+            "equipments": [
+                {
+                    "image": "/doctor/tech1.png",
+                    "title": "3D Cone Beam Scanner.",
+                    "description": "Allows precise 3D imaging for pre-implant planning and detailed analysis of bone anatomy. This technology enables reliable assessment of anatomical structures and optimizes the precision of implant treatments."
+                },
+                {
+                    "image": "/doctor/tech2.png",
+                    "title": "Operating room dedicated to implantology.",
+                    "description": "Fully equipped surgical space to ensure implant procedures under optimal safety and sterility conditions. It is designed to ensure maximum operating comfort and care in compliance with international standards."
+                },
+                {
+                    "image": "/doctor/tech3.png",
+                    "title": "Sterilization protocols compliant with CE standards.",
+                    "description": "Strict procedures ensuring maximum asepsis, compliant with European standards for hygiene and medical safety. Each step is controlled to guarantee a perfectly secure clinical environment."
+                },
+                {
+                    "image": "/doctor/tech4.png",
+                    "title": "Complete implant traceability.",
+                    "description": "Each implant placed is documented with complete follow-up, and certificates can be provided upon request to guarantee transparency and safety. This traceability ensures complete confidence in the monitoring of medical devices used."
+                },
+                {
+                    "image": "/doctor/tech5.png",
+                    "title": "CE-certified implants and materials.",
+                    "description": "Use of certified medical devices compliant with European standards, with reference brands available according to clinical indications. This selection guarantees reliability, biocompatibility and lasting results."
+                }
+            ]
+        },
+        "cabinet": {
+            "badge": "The clinic in motion",
+            "title": "State-of-the-art equipment at the service of clinical excellence.",
+            "mainAlt": "Dental clinic",
+            "previewAlt": "Overview"
+        },
+        "contact": {
+            "badge": "Get in touch",
+            "title": "Ready for your transformation?",
+            "description": "Dr. Yassine KALLALI and his team support you in regaining your smile and your confidence in record time.",
+            "cta": "Get in touch with Dr. Yassine KALLALI"
+        }
+    },
+    "implant-immediat": {
+        "technologie-de-charge": {
+            "bagde": "Immediate Loading Technology",
+            "title-PartOne": "Immediate post-extraction implant: ",
+            "title-PartTwo": "Technique, protocol and results.",
+            "description": "The immediate post-extraction implant allows replacing a tooth right after its extraction, during the same surgical session. Discover how this same-day dental implant technique works in Tunisia, its indications, advantages, treatment protocol and expected results.",
+            "ctaButton": "Request a free evaluation"
+        },
+        "inovation": {
+            "badge": "INNOVATION & PRECISION",
+            "title": "Understanding Tomorrow's Implantology.",
+            "questionOne": "What is an immediate implant?",
+            "answerOne": "The implant is placed in the socket immediately after extraction, without a waiting period. This technique reduces the number of sessions, preserves bone volume, and considerably shortens the patient's stay.",
+            "answerOneBadge1": "3D Scanner",
+            "answerOneBadge2": "3D Scanner",
+            "questionTwo": "Why is this technique rare?",
+            "answerTwo": "It requires precise planning, a 3D radiological assessment (cone beam), and advanced surgical mastery. Not all cases are eligible; Dr. Yassine KALLALI evaluates each situation individually."
+        },
+        "protocole": {
+            "badge": "THE PROTOCOL",
+            "title": "How does the procedure take place?",
+            "description": "An optimized organization for local and international patients.",
+            "list": [
+                {
+                    "title": "Consultation + Assessment",
+                    "description": "Complete radiological analysis by Cone Beam to validate bone density."
+                },
+                {
+                    "title": "Extraction & Placement",
+                    "description": "Atraumatic extraction and immediate placement of the titanium implant."
+                },
+                {
+                    "title": "Temporary Crown",
+                    "description": "Placement of a fixed temporary aesthetic tooth. You leave with a complete smile."
+                },
+                {
+                    "title": "Remote follow-up",
+                    "description": "Video conference for foreign patients to monitor healing."
+                }
+            ]
+        },
+        "qa": {
+            "badge": "Frequent questions (immediate implant)",
+            "title": "What you need to know before your stay in Sousse.",
+            "qaList": [
+                {
+                    "q": "Recovery time after the procedure?",
+                    "a": "The length of stay varies according to your clinical situation. For an immediate implant, most patients stay between 2 and 5 days to complete the treatment and necessary check-ups."
+                },
+                {
+                    "q": "Can you fly after implant placement?",
+                    "a": "Yes. In most cases, it is possible to travel by plane 24 to 48 hours after the procedure, provided you follow the post-operative recommendations."
+                },
+                {
+                    "q": "Is follow-up possible from France, Italy or the UK?",
+                    "a": "Yes. Post-operative follow-up can be provided remotely via video conference and exchange of medical documents, regardless of your country of residence."
+                },
+                {
+                    "q": "How can I send my X-rays?",
+                    "a": "You can send your panoramic X-rays, scanners or Cone Beam directly via our secure form, by email or via WhatsApp."
+                },
+                {
+                    "q": "Is it painful?",
+                    "a": "The procedure is performed under local anesthesia. Most patients describe mild to moderate discomfort during the first few days, generally well controlled by prescribed medications."
+                },
+                {
+                    "q": "What is the lifespan of an immediate implant?",
+                    "a": "With good oral hygiene and regular follow-up, a dental implant can last many years, even several decades."
+                },
+                {
+                    "q": "Are there direct flights from Paris, Milan, Brussels or London?",
+                    "a": "Yes. Direct flights or short stopover flights are regularly available from several major European cities to airports serving the Sousse region."
+                },
+                {
+                    "q": "What accommodations are available in Sousse?",
+                    "a": "Sousse offers a wide choice of accommodations: hotels, residences and apartments to suit all budgets. Our team can advise you on options close to the clinic."
+                }
+            ]
+        }
+    },
+    "blog": {
+        "header-badge": "Dental Tips & Expertise",
+        "cta-read": "Read the article",
+        "filter": "Filter by category:",
+        "contact": {
+            "badge": "Get in touch",
+            "title": "Ready to transform your smile?",
+            "description": "Get a personalized consultation and a detailed quote for your implantology or dental aesthetics treatments in Sousse.",
+            "cta-button": "Get in touch with Dr. Yassine KALLALI"
+        }
+    },
+    "blog-details": {
+        "qa": {
+            "badge": "Frequent questions",
+            "title": "What patients ask most often.",
+            "qaList": [
+                {
+                    "q": "Recovery time after the procedure?",
+                    "a": "The length of stay varies according to your clinical situation. For an immediate implant, most patients stay between 2 and 5 days to complete the treatment and necessary check-ups."
+                },
+                {
+                    "q": "Can you fly after implant placement?",
+                    "a": "Yes. In most cases, it is possible to travel by plane 24 to 48 hours after the procedure, provided you follow the post-operative recommendations."
+                },
+                {
+                    "q": "How can I send my X-rays?",
+                    "a": "You can send your panoramic X-rays, scanners or Cone Beam directly via our secure form, by email or via WhatsApp."
+                },
+                {
+                    "q": "Is it painful?",
+                    "a": "The procedure is performed under local anesthesia. Most patients describe mild to moderate discomfort during the first few days, generally well controlled by prescribed medications."
+                },
+                {
+                    "q": "What is the lifespan of an immediate implant?",
+                    "a": "With good oral hygiene and regular follow-up, a dental implant can last many years, even several decades."
+                },
+                {
+                    "q": "Are there direct flights from Paris, Milan, Brussels or London?",
+                    "a": "Yes. Direct flights or short stopover flights are regularly available from several major European cities to airports serving the Sousse region."
+                },
+                {
+                    "q": "What accommodations are available in Sousse?",
+                    "a": "Sousse offers a wide choice of accommodations: hotels, residences and apartments to suit all budgets. Our team can advise you on options close to the clinic."
+                }
+            ]
+        },
+        "contact": {
+            "badge": "Get in touch",
+            "title": "Take the first step towards your new smile.",
+            "description": "Would you like to know if you are eligible for an immediate implant? Fill out our pre-assessment form — personalized response within 48 hours.",
+            "cta-button": "Request a free evaluation"
+        }
+    },
+    "contact": {
+        "badge": "Get in touch",
+        "title-PartOne": "The first step towards ",
+        "title-PartTwo": "your new smile.",
+        "description": "Whether you are in Tunisia or abroad, our team supports you at every stage of your care journey with expertise, attentiveness and kindness. Thanks to the most advanced technologies and a personalized approach, we do everything possible to offer you natural, lasting results adapted to your expectations.",
+        "contactDetails": {
+            "title": "Contact details",
+            "address-title": "ADDRESS",
+            "address-value": "Avenue du 14 Janvier, Sousse 4000, Tunisia.",
+            "phoneNumber-title": "PHONE",
+            "phoneNumber-value": "+216 73 000 000",
+            "email-title": "EMAIL",
+            "email-value": "contact@cliniquedentairesousse.tn"
+        },
+        "schedules": {
+            "title": "Hours",
+            "list": [
+                {
+                    "title": "Monday - Friday",
+                    "value": "09:00 - 18:00"
+                },
+                {
+                    "title": "Saturday",
+                    "value": "09:00 - 13:00"
+                },
+                {
+                    "title": "Sunday",
+                    "value": "Closed"
+                }
+            ]
+        },
+        "address": "Av. 14 Janvier, El Kantaoui Medical Center, Bldg B43 4th floor, Hammam Sousse",
+        "form": {
+            "title": "Request a free quote",
+            "description": "Contact Dr. Yassine KALLALI's clinic in Sousse for a dental implant or aesthetic quote. Online form, personalized response within 48 hours.",
+            "fullName-label": "Full Name",
+            "fullName-placeholder": "John Doe",
+            "country-label": "Country of residence",
+            "country-placeholder": "Ex.: France, Tunisia, Canada...",
+            "lang-label": "Preferred language",
+            "languages": [
+                "French",
+                "English",
+                "Italian",
+                "Arabic"
+            ],
+            "typeCare-label": "Type of care",
+            "types": [
+                "Immediate implant"
+            ],
+            "message-label": "Your Message",
+            "message-placeholder": "Describe your needs or ask your questions...",
+            "uploadTitle": "Attach dental X-ray",
+            "uploadFormats": "Accepted formats: JPG, PNG, PDF (Max 10 MB)",
+            "consentText": "I agree that my information may be used to process my request and contact me. Your data is secure and confidential.",
+            "cta-button": "Send my request"
+        }
+    },
+    "footer": {
+        "description": "Brighten your smile with confidence and care.",
+        "contact_info": [
+            {
+                "title": "Address",
+                "list": [
+                    "Av. 14 Janvier, El Kantaoui Medical Center,",
+                    "Bldg B43 4th floor, Hammam Sousse."
+                ]
+            },
+            {
+                "title": "Contact",
+                "list": [
+                    "+216 21 802 858",
+                    "+216 70 633 966"
+                ]
+            },
+            {
+                "title": "Email",
+                "list": [
+                    "yassinekalleli@gmail.com"
+                ]
+            },
+            {
+                "title": "Hours",
+                "list": [
+                    "Monday - Saturday: 08:00 – 18:00"
+                ]
+            }
+        ],
+        "navigation": "Navigation",
+        "home": "Home",
+        "nav-docter": "Doctor",
+        "nav-blog": "Blog",
+        "nav-contact": "Contact",
+        "treatments": "Treatments",
+        "treatment-implant": "Immediate Implant",
+        "treatment-esthetic": "Dental Aesthetics",
+        "information": "Information",
+        "legal-notice": "Legal notice",
+        "gdpr": "GDPR",
+        "social-media": "Social Media",
+        "social-facebook": "Facebook",
+        "social-instagram": "Instagram",
+        "social-linkedin": "LinkedIn",
+        "docter": "Dr. Yassine KALLALI",
+        "copyright": "© 2026 Dr. Yassine Kallali. All rights reserved. CNOMDT Registration N°12345",
+        "designed_by": "Designed by"
+    },
+
+
+    "legal": {
+  "header": {
+    "title": "Legal Notice & GDPR.",
+    "subtitle": "Transparency and protection of your health data at Clinique Dentaire Sousse."
+  },
+  "footer": "Last updated: June 2025 · contact@cliniquedentairesousse.com",
+  "sidebar": {
+    "badge": "Legal Navigation",
+    "help": {
+      "title": "Need help?",
+      "desc": "For any questions regarding your personal data.",
+      "cta": "Contact the DPO"
+    }
+  },
+  "sections": {
+    "s1": {
+      "title": "Practitioner Identity",
+      "intro": "This website is published by the",
+      "clinic": "Clinique Dentaire Sousse",
+      "directedBy": "directed by:",
+      "rows": {
+        "responsable": { "label": "Responsible", "value": "Dr. Yassine KALLALI" },
+        "cnomdt": { "label": "CNOMDT Registration", "value": "No. 12345 (National Council of the Order of Dental Surgeons of Tunisia)" },
+        "siege": { "label": "Registered Office", "value": "Avenue du 14 Janvier, 4000 Sousse, Tunisia" },
+        "contact": { "label": "Contact", "value": "contact@cliniquedentairesousse.com" }
+      }
+    },
+    "s2": {
+      "title": "Purpose of Data Processing",
+      "items": {
+        "contact": { "label": "Contact", "desc": "Responding to information requests submitted through our forms." },
+        "devis": { "label": "Quotes", "desc": "Preparing treatment plans and personalised financial estimates." },
+        "suivi": { "label": "Medical Follow-up", "desc": "Patient file management and continuity of post-operative care." }
+      }
+    },
+    "s3": {
+      "title": "Retention Period",
+      "items": {
+        "contact": { "label": "CONTACT DATA", "value": "3 Years", "desc": "Maximum retention period after the last contact from the user." },
+        "medical": { "label": "MEDICAL FILE", "value": "Legal Duration", "desc": "In accordance with applicable regulations for medical records." }
+      }
+    },
+    "s4": {
+      "title": "Medical Data Security",
+      "cardTitle": "Dental imaging protection",
+      "desc": "We pay particular attention to your radiographic data (Panoramic X-rays, 3D CBCT). All dental X-rays are stored on",
+      "highlight1": "highly secure servers",
+      "mid": "with",
+      "highlight2": "end-to-end encryption",
+      "end": ". Access is strictly reserved for authenticated clinical staff.",
+      "badge1": "AES-256 ENCRYPTION",
+      "badge2": "CERTIFIED HOSTING"
+    },
+    "s5": {
+      "title": "Sub-processors & Cookies",
+      "headers": { "partner": "Partner", "role": "Role", "policy": "Policy" },
+      "rows": {
+        "hebergeur": { "name": "Cloud Host", "role": "Technical website hosting", "policy": "View DPA agreement" },
+        "analytics": { "name": "Google Analytics", "role": "Audience measurement (anonymised)", "policy": "Learn more" }
+      },
+      "note": "Note: Advertising cookies are only activated after your explicit consent via the cookie banner."
+    },
+    "s6": {
+      "title": "Your Rights",
+      "items": {
+        "acces": { "label": "Right of access", "desc": "Obtain a copy of your personal data." },
+        "rectification": { "label": "Right of rectification", "desc": "Correct inaccurate or incomplete information." },
+        "effacement": { "label": "Right to erasure", "desc": "Request the deletion of your contact data." },
+        "portabilite": { "label": "Portability", "desc": "Transfer your data to another practitioner." }
+      }
+    }
+  }
+}
 }
