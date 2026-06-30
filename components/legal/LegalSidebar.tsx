@@ -29,11 +29,10 @@ const LegalSidebar = ({ activeId, onNavClick, legalSections }: LegalSidebarProps
 
   return (
     <>
-      {/* ── MOBILE: dropdown ── */}
       <div className="lg:hidden w-full">
         <button
           onClick={() => setDropdownOpen((p) => !p)}
-          className="w-full flex items-center justify-between bg-white border border-gray-200 rounded-xl px-5 py-3 text-sm font-medium text-primary shadow-sm"
+          className="w-full flex items-center justify-between bg-[#F5F5F5] cursor-pointer  rounded-xl px-5 py-3 text-sm font-medium text-primary shadow-sm"
         >
           <span>{activeSection?.title}</span>
           <svg
@@ -48,12 +47,12 @@ const LegalSidebar = ({ activeId, onNavClick, legalSections }: LegalSidebarProps
         </button>
 
         {dropdownOpen && (
-          <div className="mt-1 bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden">
+          <div className="mt-1 bg-white  rounded-xl shadow-md overflow-hidden">
             {legalSections.map((section) => (
               <button
                 key={section.id}
                 onClick={() => handleClick(section.id)}
-                className={`w-full text-left px-5 py-3 text-[16px] leading-[24px] font-medium transition-colors border-b border-gray-100 last:border-0
+                className={`w-full text-left px-5 py-3 text-[16px] leading-[24px] font-medium transition-colors  
                   ${activeId === section.id ? "bg-background text-primary" : "text-primary hover:bg-gray-50"}`}
               >
                 {section.title}
@@ -65,30 +64,27 @@ const LegalSidebar = ({ activeId, onNavClick, legalSections }: LegalSidebarProps
 
       {/* ── DESKTOP ── */}
       <aside className="hidden lg:flex flex-col w-64 shrink-0 sticky top-8">
-        <nav className="bg-white border border-gray-200 rounded-xl shadow-sm overflow-hidden mb-4">
-          <div className="px-5 py-3 border-b border-gray-100">
-        
-
+        <nav className="bg-white  rounded-xl  overflow-hidden mb-4">
+          <div className="pb-6">
             <Badge>
               {t("badge")}
-
             </Badge>
           </div>
           {legalSections.map((section) => (
             <button
               key={section.id}
               onClick={() => handleClick(section.id)}
-              className={`w-full text-left px-5 py-3 text-[16px] leading-[24px] font-medium transition-colors border-b border-gray-100 last:border-0
-                ${activeId === section.id ? "bg-background text-primary" : "text-primary hover:bg-gray-50"}`}
+              className={`w-full text-left px-2 cursor-pointer py-3 text-[16px] leading-[24px] font-medium transition-colors  
+                ${activeId === section.id ? "bg-background text-primary font-semibold " : " text-[#383838] hover:bg-gray-50  "}`}
             >
               {section.title}
             </button>
           ))}
         </nav>
 
-        <div className="bg-background border border-gray-200 rounded-xl shadow-sm p-5">
-          <p className="font-semibold text-primary text-sm mb-2">{t("help.title")}</p>
-          <p className="text-xs text-primary/60 leading-relaxed mb-4">{t("help.desc")}</p>
+        <div className="bg-background  rounded-xl p-5">
+          <p className="font-semibold text-[#001736] text-[20px] mb-2">{t("help.title")}</p>
+          <p className="text-[16px] text-[#383838] leading-relaxed mb-4">{t("help.desc")}</p>
           <CtaButton textWhenHover="blue">{t("help.cta")}</CtaButton>
         </div>
       </aside>
