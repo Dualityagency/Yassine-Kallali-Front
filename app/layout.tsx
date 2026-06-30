@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 import { Montserrat, Geist } from "next/font/google"
 import { cn } from "@/lib/utils";
+import { ToastContainer } from "react-toastify";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
@@ -24,6 +25,7 @@ export default function RootLayout({
     <html lang="fr" className={cn("font-sans", geist.variable)}>
       <body className={montserrat.className}>
         {children}
+        <ToastContainer />
       </body>
     </html>
   )

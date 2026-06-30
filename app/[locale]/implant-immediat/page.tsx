@@ -1,3 +1,4 @@
+import Eligibility from "@/components/implant-immediat/Eligibility";
 import Innovation from "@/components/implant-immediat/Innovation";
 import PrendreContact from "@/components/implant-immediat/PrendreContact";
 import Protocole from "@/components/implant-immediat/Protocole";
@@ -15,6 +16,7 @@ export default function ImplantImmediat() {
             <TechnologieDeCharge />
             <Innovation />
             <Protocole/>
+            <Eligibility/>
             <QA 
             badge={t('qa.badge')} 
             title={t('qa.title')} 

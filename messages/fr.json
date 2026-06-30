@@ -335,12 +335,7 @@
           "subtitle": "Langues disponibles en consultation.",
           "heading": "Un accompagnement sans frontières.",
           "text": "Le Dr. Yassine KALLALI reçoit et communique avec ses patients en français, anglais, arabe et italien. Les devis, comptes-rendus post-opératoires et suivis à distance sont rédigés dans la langue du patient.",
-          "list": [
-            "Français",
-            "Anglais",
-            "Arabe",
-            "Italien"
-          ]
+          "list": ["Français", "Anglais", "Arabe", "Italien"]
         }
       }
     },
@@ -490,6 +485,37 @@
         }
       ]
     },
+    "eligibilité": {
+      "badge": "éligibilité",
+      "title": "Êtes-vous éligible à la charge immédiate ?",
+      "descriptionPartOne": "L'implant immédiat post-extraction n'est pas indiqué dans toutes les situations. La qualité de l'os, l'état de la dent à extraire et votre santé bucco-dentaire doivent être évalués avec précision. Répondez à ",
+      "descriptionPartTwo": " 5 questions",
+      "descriptionPartThree": " rapides pour recevoir une pré-évaluation clinique personnalisée et savoir si vous êtes candidat à un implant dentaire le même jour en Tunisie.",
+      "checkOne": "Analyse de la stabilité primaire",
+      "checkTwo": "Évaluation de la santé gingivale",
+      "checkThree": "Réponse garantie sous 48h",
+      "form": {
+        "title": "Pré-évaluation gratuite",
+        "description": "5 questions simples pour évaluer votre éligibilité.",
+        "fullName-label": "Nom & Prénom",
+        "fullName-placeholder": "Jean Dupont",
+        "email-label": "E-mail",
+        "email-placeholder": "exemple@exemple.com",
+        "questionOne-label": "1/ Dans quelle région se situe la dent à remplacer?",
+        "questionOne-placeholder": "Ex. : Molaire inférieure droite",
+        "questionTwo-label": "2/ La dent est-elle douloureuse ou infectée?",
+        "questionTwo-placeholder": "Ex. : Douleur depuis 3 jours",
+        "questionThree-label": "3/ Avez-vous déjà perdu du volume osseux ?",
+        "questionThree-placeholder": "Ex. : Non à ma connaissance",
+        "questionFour-label": "4/ Avez-vous des problèmes de santé spécifiques?",
+        "questionFour-placeholder": "Ex. : Diabète de type 2",
+        "questionFive-label": "5/ Souhaitez-vous poser l'implant le même jour que l'extraction ?",
+        "questionFive-placeholder": "Ex. : Oui, si possible",
+        "info": "Vos données sont 100% confidentielles et sécurisées.",
+        "ctaSubmit": "Envoyer ma pré-évaluation",
+        "ctaSubmitting": "Envoi en cours..."
+      }
+    },
     "qa": {
       "badge": "Questions fréquentes (implant-immediat)",
       "title": "Ce qu’il faut savoir avant votre séjour à Sousse.",
@@ -527,6 +553,15 @@
           "a": "Sousse propose un large choix d’hébergements : hôtels, résidences et appartements adaptés à tous les budgets. Notre équipe peut vous conseiller des options proches du cabinet."
         }
       ]
+    },
+    "success": {
+      "success": "Votre message a été envoyé avec succès !"
+    },
+    "errors": {
+      "allFieldsRequired": "Veuillez remplir tous les champs obligatoires.",
+      "invalidEmail": "Veuillez entrer une adresse email valide.",
+      "internalServerError": "Une erreur s'est produite. Veuillez réessayer.",
+      "consentRequired": "Vous devez accepter la politique de confidentialité pour continuer."
     }
   },
   "blog": {
@@ -596,6 +631,15 @@
       "email-title": "EMAIL",
       "email-value": "contact@cliniquedentairesousse.tn"
     },
+    "success": {
+      "success": "Votre message a été envoyé avec succès !"
+    },
+    "errors": {
+      "allFieldsRequired": "Veuillez remplir tous les champs obligatoires.",
+      "invalidEmail": "Veuillez entrer une adresse email valide.",
+      "internalServerError": "Une erreur s'est produite. Veuillez réessayer.",
+      "consentRequired": "Vous devez accepter la politique de confidentialité pour continuer."
+    },
     "schedules": {
       "title": "Horaires",
       "list": [
@@ -615,29 +659,27 @@
     },
     "address": "Av. 14 Janvier, Centre Médical El Kantaoui, Imm. B43 4ème étage, Hammam Sousse",
     "form": {
-      "title": "Demande de devis gratuit",
-      "description": "Contactez le cabinet Dr. Yassine KALLALI à Sousse pour un devis implant dentaire ou  esthétique. Formulaire en ligne, réponse personnalisée sous 48h.",
-      "fullName-label": "Nom & Prénom",
+      "title": "Demander un devis gratuit",
+      "description": "Contactez le cabinet du Dr Yassine KALLALI à Sousse pour obtenir un devis en implantologie dentaire ou en soins esthétiques. Formulaire en ligne, réponse personnalisée sous 48 heures.",
+      "fullName-label": "Nom complet",
       "fullName-placeholder": "Jean Dupont",
       "country-label": "Pays de résidence",
       "country-placeholder": "Ex. : France, Tunisie, Canada...",
+      "email-label": "E-mail",
+      "email-placeholder": "email@exemple.com",
+      "phoneNumber-label": "Numéro de téléphone",
+      "phoneNumber-placeholder": "+33 6 12 34 56 78",
       "lang-label": "Langue préférée",
-      "languages": [
-        "Français",
-        "English",
-        "Italiano",
-        "العربية"
-      ],
-      "typeCare-label": "Type de soins",
-      "types": [
-        "Implant immédiat"
-      ],
-      "message-label": "Votre Message",
+      "languages": ["Français", "Anglais", "Italien", "Arabe"],
+      "typeCare-label": "Type de soin",
+      "types": ["Implant immédiat"],
+      "message-label": "Votre message",
       "message-placeholder": "Décrivez vos besoins ou posez vos questions...",
-      "uploadTitle": "Joindre une radio dentaire",
-      "uploadFormats": "Formats acceptés : JPG, PNG, PDF (Max 10 Mo)",
-      "consentText": "J'accepte que mes informations soient utilisées pour traiter ma demande et me recontacter. Vos données sont sécurisées et confidentielles.",
-      "cta-button": "Envoyer ma demande"
+      "uploadTitle": "Joindre une radiographie dentaire",
+      "uploadFormats": "Formats acceptés : JPG, PNG, PDF (10 Mo max.)",
+      "consentText": "J'accepte que mes informations soient utilisées pour traiter ma demande et me contacter. Vos données sont sécurisées et confidentielles.",
+      "ctaSubmit": "Envoyer ma demande",
+      "ctaSubmitting": "Envoi en cours..."
     }
   },
   "footer": {
@@ -652,22 +694,15 @@
       },
       {
         "title": "Contact",
-        "list": [
-          "+216 21 802 858",
-          "+216 70 633 966"
-        ]
+        "list": ["+216 21 802 858", "+216 70 633 966"]
       },
       {
         "title": "Email",
-        "list": [
-          "yassinekalleli@gmail.com"
-        ]
+        "list": ["yassinekalleli@gmail.com"]
       },
       {
         "title": "Horaire",
-        "list": [
-          "Lundi - Samedi : 08:00 – 18:00"
-        ]
+        "list": ["Lundi - Samedi : 08:00 – 18:00"]
       }
     ],
     "navigation": "Navigation",
