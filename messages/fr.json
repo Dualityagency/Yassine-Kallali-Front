@@ -565,8 +565,8 @@
         "Séjour optimisé de 2 à 5 jours",
         "Suivi depuis votre pays de résidence"
       ],
-      "h4":"Découvrez si vous êtes éligible à un implant immédiat en moins de 48h.",
-      "ctaButton":"Demander une évaluation gratuite"
+      "h4": "Découvrez si vous êtes éligible à un implant immédiat en moins de 48h.",
+      "ctaButton": "Demander une évaluation gratuite"
     },
     "success": {
       "success": "Votre message a été envoyé avec succès !"
@@ -749,7 +749,7 @@
       "help": {
         "title": "Besoin d'aide ?",
         "desc": "Pour toute question relative à vos données personnelles.",
-        "cta": "Nous contacter"
+        "cta": "Contacter le DPO"
       }
     },
     "sections": {
@@ -864,84 +864,4 @@
       }
     }
   }
-}
-
-
-
-"legal": {
-  "header": {
-    "title": "Mentions Légales & RGPD.",
-    "subtitle": "Transparence et protection de vos données de santé au sein de la Clinique Dentaire Sousse."
-  },
-  "footer": "Dernière mise à jour : Juin 2025 · contact@cliniquedentairesousse.com",
-  "sidebar": {
-    "badge": "Navigation Légale",
-    "help": {
-      "title": "Besoin d'aide ?",
-      "desc": "Pour toute question relative à vos données personnelles.",
-      "cta": "Contacter le DPO"
-    }
-  },
-  "sections": {
-    "s1": {
-      "title": "Identité du Praticien",
-      "intro": "Le présent site est édité par la",
-      "clinic": "Clinique Dentaire Sousse",
-      "directedBy": "dirigée par :",
-      "rows": {
-        "responsable": { "label": "Responsable", "value": "Dr. Yassine KALLALI" },
-        "cnomdt": { "label": "Inscription CNOMDT", "value": "N°12345 (Conseil National de l'Ordre des Médecins Dentistes de Tunisie)" },
-        "siege": { "label": "Siège Social", "value": "Avenue du 14 Janvier, 4000 Sousse, Tunisie" },
-        "contact": { "label": "Contact", "value": "contact@cliniquedentairesousse.com" }
-      }
-    },
-    "s2": {
-      "title": "Finalité du traitement des données",
-      "items": {
-        "contact": { "label": "Contact", "desc": "Réponse aux demandes d'informations formulées via nos formulaires." },
-        "devis": { "label": "Devis", "desc": "Établissement de plans de traitement et estimations financières personnalisées." },
-        "suivi": { "label": "Suivi Médical", "desc": "Gestion du dossier patient et continuité des soins post-opératoires." }
-      }
-    },
-    "s3": {
-      "title": "Durée de conservation",
-      "items": {
-        "contact": { "label": "DONNÉES DE CONTACT", "value": "3 Ans", "desc": "Conservation maximale après le dernier contact émanant de l'utilisateur." },
-        "medical": { "label": "DOSSIER MÉDICAL", "value": "Durée Légale", "desc": "Conformément aux réglementations en vigueur pour les archives médicales." }
-      }
-    },
-    "s4": {
-      "title": "Sécurité des Données Médicales",
-      "cardTitle": "Protection de l'imagerie dentaire",
-      "desc": "Nous apportons une attention particulière à vos données radiographiques (Panoramiques, CBCT 3D). Toutes les radios dentaires sont stockées sur des",
-      "highlight1": "serveurs hautement sécurisés",
-      "mid": "avec un",
-      "highlight2": "chiffrement de bout en bout",
-      "end": ". L'accès est strictement réservé à l'équipe soignante authentifiée.",
-      "badge1": "AES-256 CHIFFREMENT",
-      "badge2": "HÉBERGEMENT CERTIFIÉ"
-    },
-    "s5": {
-      "title": "Sous-traitants & Cookies",
-      "headers": { "partner": "Partenaire", "role": "Rôle", "policy": "Politique" },
-      "rows": {
-        "hebergeur": { "name": "Hébergeur Cloud", "role": "Stockage technique du site", "policy": "Voir l'accord DPA" },
-        "analytics": { "name": "Google Analytics", "role": "Mesure d'audience (anonymisée)", "policy": "En savoir plus" }
-      },
-      "note": "Note : Les cookies publicitaires ne sont activés qu'après votre consentement explicite via le bandeau de cookies."
-    },
-    "s6": {
-      "title": "Vos Droits",
-      "items": {
-        "acces": { "label": "Droit d'accès", "desc": "Obtenir une copie de vos données personnelles." },
-        "rectification": { "label": "Droit de rectification", "desc": "Corriger des informations inexactes ou incomplètes." },
-        "effacement": { "label": "Droit à l'effacement", "desc": "Demander la suppression de vos données de contact." },
-        "portabilite": { "label": "Portabilité", "desc": "Transférer vos données vers un autre praticien." }
-      }
-    }
-  }
-}
-
-
-
 }
