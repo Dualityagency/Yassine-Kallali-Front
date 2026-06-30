@@ -73,7 +73,8 @@ export const sendDevisEmail = async (
   const mailOptions = {
     from: process.env.EMAIL_FROM,
     to: process.env.CONTACT_RECEIVER,
-    subject: "📩 Nouveau message reçu via le formulaire de contact | Dr. Yassine Kallali",
+    subject:
+      "📩 Nouveau message reçu via le formulaire de contact | Dr. Yassine Kallali",
     html: `
       <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
         <p><strong>Nom & Prénom:</strong> ${fullName}</p>

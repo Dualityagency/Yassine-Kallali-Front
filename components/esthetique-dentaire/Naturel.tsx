@@ -8,7 +8,7 @@ const Naturel = () => {
   const t = useTranslations("esthetique.naturel");
 
   return (
-    <div className="pb-12 lg:pb-15 px-4 lg:px-24">
+    <div className="pb-12 lg:pb-15 container-x">
       <div>
         <Badge variant={"secondary"}>{t("badge")}</Badge>
       </div>

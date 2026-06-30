@@ -121,7 +121,7 @@ body {
     @apply font-normal text-gray text-[15px] lg:text-[20px] leading-[120%];
   }
   .paragraph2 {
-    @apply font-normal text-gray text-[13px] lg:text-[16px] leading-[100%];
+    @apply font-normal text-gray text-[13px] lg:text-[16px] leading-[120%];
   }
   .container-x {
     @apply mx-6 lg:mx-20;

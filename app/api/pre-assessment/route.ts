@@ -39,7 +39,6 @@ export async function POST(request: Request) {
     await sendPreAssessmentEmail(
       fullName,
       email,
-      email,
       questionOne,
       questionTwo,
       questionThree,
