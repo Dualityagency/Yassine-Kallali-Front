@@ -554,6 +554,20 @@
         }
       ]
     },
+    "contact": {
+      "badge": "Get in Touch",
+      "title": "Ready for Your New Smile?",
+      "description": "Our experts support you from the first virtual consultation to the final result in Sousse.",
+      "h3List": [
+        "Response within 48 hours",
+        "No commitment required",
+        "Advanced implantology expertise",
+        "Optimized stay of 2 to 5 days",
+        "Follow-up from your country of residence"
+      ],
+      "h4": "Find out if you are eligible for an immediate implant in less than 48 hours.",
+      "ctaButton": "Request a Free Evaluation"
+    },
     "success": {
       "success": "Your message has been sent successfully!"
     },

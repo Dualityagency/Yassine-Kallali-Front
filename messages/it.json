@@ -554,6 +554,20 @@
         }
       ]
     },
+    "contact": {
+      "badge": "Contattaci",
+      "title": "Pronto per il tuo nuovo sorriso?",
+      "description": "I nostri esperti ti accompagnano dalla prima consulenza virtuale fino al risultato finale a Sousse.",
+      "h3List": [
+        "Risposta entro 48 ore",
+        "Nessun impegno",
+        "Esperti in implantologia avanzata",
+        "Soggiorno ottimizzato da 2 a 5 giorni",
+        "Follow-up dal tuo Paese di residenza"
+      ],
+      "h4": "Scopri se sei idoneo per un impianto immediato in meno di 48 ore.",
+      "ctaButton": "Richiedi una valutazione gratuita"
+    },
     "success": {
       "success": "Il tuo messaggio è stato inviato con successo!"
     },
