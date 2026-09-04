@@ -15,7 +15,6 @@ import {
 import { Textarea } from "../ui/textarea";
 import { Checkbox } from "../ui/checkbox";
 import CtaButton from "../ui/CtaButton";
-import { toast } from "react-toastify";
 import { useDevis } from "@/hooks/useDevis";
 
 export default function DemandeDevis() {
@@ -28,7 +27,7 @@ export default function DemandeDevis() {
     fullName: string;
     country: string;
     email: string;
-    phoneNumber: number;
+    phoneNumber: string;
     language: string;
     typeOfCare: string;
     message: string;
@@ -36,7 +35,6 @@ export default function DemandeDevis() {
   const {
     register,
     handleSubmit,
-    reset,
     control,
     formState: { isSubmitting, errors },
   } = useForm<Inputs>({
@@ -89,16 +87,26 @@ export default function DemandeDevis() {
           <div className="flex flex-col gap-y-2.5 w-full lg:w-[47%]">
             <Label>{t("form.fullName-label")}</Label>
             <Input
-              {...register("fullName")}
+              {...register("fullName", {
+                required: t("toast.errors.fullNameRequired"),
+              })}
               placeholder={t("form.fullName-placeholder")}
             ></Input>
+            {errors.fullName && (
+              <p className="text-sm text-red-600">{errors.fullName.message}</p>
+            )}
           </div>
           <div className="flex flex-col gap-y-2.5 w-full lg:w-[47%]">
             <Label>{t("form.country-label")}</Label>
             <Input
-              {...register("country")}
+              {...register("country", {
+                required: t("toast.errors.countryRequired"),
+              })}
               placeholder={t("form.country-placeholder")}
             ></Input>
+            {errors.country && (
+              <p className="text-sm text-red-600">{errors.country.message}</p>
+            )}
           </div>
         </div>
         {/* Input for Email & Phone Number */}
@@ -106,16 +114,30 @@ export default function DemandeDevis() {
           <div className="flex flex-col gap-y-2.5 w-full lg:w-[47%]">
             <Label>{t("form.email-label")}</Label>
             <Input
-              {...register("email")}
+              {...register("email", {
+                required: t("toast.errors.emailRequired"),
+                pattern: {
+                  value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+                  message: t("toast.errors.emailNotValid"),
+                },
+              })}
               placeholder={t("form.email-placeholder")}
             ></Input>
+            {errors.email && (
+              <p className="text-sm text-red-600">{errors.email.message}</p>
+            )}
           </div>
           <div className="flex flex-col gap-y-2.5 w-full lg:w-[47%]">
             <Label>{t("form.phoneNumber-label")}</Label>
             <Input
-              {...register("phoneNumber")}
+              {...register("phoneNumber", {
+                required: t("toast.errors.phoneNumberRequired"),
+              })}
               placeholder={t("form.phoneNumber-placeholder")}
             ></Input>
+            {errors.phoneNumber && (
+              <p className="text-sm text-red-600">{errors.phoneNumber.message}</p>
+            )}
           </div>
         </div>
         {/* Langue préférée & Type d soins Selectors  */}
@@ -181,9 +203,14 @@ export default function DemandeDevis() {
         <div className="flex flex-col gap-y-2.5 w-full h-40.75 mb-2.5">
           <Label>{t("form.message-label")}</Label>
           <Textarea
-            {...register("message")}
+            {...register("message", {
+              required: t("toast.errors.messageRequired"),
+            })}
             placeholder={t("form.message-placeholder")}
           />
+          {errors.message && (
+            <p className="text-sm text-red-600">{errors.message.message}</p>
+          )}
         </div>
         {/* updload file */}
         {/* <label className="flex cursor-pointer flex-col items-center justify-center rounded-[9.86px] border-2 border-dashed border-border bg-white pt-7.75 pb-5 text-center mb-2.5">

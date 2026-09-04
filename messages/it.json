@@ -80,7 +80,8 @@
         "implants": {
           "label": "Impianti inseriti"
         }
-      }
+      },
+      "address": "Av. 14 Janvier, Centro Medico El Kantaoui, Ed. B43 4° piano, Hammam Sousse"
     },
     "autorise": {
       "badge": "AUTORITÀ & COMPETENZA",
@@ -335,12 +336,7 @@
           "subtitle": "Lingue disponibili per la consultazione.",
           "heading": "Un accompagnamento senza frontiere.",
           "text": "Il Dr. Yassine KALLALI riceve e comunica con i suoi pazienti in francese, inglese, arabo e italiano. I preventivi, i resoconti post-operatori e i follow-up a distanza sono redatti nella lingua del paziente.",
-          "list": [
-            "Francese",
-            "Inglese",
-            "Arabo",
-            "Italiano"
-          ]
+          "list": ["Francese", "Inglese", "Arabo", "Italiano"]
         }
       }
     },
@@ -669,15 +665,6 @@
       "email-title": "EMAIL",
       "email-value": "contact@cliniquedentairesousse.tn"
     },
-    "success": {
-      "success": "Il tuo messaggio è stato inviato con successo!"
-    },
-    "errors": {
-      "allFieldsRequired": "Compila tutti i campi obbligatori.",
-      "invalidEmail": "Inserisci un indirizzo email valido.",
-      "internalServerError": "Si è verificato un errore. Riprova.",
-      "consentRequired": "Devi accettare l'informativa sulla privacy per continuare."
-    },
     "schedules": {
       "title": "Orari",
       "list": [
@@ -708,16 +695,9 @@
       "phoneNumber-label": "Numero di telefono",
       "phoneNumber-placeholder": "+39 312 345 6789",
       "lang-label": "Lingua preferita",
-      "languages": [
-        "Francese",
-        "Inglese",
-        "Italiano",
-        "Arabo"
-      ],
+      "languages": ["Francese", "Inglese", "Italiano", "Arabo"],
       "typeCare-label": "Tipo di cura",
-      "types": [
-        "Impianto immediato"
-      ],
+      "types": ["Impianto immediato"],
       "message-label": "Il vostro Messaggio",
       "message-placeholder": "Descrivete le vostre esigenze o fate le vostre domande...",
       "uploadTitle": "Allega una radiografia dentale",
@@ -725,6 +705,31 @@
       "consentText": "Accetto che le mie informazioni vengano utilizzate per elaborare la mia richiesta e ricontattarmi. I vostri dati sono protetti e confidenziali.",
       "ctaSubmit": "Invia la mia richiesta",
       "ctaSubmitting": "Invio in corso..."
+    },
+    "toast": {
+      "success": {
+        "success": "Il tuo messaggio è stato inviato con successo!"
+      },
+      "errors": {
+        "fullNameRequired": "Il nome completo è obbligatorio",
+        "fullNameNotValid": "Il nome completo deve essere una stringa di caratteri",
+        "countryRequired": "Il paese di residenza è obbligatorio",
+        "countryNotValid": "Il paese di residenza deve essere una stringa di caratteri",
+        "emailRequired": "L'indirizzo e-mail è obbligatorio",
+        "emailNotValid": "L'indirizzo e-mail non è valido",
+        "phoneNumberRequired": "Il numero di telefono è obbligatorio",
+        "phoneNumberNotValid": "Il numero di telefono non è valido",
+        "languageRequired": "La lingua preferita è obbligatoria",
+        "languageNotValid": "La lingua preferita non è valida",
+        "typeOfCareRequired": "Il tipo di cura è obbligatorio",
+        "typeOfCareNotValid": "Il tipo di cura non è valido",
+        "messageRequired": "Il tuo messaggio è obbligatorio",
+        "messageNotValid": "Il tuo messaggio non è valido",
+        "allFieldsRequired": "Compila tutti i campi obbligatori.",
+        "invalidEmail": "Inserisci un indirizzo e-mail valido.",
+        "internalServerError": "Si è verificato un errore. Riprova.",
+        "consentRequired": "Devi accettare la privacy policy per continuare."
+      }
     }
   },
   "footer": {
@@ -739,22 +744,15 @@
       },
       {
         "title": "Contatto",
-        "list": [
-          "+216 21 802 858",
-          "+216 70 633 966"
-        ]
+        "list": ["+216 21 802 858", "+216 70 633 966"]
       },
       {
         "title": "Email",
-        "list": [
-          "yassinekalleli@gmail.com"
-        ]
+        "list": ["yassinekalleli@gmail.com"]
       },
       {
         "title": "Orari",
-        "list": [
-          "Lunedì - Sabato: 08:00 – 18:00"
-        ]
+        "list": ["Lunedì - Sabato: 08:00 – 18:00"]
       }
     ],
     "navigation": "Navigazione",

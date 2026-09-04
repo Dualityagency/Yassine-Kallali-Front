@@ -80,7 +80,8 @@
         "implants": {
           "label": "Implants posés"
         }
-      }
+      },
+      "address": "Av. 14 Janvier, Centre Médical El Kantaoui, Imm. B43 4ème étage, Hammam Sousse"
     },
     "autorise": {
       "badge": "AUTORITÉ & EXPERTISE",
@@ -335,12 +336,7 @@
           "subtitle": "Langues disponibles en consultation.",
           "heading": "Un accompagnement sans frontières.",
           "text": "Le Dr. Yassine KALLALI reçoit et communique avec ses patients en français, anglais, arabe et italien. Les devis, comptes-rendus post-opératoires et suivis à distance sont rédigés dans la langue du patient.",
-          "list": [
-            "Français",
-            "Anglais",
-            "Arabe",
-            "Italien"
-          ]
+          "list": ["Français", "Anglais", "Arabe", "Italien"]
         }
       }
     },
@@ -699,16 +695,9 @@
       "phoneNumber-label": "Numéro de téléphone",
       "phoneNumber-placeholder": "+33 6 12 34 56 78",
       "lang-label": "Langue préférée",
-      "languages": [
-        "Français",
-        "Anglais",
-        "Italien",
-        "Arabe"
-      ],
+      "languages": ["Français", "Anglais", "Italien", "Arabe"],
       "typeCare-label": "Type de soin",
-      "types": [
-        "Implant immédiat"
-      ],
+      "types": ["Implant immédiat"],
       "message-label": "Votre message",
       "message-placeholder": "Décrivez vos besoins ou posez vos questions...",
       "uploadTitle": "Joindre une radiographie dentaire",
@@ -755,22 +744,15 @@
       },
       {
         "title": "Contact",
-        "list": [
-          "+216 21 802 858",
-          "+216 70 633 966"
-        ]
+        "list": ["+216 21 802 858", "+216 70 633 966"]
       },
       {
         "title": "Email",
-        "list": [
-          "yassinekalleli@gmail.com"
-        ]
+        "list": ["yassinekalleli@gmail.com"]
       },
       {
         "title": "Horaire",
-        "list": [
-          "Lundi - Samedi : 08:00 – 18:00"
-        ]
+        "list": ["Lundi - Samedi : 08:00 – 18:00"]
       }
     ],
     "navigation": "Navigation",

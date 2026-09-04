@@ -11,12 +11,8 @@ export const useDevis = () => {
 
   const devis = useMutation({
     mutationFn: async (payload: devisPayload) => postDevisDemande(payload),
-    onSuccess: (data) => {
-      const message = Array.isArray(data?.message)
-        ? data.message.join(" ")
-        : data?.message;
-
-      toast.success(message ?? t("success.success"));
+    onSuccess: () => {
+      toast.success(t("success.success"));
     },
     onError: (error: unknown) => {
       const backendMessage = (
@@ -25,11 +21,15 @@ export const useDevis = () => {
         }
       )?.response?.data?.message;
 
-      const message = Array.isArray(backendMessage)
-        ? (backendMessage.find(Boolean) ?? t("errors.internalServerError"))
-        : (backendMessage ?? t("errors.internalServerError"));
+      const messages = Array.isArray(backendMessage)
+        ? backendMessage.filter(Boolean)
+        : backendMessage
+          ? [backendMessage]
+          : [];
 
-      toast.error(t(`errors.${message}`));
+      const translatedMessages = messages.map((message) => t(`errors.${message}`));
+
+      toast.error(translatedMessages.join(" ") || t("errors.internalServerError"));
     },
   });
 

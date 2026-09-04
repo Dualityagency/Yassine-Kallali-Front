@@ -89,25 +89,25 @@ const Navbar = () => {
         className="fixed top-0 inset-x-0 z-50 w-full lg:px-0 lg:py-0 transition-all duration-300 xl:px-20 xl:py-4"
       >
         <div
-          className={`flex items-center justify-between bg-primary px-4 py-3 transition-all duration-300 xl:rounded-[16px] xl:px-9 xl:py-4 ${
+          className={`flex items-center justify-between bg-primary px-4 py-4 transition-all duration-300 xl:rounded-[16px] xl:px-9 xl:py-4 ${
             isScrolled ? "xl:rounded-[20px] xl:bg-primary" : "xl:bg-transparent"
           }`}
         >
           {/* Desktop logo */}
           <Image
-            src={isLight ? "/logo.png" : "/logo_black.png"}
+            src="/logo.svg"
             alt="Logo"
-            width={134}
+            width={180}
             height={92}
-            className="hidden xl:block object-contain"
+            className={`hidden xl:block object-contain w-[180px] h-full ${isLight ? "brightness-0 invert" : "brightness-0"}`}
           />
           {/* Mobile logo */}
           <Image
-            src="/logo.png"
+            src="/logo.svg"
             alt="Logo"
-            width={84}
+            width={100}
             height={58}
-            className="block xl:hidden object-contain"
+            className="block xl:hidden object-contain brightness-0 invert"
           />
 
           {/* Desktop Nav */}
@@ -189,7 +189,13 @@ const Navbar = () => {
           <div className="fixed inset-0 z-[100] flex flex-col overflow-y-auto bg-primary xl:hidden">
             {/* Top bar */}
             <div className="flex items-center justify-between bg-primary px-4 py-4">
-              <Image src="/logo.png" alt="Logo" width={84} height={58} className="object-contain" />
+              <Image
+                src="/logo.svg"
+                alt="Logo"
+                width={100}
+                height={58}
+                className="object-contain brightness-0 invert"
+              />
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="flex items-center justify-center rounded-[8px] p-2 text-white"

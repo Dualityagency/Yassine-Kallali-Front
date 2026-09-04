@@ -80,7 +80,8 @@
         "implants": {
           "label": "Implants placed"
         }
-      }
+      },
+      "address": "Av. 14 Janvier, El Kantaoui Medical Center, Bldg B43 4th floor, Hammam Sousse"
     },
     "autorise": {
       "badge": "AUTHORITY & EXPERTISE",
@@ -335,12 +336,7 @@
           "subtitle": "Languages available for consultation.",
           "heading": "Support without borders.",
           "text": "Dr. Yassine KALLALI welcomes and communicates with his patients in French, English, Arabic and Italian. Quotes, post-operative reports and remote follow-ups are written in the patient's language.",
-          "list": [
-            "French",
-            "English",
-            "Arabic",
-            "Italian"
-          ]
+          "list": ["French", "English", "Arabic", "Italian"]
         }
       }
     },
@@ -669,15 +665,6 @@
       "email-title": "EMAIL",
       "email-value": "contact@cliniquedentairesousse.tn"
     },
-    "success": {
-      "success": "Your message has been sent successfully!"
-    },
-    "errors": {
-      "allFieldsRequired": "Please fill in all required fields.",
-      "invalidEmail": "Please enter a valid email address.",
-      "internalServerError": "An error occurred. Please try again.",
-      "consentRequired": "You must accept the privacy policy to continue."
-    },
     "schedules": {
       "title": "Hours",
       "list": [
@@ -708,16 +695,9 @@
       "phoneNumber-label": "Phone Number",
       "phoneNumber-placeholder": "+1 (555) 123-4567",
       "lang-label": "Preferred language",
-      "languages": [
-        "French",
-        "English",
-        "Italian",
-        "Arabic"
-      ],
+      "languages": ["French", "English", "Italian", "Arabic"],
       "typeCare-label": "Type of care",
-      "types": [
-        "Immediate implant"
-      ],
+      "types": ["Immediate implant"],
       "message-label": "Your Message",
       "message-placeholder": "Describe your needs or ask your questions...",
       "uploadTitle": "Attach dental X-ray",
@@ -725,6 +705,31 @@
       "consentText": "I agree that my information may be used to process my request and contact me. Your data is secure and confidential.",
       "ctaSubmit": "Send my request",
       "ctaSubmitting": "Sending..."
+    },
+    "toast": {
+      "success": {
+        "success": "Your message has been sent successfully!"
+      },
+      "errors": {
+        "fullNameRequired": "Full name is required",
+        "fullNameNotValid": "Full name must be a string",
+        "countryRequired": "Country of residence is required",
+        "countryNotValid": "Country of residence must be a string",
+        "emailRequired": "Email address is required",
+        "emailNotValid": "Email address is not valid",
+        "phoneNumberRequired": "Phone number is required",
+        "phoneNumberNotValid": "Phone number is not valid",
+        "languageRequired": "Preferred language is required",
+        "languageNotValid": "Preferred language is not valid",
+        "typeOfCareRequired": "Type of care is required",
+        "typeOfCareNotValid": "Type of care is not valid",
+        "messageRequired": "Your message is required",
+        "messageNotValid": "Your message is not valid",
+        "allFieldsRequired": "Please fill in all required fields.",
+        "invalidEmail": "Please enter a valid email address.",
+        "internalServerError": "An error occurred. Please try again.",
+        "consentRequired": "You must accept the privacy policy to continue."
+      }
     }
   },
   "footer": {
@@ -739,22 +744,15 @@
       },
       {
         "title": "Contact",
-        "list": [
-          "+216 21 802 858",
-          "+216 70 633 966"
-        ]
+        "list": ["+216 21 802 858", "+216 70 633 966"]
       },
       {
         "title": "Email",
-        "list": [
-          "yassinekalleli@gmail.com"
-        ]
+        "list": ["yassinekalleli@gmail.com"]
       },
       {
         "title": "Hours",
-        "list": [
-          "Monday - Saturday: 08:00 – 18:00"
-        ]
+        "list": ["Monday - Saturday: 08:00 – 18:00"]
       }
     ],
     "navigation": "Navigation",

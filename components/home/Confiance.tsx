@@ -110,13 +110,30 @@ const Confiance = () => {
           </div>
 
           <div className="flex flex-1 items-center justify-center">
-            <Image
+            {/* <Image
               src="/home/map.png"
               alt="Carte patients internationaux"
               width={712}
               height={407}
               className="w-full h-auto max-w-[712px] object-contain"
-            />
+            /> */}
+                  {/* Map */}
+                  <div className="w-full h-full  bg-background rounded-[17px] ">
+                    <div className="relative flex justify-center w-full h-full  bg-[url(/contact/map.png)] bg-contain lg:bg-cover bg-no-repeat">
+                      <div className="absolute top-[40%] w-[70%] flex flex-col gap-y-2.25 lg:gap-y-3.5 items-center">
+                        <Image
+                          src={"/icons/locationBlue.png"}
+                          width={23}
+                          height={23}
+                          className="w-[14.78px] h-[14.78px] lg:w-[23px] lg:h-[23px]"
+                          alt="icon location"
+                        />
+                        <h1 className="font-semibold text-gray text-[12px] leading-[100%] text-center">
+                          {t("address")}
+                        </h1>
+                      </div>
+                    </div>
+                  </div>
           </div>
         </div>
 

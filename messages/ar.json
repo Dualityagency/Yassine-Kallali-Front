@@ -80,7 +80,8 @@
         "implants": {
           "label": "غرسات مزروعة"
         }
-      }
+      },
+      "address": "شارع 14 جانفي، المركز الطبي القنطاوي، عمارة ب43 الطابق الرابع، حمام سوسة"
     },
     "autorise": {
       "badge": "الخبرة والريادة",
@@ -664,15 +665,6 @@
       "email-title": "البريد الإلكتروني",
       "email-value": "contact@cliniquedentairesousse.tn"
     },
-    "success": {
-      "success": "تم إرسال رسالتك بنجاح!"
-    },
-    "errors": {
-      "allFieldsRequired": "يرجى ملء جميع الحقول المطلوبة.",
-      "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح.",
-      "internalServerError": "حدث خطأ. يرجى المحاولة مرة أخرى.",
-      "consentRequired": "يجب عليك الموافقة على سياسة الخصوصية للمتابعة."
-    },
     "schedules": {
       "title": "ساعات العمل",
       "list": [
@@ -713,6 +705,31 @@
       "consentText": "أوافق على استخدام معلوماتي لمعالجة طلبي وإعادة الاتصال بي. بياناتكم آمنة وسرية.",
       "ctaSubmit": "إرسال طلبي",
       "ctaSubmitting": "جارٍ الإرسال..."
+    },
+    "toast": {
+      "success": {
+        "success": "تم إرسال رسالتك بنجاح!"
+      },
+      "errors": {
+        "fullNameRequired": "الاسم الكامل مطلوب",
+        "fullNameNotValid": "يجب أن يكون الاسم الكامل نصًا",
+        "countryRequired": "بلد الإقامة مطلوب",
+        "countryNotValid": "يجب أن يكون بلد الإقامة نصًا",
+        "emailRequired": "عنوان البريد الإلكتروني مطلوب",
+        "emailNotValid": "عنوان البريد الإلكتروني غير صالح",
+        "phoneNumberRequired": "رقم الهاتف مطلوب",
+        "phoneNumberNotValid": "رقم الهاتف غير صالح",
+        "languageRequired": "اللغة المفضلة مطلوبة",
+        "languageNotValid": "اللغة المفضلة غير صالحة",
+        "typeOfCareRequired": "نوع الرعاية مطلوب",
+        "typeOfCareNotValid": "نوع الرعاية غير صالح",
+        "messageRequired": "رسالتك مطلوبة",
+        "messageNotValid": "رسالتك غير صالحة",
+        "allFieldsRequired": "يرجى ملء جميع الحقول المطلوبة.",
+        "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح.",
+        "internalServerError": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+        "consentRequired": "يجب عليك الموافقة على سياسة الخصوصية للمتابعة."
+      }
     }
   },
   "footer": {

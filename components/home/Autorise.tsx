@@ -22,11 +22,12 @@ const Autorise = () => {
         {/* Image */}
         <div className="flex justify-center lg:justify-start flex-shrink-0 lg:w-[45%] xl:w-[55%]">
           <Image
-            src="/home/autorise.png"
+            // src="/home/autorise.png"
+            src="/doctor/doctor.jpeg"
             alt={t("doctor.name")}
             width={793}
             height={525}
-            className="w-full max-w-[339px] lg:max-w-none h-auto rounded-[15px] object-cover"
+            className="min-w-full max-w-[339px]  lg:max-w-none h-[224px] lg:h-[525px] rounded-[15px] object-cover object-center"
           />
         </div>
 

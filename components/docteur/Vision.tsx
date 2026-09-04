@@ -67,7 +67,7 @@ const Vision = () => {
           {/* RIGHT COL */}
           <div className="flex items-end">
             <Image
-              src="/doctor/vision2.png"
+              src="/doctor/vision2.jpeg"
               alt={t("img2Alt")}
               width={371}
               height={307}
@@ -115,7 +115,7 @@ const Vision = () => {
             className="w-[143px] h-[155px] object-cover rounded-[15px]"
           />
           <Image
-            src="/doctor/vision2.png"
+            src="/doctor/vision2.jpeg"
             alt={t("img2Alt")}
             width={187}
             height={155}

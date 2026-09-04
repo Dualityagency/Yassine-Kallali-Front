@@ -18,7 +18,7 @@ const Expertise = () => {
         <div className="lg:flex-1 order-1 lg:order-2 rounded-[15px] overflow-hidden h-[400px] sm:h-[520px] lg:h-[640px] w-[280px] sm:w-[360px] lg:w-auto mx-auto lg:mx-0">
           <div className="relative w-full h-full">
             <Image
-              src="/doctor/doctor.png"
+              src="/doctor/doctor.jpeg"
               alt={t("name")}
               fill
               className="object-cover object-top"

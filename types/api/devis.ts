@@ -4,7 +4,7 @@ export interface devisPayload {
     fullName: string;
     country: string;
     email: string;
-    phoneNumber: number;
+    phoneNumber: string;
     language: string;
     typeOfCare: string;
     message: string;
