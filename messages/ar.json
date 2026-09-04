@@ -568,20 +568,39 @@
       "h4": "اكتشف ما إذا كنت مؤهلاً للحصول على زراعة فورية خلال أقل من 48 ساعة.",
       "ctaButton": "اطلب تقييماً مجانياً"
     },
-    "success": {
-      "success": "تم إرسال رسالتك بنجاح!"
-    },
-    "errors": {
-      "allFieldsRequired": "يرجى ملء جميع الحقول المطلوبة.",
-      "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح.",
-      "internalServerError": "حدث خطأ. يرجى المحاولة مرة أخرى.",
-      "consentRequired": "يجب الموافقة على سياسة الخصوصية للمتابعة."
+    "toast": {
+      "success": {
+        "success": "تم إرسال رسالتك بنجاح!"
+      },
+      "errors": {
+        "nameRequired": "الاسم الكامل مطلوب",
+        "nameNotValid": "يجب أن يكون الاسم الكامل نصًا",
+        "emailRequired": "البريد الإلكتروني مطلوب",
+        "emailNotValid": "عنوان البريد الإلكتروني غير صالح",
+        "answerOneRequired": "الإجابة 1 مطلوبة",
+        "answerOneNotValid": "يجب أن تكون الإجابة 1 نصًا",
+        "answerTwoRequired": "الإجابة 2 مطلوبة",
+        "answerTwoNotValid": "يجب أن تكون الإجابة 2 نصًا",
+        "answerThreeRequired": "الإجابة 3 مطلوبة",
+        "answerThreeNotValid": "يجب أن تكون الإجابة 3 نصًا",
+        "answerFourRequired": "الإجابة 4 مطلوبة",
+        "answerFourNotValid": "يجب أن تكون الإجابة 4 نصًا",
+        "answerFiveRequired": "الإجابة 5 مطلوبة",
+        "answerFiveNotValid": "يجب أن تكون الإجابة 5 نصًا",
+        "allFieldsRequired": "يرجى ملء جميع الحقول المطلوبة.",
+        "invalidEmail": "يرجى إدخال عنوان بريد إلكتروني صالح.",
+        "internalServerError": "حدث خطأ. يرجى المحاولة مرة أخرى."
+      }
     }
   },
   "blog": {
     "header-badge": "نصائح وخبرة في طب الأسنان",
     "cta-read": "قراءة المقال",
     "filter": "تصفية حسب الفئة:",
+    "filter-all": "الكل",
+    "empty": "لم يتم العثور على مقالات لهذه الفئة.",
+    "loading": "جاري تحميل المقالات...",
+    "error": "تعذر تحميل المقالات.",
     "contact": {
       "badge": "اتصل بنا",
       "title": "مستعد لتحويل ابتسامتك؟",

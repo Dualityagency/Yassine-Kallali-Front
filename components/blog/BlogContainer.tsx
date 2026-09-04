@@ -1,40 +1,45 @@
 "use client";
-import { useLocale, useTranslations } from "next-intl";
+
+import { useTranslations } from "next-intl";
 import { Badge } from "../ui/badge";
-import { useEffect, useMemo, useState } from "react";
 import BlogCard from "./BlogCard";
-import { ChevronRight } from "lucide-react";
-import { blogs, categoryList } from "@/data/blogs";
+import BlogPagination from "./BlogPagination";
+import { useBlogs } from "@/hooks/useBlogs";
+import {
+  ALL_CATEGORIES,
+  useBlogFilterPagination,
+} from "@/hooks/useBlogFilterPagination";
 
 export default function BlogContainer() {
   const t = useTranslations("blog");
-  const locale = useLocale() as "en" | "ar" | "fr" | "it";
+  const { blogs } = useBlogs();
 
-  const [selectedCategory, setSelectedCategory] = useState("Tous");
+  const {
+    categoryList,
+    selectedCategory,
+    selectCategory,
+    paginatedBlogs,
+    filteredCount,
+    currentPage,
+    totalPages,
+    goToPage,
+  } = useBlogFilterPagination(blogs.data);
 
-  const ITEMS_PER_PAGE = 6;
-  const [currentPage, setCurrentPage] = useState(1);
+  if (blogs.isLoading) {
+    return (
+      <div className="container-x py-12 text-center text-[#959595]">
+        {t("loading")}
+      </div>
+    );
+  }
 
-  const goTo = (page: number) => {
-    if (page < 1 || page > totalPages) return;
-    setCurrentPage(page);
-  };
-
-  const filteredBlogs = useMemo(() => {
-    if (selectedCategory === "Tous") return blogs;
-    return blogs.filter((blog) => blog[locale].badge === selectedCategory);
-  }, [selectedCategory, locale]);
-
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [selectedCategory]);
-
-  const totalPages = Math.ceil(filteredBlogs.length / ITEMS_PER_PAGE);
-
-  const paginatedBlogs = filteredBlogs.slice(
-    (currentPage - 1) * ITEMS_PER_PAGE,
-    currentPage * ITEMS_PER_PAGE,
-  );
+  if (blogs.isError) {
+    return (
+      <div className="container-x py-12 text-center text-[#959595]">
+        {t("error")}
+      </div>
+    );
+  }
 
   return (
     <div className="container-x">
@@ -44,63 +49,51 @@ export default function BlogContainer() {
         </h4>
 
         <div className="flex flex-wrap gap-x-[11.52px] lg:gap-x-4.25 gap-y-3">
-          {["Tous", ...categoryList[locale]].map((category) => (
+          <Badge
+            variant={selectedCategory === ALL_CATEGORIES ? "default" : "secondary"}
+            className="cursor-pointer"
+            onClick={() => selectCategory(ALL_CATEGORIES)}
+          >
+            {t("filter-all")}
+          </Badge>
+
+          {categoryList.map(({ id, name }) => (
             <Badge
-              key={category}
-              variant={selectedCategory === category ? "default" : "secondary"}
+              key={id}
+              variant={selectedCategory === id ? "default" : "secondary"}
               className="cursor-pointer"
-              onClick={() => setSelectedCategory(category)}
+              onClick={() => selectCategory(id)}
             >
-              {category}
+              {name}
             </Badge>
           ))}
         </div>
       </div>
 
-      <div className="flex flex-wrap lg:gap-x-10.75 gap-y-6.25 lg:gap-y-12.25 mb-12 lg:mb-17">
-        {paginatedBlogs.map((blog) => {
-          const content = blog[locale];
-          return (
-            <BlogCard
-              key={blog.slug}
-              slug={blog.slug}
-              img={blog.img}
-              badge={content.badge}
-              title={content.title}
-              date={blog.date[locale]}
-              readTime={blog.readTime[locale]}
-            />
-          );
-        })}
-      </div>
-
-      {totalPages > 1 && (
-        <div className="flex justify-center gap-x-[9.39px] lg:gap-x-3">
-          <div
-            className="group w-8.75 lg:w-11.25 h-[32.8px] lg:h-10.5 flex justify-center items-center bg-white border-[0.78px] lg:border-[1.45px] border-primary rounded-[3.91px] lg:rounded-[5px] hover:bg-primary cursor-pointer"
-            onClick={() => goTo(currentPage - 1)}
-          >
-            <ChevronRight className="w-[16px] group-hover:text-white rotate-180" />
+      {filteredCount === 0 ? (
+        <div className="py-12 text-center text-[#959595]">{t("empty")}</div>
+      ) : (
+        <>
+          <div className="flex flex-wrap lg:gap-x-10.75 gap-y-6.25 lg:gap-y-12.25 mb-12 lg:mb-17">
+            {paginatedBlogs.map((item) => (
+              <BlogCard
+                key={item.slug}
+                slug={item.slug}
+                img={item.image ?? "/blog/header.webp"}
+                badge={item.category?.name ?? ""}
+                title={item.title}
+                date={item.date ?? ""}
+                readTime={item.lire ?? ""}
+              />
+            ))}
           </div>
-          {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-            <div
-              className={`group hover:text-white hover:bg-primary w-8.75 lg:w-11.25 h-[32.8px] lg:h-10.5 flex justify-center items-center bg-white border-[0.78px] lg:border-[1.45px] border-primary rounded-[3.91px] lg:rounded-[5px]  cursor-pointer  ${
-                currentPage === page ? "bg-primary! text-white " : ""
-              }`}
-              key={page}
-              onClick={() => goTo(page)}
-            >
-              {page}
-            </div>
-          ))}
 
-          <div
-            className="group w-8.75 lg:w-11.25 h-[32.8px] lg:h-10.5 flex justify-center items-center bg-white border-[0.78px] lg:border-[1.45px] border-primary rounded-[3.91px] lg:rounded-[5px] hover:bg-primary cursor-pointer"
-            onClick={() => goTo(currentPage + 1)}
-          >
-            <ChevronRight className="w-[16px] group-hover:text-white" />
-          </div>
-        </div>
+          <BlogPagination
+            currentPage={currentPage}
+            totalPages={totalPages}
+            onPageChange={goToPage}
+          />
+        </>
       )}
     </div>
   );

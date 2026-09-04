@@ -16,18 +16,20 @@ import { Textarea } from "../ui/textarea";
 import { Checkbox } from "../ui/checkbox";
 import CtaButton from "../ui/CtaButton";
 import { toast } from "react-toastify";
+import { useDevis } from "@/hooks/useDevis";
 
 export default function DemandeDevis() {
   const t = useTranslations("contact");
   const languages = t.raw("form.languages") as string[];
   const types = t.raw("form.types") as string[];
+  const { devis } = useDevis();
 
   type Inputs = {
     fullName: string;
     country: string;
     email: string;
     phoneNumber: number;
-    languge: string;
+    language: string;
     typeOfCare: string;
     message: string;
   };
@@ -39,41 +41,43 @@ export default function DemandeDevis() {
     formState: { isSubmitting, errors },
   } = useForm<Inputs>({
     defaultValues: {
-      languge: languages[0],
+      language: languages[0],
       typeOfCare: types[0],
     },
   });
 
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
-    try {
-      const res = await fetch("/api/devis", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          fullName: data.fullName,
-          country: data.country,
-          email: data.email,
-          phoneNumber: data.phoneNumber,
-          languge: data.languge,
-          typeOfCare: data.typeOfCare,
-          message: data.message,
-        }),
-      });
+    devis.mutate(data);
 
-      const response = await res.json();
+    // try {
+    //   const res = await fetch("/api/devis", {
+    //     method: "POST",
+    //     headers: { "Content-Type": "application/json" },
+    //     body: JSON.stringify({
+    //       fullName: data.fullName,
+    //       country: data.country,
+    //       email: data.email,
+    //       phoneNumber: data.phoneNumber,
+    //       languge: data.languge,
+    //       typeOfCare: data.typeOfCare,
+    //       message: data.message,
+    //     }),
+    //   });
 
-      if (!res.ok) {
-        toast.error(t(response.error ?? "errors.internalServerError"));
-      } else {
-        toast.success(t("success.success"));
-        reset();
-      }
-    } catch (err) {
-      toast.error(t("errors.internalServerError"));
-      console.log(err);
-    } finally {
-      // setIsSubmitting(false);
-    }
+    //   const response = await res.json();
+
+    //   if (!res.ok) {
+    //     toast.error(t(response.error ?? "errors.internalServerError"));
+    //   } else {
+    //     toast.success(t("success.success"));
+    //     reset();
+    //   }
+    // } catch (err) {
+    //   toast.error(t("errors.internalServerError"));
+    //   console.log(err);
+    // } finally {
+    //   // setIsSubmitting(false);
+    // }
   };
   return (
     <div className="w-full lg:w-[57%] px-5 lg:px-12.75 py-10.75 bg-background rounded-[24.81px]">
@@ -119,7 +123,7 @@ export default function DemandeDevis() {
           <div className="flex flex-col gap-y-2.5 w-full lg:w-[47%]">
             <Label>{t("form.lang-label")}</Label>
             <Controller
-              name="languge"
+              name="language"
               control={control}
               render={({ field }) => (
                 <Select

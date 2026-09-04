@@ -335,7 +335,12 @@
           "subtitle": "Languages available for consultation.",
           "heading": "Support without borders.",
           "text": "Dr. Yassine KALLALI welcomes and communicates with his patients in French, English, Arabic and Italian. Quotes, post-operative reports and remote follow-ups are written in the patient's language.",
-          "list": ["French", "English", "Arabic", "Italian"]
+          "list": [
+            "French",
+            "English",
+            "Arabic",
+            "Italian"
+          ]
         }
       }
     },
@@ -568,20 +573,39 @@
       "h4": "Find out if you are eligible for an immediate implant in less than 48 hours.",
       "ctaButton": "Request a Free Evaluation"
     },
-    "success": {
-      "success": "Your message has been sent successfully!"
-    },
-    "errors": {
-      "allFieldsRequired": "Please fill in all required fields.",
-      "invalidEmail": "Please enter a valid email address.",
-      "internalServerError": "An error occurred. Please try again.",
-      "consentRequired": "You must accept the privacy policy to continue."
+    "toast": {
+      "success": {
+        "success": "Your message has been sent successfully!"
+      },
+      "errors": {
+        "nameRequired": "Full name is required",
+        "nameNotValid": "Full name must be a string",
+        "emailRequired": "Email is required",
+        "emailNotValid": "Email address is not valid",
+        "answerOneRequired": "Answer 1 is required",
+        "answerOneNotValid": "Answer 1 must be a string",
+        "answerTwoRequired": "Answer 2 is required",
+        "answerTwoNotValid": "Answer 2 must be a string",
+        "answerThreeRequired": "Answer 3 is required",
+        "answerThreeNotValid": "Answer 3 must be a string",
+        "answerFourRequired": "Answer 4 is required",
+        "answerFourNotValid": "Answer 4 must be a string",
+        "answerFiveRequired": "Answer 5 is required",
+        "answerFiveNotValid": "Answer 5 must be a string",
+        "allFieldsRequired": "Please fill in all required fields.",
+        "invalidEmail": "Please enter a valid email address.",
+        "internalServerError": "An error occurred. Please try again."
+      }
     }
   },
   "blog": {
     "header-badge": "Dental Tips & Expertise",
     "cta-read": "Read the article",
     "filter": "Filter by category:",
+    "filter-all": "All",
+    "empty": "No articles found for this category.",
+    "loading": "Loading articles...",
+    "error": "Unable to load articles.",
     "contact": {
       "badge": "Get in touch",
       "title": "Ready to transform your smile?",
@@ -684,9 +708,16 @@
       "phoneNumber-label": "Phone Number",
       "phoneNumber-placeholder": "+1 (555) 123-4567",
       "lang-label": "Preferred language",
-      "languages": ["French", "English", "Italian", "Arabic"],
+      "languages": [
+        "French",
+        "English",
+        "Italian",
+        "Arabic"
+      ],
       "typeCare-label": "Type of care",
-      "types": ["Immediate implant"],
+      "types": [
+        "Immediate implant"
+      ],
       "message-label": "Your Message",
       "message-placeholder": "Describe your needs or ask your questions...",
       "uploadTitle": "Attach dental X-ray",
@@ -708,15 +739,22 @@
       },
       {
         "title": "Contact",
-        "list": ["+216 21 802 858", "+216 70 633 966"]
+        "list": [
+          "+216 21 802 858",
+          "+216 70 633 966"
+        ]
       },
       {
         "title": "Email",
-        "list": ["yassinekalleli@gmail.com"]
+        "list": [
+          "yassinekalleli@gmail.com"
+        ]
       },
       {
         "title": "Hours",
-        "list": ["Monday - Saturday: 08:00 – 18:00"]
+        "list": [
+          "Monday - Saturday: 08:00 – 18:00"
+        ]
       }
     ],
     "navigation": "Navigation",
@@ -822,7 +860,11 @@
       },
       "s5": {
         "title": "Sub-processors & Cookies",
-        "headers": { "partner": "Partner", "role": "Role", "policy": "Policy" },
+        "headers": {
+          "partner": "Partner",
+          "role": "Role",
+          "policy": "Policy"
+        },
         "rows": {
           "hebergeur": {
             "name": "Cloud Host",

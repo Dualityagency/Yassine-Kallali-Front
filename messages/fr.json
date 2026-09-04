@@ -335,7 +335,12 @@
           "subtitle": "Langues disponibles en consultation.",
           "heading": "Un accompagnement sans frontières.",
           "text": "Le Dr. Yassine KALLALI reçoit et communique avec ses patients en français, anglais, arabe et italien. Les devis, comptes-rendus post-opératoires et suivis à distance sont rédigés dans la langue du patient.",
-          "list": ["Français", "Anglais", "Arabe", "Italien"]
+          "list": [
+            "Français",
+            "Anglais",
+            "Arabe",
+            "Italien"
+          ]
         }
       }
     },
@@ -568,20 +573,39 @@
       "h4": "Découvrez si vous êtes éligible à un implant immédiat en moins de 48h.",
       "ctaButton": "Demander une évaluation gratuite"
     },
-    "success": {
-      "success": "Votre message a été envoyé avec succès !"
-    },
-    "errors": {
-      "allFieldsRequired": "Veuillez remplir tous les champs obligatoires.",
-      "invalidEmail": "Veuillez entrer une adresse email valide.",
-      "internalServerError": "Une erreur s'est produite. Veuillez réessayer.",
-      "consentRequired": "Vous devez accepter la politique de confidentialité pour continuer."
+    "toast": {
+      "success": {
+        "success": "Votre message a été envoyé avec succès !"
+      },
+      "errors": {
+        "nameRequired": "Le nom complet est requis",
+        "nameNotValid": "Le nom complet doit être une chaîne de caractères",
+        "emailRequired": "L'email est requis",
+        "emailNotValid": "L'adresse e-mail n'est pas valide",
+        "answerOneRequired": "La réponse 1 est requise",
+        "answerOneNotValid": "La réponse 1 doit être une chaîne",
+        "answerTwoRequired": "La réponse 2 est requise",
+        "answerTwoNotValid": "La réponse 2 doit être une chaîne de caractères",
+        "answerThreeRequired": "La réponse 3 est requise",
+        "answerThreeNotValid": "La réponse 3 doit être une chaîne de caractères",
+        "answerFourRequired": "La réponse 4 est requise",
+        "answerFourNotValid": "La réponse 4 doit être une chaîne de caractères",
+        "answerFiveRequired": "La réponse 5 est requise",
+        "answerFiveNotValid": "La réponse 5 doit être une chaîne de caractères",
+        "allFieldsRequired": "Veuillez remplir tous les champs obligatoires.",
+        "invalidEmail": "Veuillez entrer une adresse email valide.",
+        "internalServerError": "Une erreur s'est produite. Veuillez réessayer."
+      }
     }
   },
   "blog": {
     "header-badge": "Conseils & Expertise Dentaire",
     "cta-read": "Lire L’article",
     "filter": "Filtres par catégorie:",
+    "filter-all": "Tous",
+    "empty": "Aucun article trouvé pour cette catégorie.",
+    "loading": "Chargement des articles...",
+    "error": "Impossible de charger les articles.",
     "contact": {
       "badge": "Prendre contact",
       "title": "Prêt à transformer votre sourire ?",
@@ -645,15 +669,6 @@
       "email-title": "EMAIL",
       "email-value": "contact@cliniquedentairesousse.tn"
     },
-    "success": {
-      "success": "Votre message a été envoyé avec succès !"
-    },
-    "errors": {
-      "allFieldsRequired": "Veuillez remplir tous les champs obligatoires.",
-      "invalidEmail": "Veuillez entrer une adresse email valide.",
-      "internalServerError": "Une erreur s'est produite. Veuillez réessayer.",
-      "consentRequired": "Vous devez accepter la politique de confidentialité pour continuer."
-    },
     "schedules": {
       "title": "Horaires",
       "list": [
@@ -684,9 +699,16 @@
       "phoneNumber-label": "Numéro de téléphone",
       "phoneNumber-placeholder": "+33 6 12 34 56 78",
       "lang-label": "Langue préférée",
-      "languages": ["Français", "Anglais", "Italien", "Arabe"],
+      "languages": [
+        "Français",
+        "Anglais",
+        "Italien",
+        "Arabe"
+      ],
       "typeCare-label": "Type de soin",
-      "types": ["Implant immédiat"],
+      "types": [
+        "Implant immédiat"
+      ],
       "message-label": "Votre message",
       "message-placeholder": "Décrivez vos besoins ou posez vos questions...",
       "uploadTitle": "Joindre une radiographie dentaire",
@@ -694,6 +716,31 @@
       "consentText": "J'accepte que mes informations soient utilisées pour traiter ma demande et me contacter. Vos données sont sécurisées et confidentielles.",
       "ctaSubmit": "Envoyer ma demande",
       "ctaSubmitting": "Envoi en cours..."
+    },
+    "toast": {
+      "success": {
+        "success": "Votre message a été envoyé avec succès !"
+      },
+      "errors": {
+        "fullNameRequired": "Le nom complet est requis",
+        "fullNameNotValid": "Le nom complet doit être une chaîne de caractères",
+        "countryRequired": "Le pays de résidence est requis",
+        "countryNotValid": "Le pays de résidence doit être une chaîne de caractères",
+        "emailRequired": "L'adresse email est requise",
+        "emailNotValid": "L'adresse email n'est pas valide",
+        "phoneNumberRequired": "Le numéro de téléphone est requis",
+        "phoneNumberNotValid": "Le numéro de téléphone n'est pas valide",
+        "languageRequired": "La langue préférée est requise",
+        "languageNotValid": "La langue préférée n'est pas valide",
+        "typeOfCareRequired": "Le type de soin est requis",
+        "typeOfCareNotValid": "Le type de soin n'est pas valide",
+        "messageRequired": "Votre message est requis",
+        "messageNotValid": "Votre message n'est pas valide",
+        "allFieldsRequired": "Veuillez remplir tous les champs obligatoires.",
+        "invalidEmail": "Veuillez entrer une adresse email valide.",
+        "internalServerError": "Une erreur s'est produite. Veuillez réessayer.",
+        "consentRequired": "Vous devez accepter la politique de confidentialité pour continuer."
+      }
     }
   },
   "footer": {
@@ -708,15 +755,22 @@
       },
       {
         "title": "Contact",
-        "list": ["+216 21 802 858", "+216 70 633 966"]
+        "list": [
+          "+216 21 802 858",
+          "+216 70 633 966"
+        ]
       },
       {
         "title": "Email",
-        "list": ["yassinekalleli@gmail.com"]
+        "list": [
+          "yassinekalleli@gmail.com"
+        ]
       },
       {
         "title": "Horaire",
-        "list": ["Lundi - Samedi : 08:00 – 18:00"]
+        "list": [
+          "Lundi - Samedi : 08:00 – 18:00"
+        ]
       }
     ],
     "navigation": "Navigation",

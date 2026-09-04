@@ -335,7 +335,12 @@
           "subtitle": "Lingue disponibili per la consultazione.",
           "heading": "Un accompagnamento senza frontiere.",
           "text": "Il Dr. Yassine KALLALI riceve e comunica con i suoi pazienti in francese, inglese, arabo e italiano. I preventivi, i resoconti post-operatori e i follow-up a distanza sono redatti nella lingua del paziente.",
-          "list": ["Francese", "Inglese", "Arabo", "Italiano"]
+          "list": [
+            "Francese",
+            "Inglese",
+            "Arabo",
+            "Italiano"
+          ]
         }
       }
     },
@@ -568,20 +573,39 @@
       "h4": "Scopri se sei idoneo per un impianto immediato in meno di 48 ore.",
       "ctaButton": "Richiedi una valutazione gratuita"
     },
-    "success": {
-      "success": "Il tuo messaggio è stato inviato con successo!"
-    },
-    "errors": {
-      "allFieldsRequired": "Compila tutti i campi obbligatori.",
-      "invalidEmail": "Inserisci un indirizzo email valido.",
-      "internalServerError": "Si è verificato un errore. Riprova.",
-      "consentRequired": "Devi accettare l'informativa sulla privacy per continuare."
+    "toast": {
+      "success": {
+        "success": "Il tuo messaggio è stato inviato con successo!"
+      },
+      "errors": {
+        "nameRequired": "Il nome completo è obbligatorio",
+        "nameNotValid": "Il nome completo deve essere una stringa",
+        "emailRequired": "L'email è obbligatoria",
+        "emailNotValid": "L'indirizzo email non è valido",
+        "answerOneRequired": "La risposta 1 è obbligatoria",
+        "answerOneNotValid": "La risposta 1 deve essere una stringa",
+        "answerTwoRequired": "La risposta 2 è obbligatoria",
+        "answerTwoNotValid": "La risposta 2 deve essere una stringa",
+        "answerThreeRequired": "La risposta 3 è obbligatoria",
+        "answerThreeNotValid": "La risposta 3 deve essere una stringa",
+        "answerFourRequired": "La risposta 4 è obbligatoria",
+        "answerFourNotValid": "La risposta 4 deve essere una stringa",
+        "answerFiveRequired": "La risposta 5 è obbligatoria",
+        "answerFiveNotValid": "La risposta 5 deve essere una stringa",
+        "allFieldsRequired": "Compila tutti i campi obbligatori.",
+        "invalidEmail": "Inserisci un indirizzo email valido.",
+        "internalServerError": "Si è verificato un errore. Riprova."
+      }
     }
   },
   "blog": {
     "header-badge": "Consigli & Competenza Dentale",
     "cta-read": "Leggi l'articolo",
     "filter": "Filtra per categoria:",
+    "filter-all": "Tutti",
+    "empty": "Nessun articolo trovato per questa categoria.",
+    "loading": "Caricamento articoli...",
+    "error": "Impossibile caricare gli articoli.",
     "contact": {
       "badge": "Mettiti in contatto",
       "title": "Pronto a trasformare il vostro sorriso?",
@@ -684,9 +708,16 @@
       "phoneNumber-label": "Numero di telefono",
       "phoneNumber-placeholder": "+39 312 345 6789",
       "lang-label": "Lingua preferita",
-      "languages": ["Francese", "Inglese", "Italiano", "Arabo"],
+      "languages": [
+        "Francese",
+        "Inglese",
+        "Italiano",
+        "Arabo"
+      ],
       "typeCare-label": "Tipo di cura",
-      "types": ["Impianto immediato"],
+      "types": [
+        "Impianto immediato"
+      ],
       "message-label": "Il vostro Messaggio",
       "message-placeholder": "Descrivete le vostre esigenze o fate le vostre domande...",
       "uploadTitle": "Allega una radiografia dentale",
@@ -708,15 +739,22 @@
       },
       {
         "title": "Contatto",
-        "list": ["+216 21 802 858", "+216 70 633 966"]
+        "list": [
+          "+216 21 802 858",
+          "+216 70 633 966"
+        ]
       },
       {
         "title": "Email",
-        "list": ["yassinekalleli@gmail.com"]
+        "list": [
+          "yassinekalleli@gmail.com"
+        ]
       },
       {
         "title": "Orari",
-        "list": ["Lunedì - Sabato: 08:00 – 18:00"]
+        "list": [
+          "Lunedì - Sabato: 08:00 – 18:00"
+        ]
       }
     ],
     "navigation": "Navigazione",

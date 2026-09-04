@@ -1,8 +1,9 @@
 import type { Metadata } from "next"
 import "./globals.css"
 import { Montserrat, Geist } from "next/font/google"
-import { cn } from "@/lib/utils";
-import { ToastContainer } from "react-toastify";
+import { cn } from "@/lib/utils"
+import { ToastContainer } from "react-toastify"
+import QueryProvider from "@/components/providers/QueryProvider"
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
@@ -24,8 +25,10 @@ export default function RootLayout({
   return (
     <html lang="fr" className={cn("font-sans", geist.variable)}>
       <body className={montserrat.className}>
-        {children}
-        <ToastContainer />
+        <QueryProvider>
+          {children}
+          <ToastContainer />
+        </QueryProvider>
       </body>
     </html>
   )
