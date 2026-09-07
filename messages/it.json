@@ -281,12 +281,12 @@
       "title": "L'eccellenza clinica al cuore di ogni trattamento.",
       "description": "Un know-how riconosciuto da pazienti e professionisti provenienti dalla Tunisia e dall'estero.",
       "items": {
-        "parcoursPro": {
-          "title": "Percorso professionale",
-          "subtitle": "Percorso professionale e competenza.",
-          "heading": "Una competenza forgiata dall'esperienza.",
-          "text": "Il Dr. Yassine KALLALI è chirurgo dentista laureato presso [Facoltà / Università], specializzato in implantologia ed estetica dentale. Con studio a Sousse dal 2015, ha sviluppato una pratica incentrata sull'impianto immediato post-estrattivo, una tecnica impegnativa che ha progressivamente affinato e che oggi insegna ad altri professionisti. Il suo studio riceve pazienti provenienti da Francia, Belgio, Svizzera, Italia, Regno Unito e Canada, nonché dalla diaspora maghrebina residente in Europa. Riceve in francese, inglese, arabo e italiano.",
-          "order": "È iscritto all'Albo dell'Ordine dei Chirurghi Dentisti di Tunisia con il numero N°12345."
+        "formateur": {
+          "title": "Formatore internazionale",
+          "subtitle": "Il Dr. Kallali condivide le sue competenze in seminari internazionali dedicati all'implantologia moderna.",
+          "heading": "Condividere l'esperienza",
+          "paragraph-1": "Il Dr Kallali interviene regolarmente come formatore clinico per altri chirurghi dentisti. Condivide la propria expertise nell'ambito di seminari professionali internazionali dedicati all'implantologia moderna e ai protocolli di carico immediato.",
+          "paragraph-2": "Questa attività didattica costituisce la naturale continuazione della sua formazione continua — presso l'AIM Academy in Svizzera (2018) e poi presso IF Germany (2025) — e conferma l'orientamento esclusivo della sua pratica verso le tecniche implantologiche di ultima generazione."
         },
         "formation": {
           "title": "Formazione accademica",
@@ -294,42 +294,44 @@
           "heading": "Un percorso accademico d'eccellenza.",
           "items": [
             {
-              "title": "Diploma di chirurgia dentale.",
-              "sub": "Dottorato in Medicina Dentale.",
-              "place": "Facoltà di Medicina Dentale di Monastir, Tunisia (2003)."
+              "title": "Dottore in Odontoiatria.",
+              "place": "Facoltà di Medicina Dentale di Monastir (Tunisia) (2003)."
             },
             {
-              "title": "Specializzazione in implantologia.",
-              "sub": "Diploma Universitario in Implantologia Orale.",
-              "place": "Université Paris Cité, Francia (2008)."
+              "title": "Estetica Dentale e Ortodonzia Trasparente.",
+              "place": "Formazione certificata (Germania) 2010."
             },
             {
-              "title": "Formazione in Estetica Dentale & Smile Design.",
-              "sub": "Certificazione in Estetica Dentale e Digital Smile Design (DSD).",
-              "place": "Digital Smile Design Academy, Madrid, Spagna (2015)."
+              "title": "Implantologia a Doppio Stadio",
+              "place": "Sindacato dei Medici Dentisti di Tunisia (2012)."
             },
             {
-              "title": "Masterclass in Riabilitazione Completa su Impianti.",
-              "sub": "Certificazione in Riabilitazione Completa su Impianti.",
-              "place": "Malo Clinic, Lisbona, Portogallo (2019)."
+              "title": "Implantologia Cortico-Basale Monoblocco — Monoimplant.",
+              "place": "AIM Academy (Svizzera) (2018)."
+            },
+            {
+              "title": "Implantologia Cortico-Basale Monoblocco — Ihde Dental.",
+              "place": "IF Germany (2025)."
             }
           ]
         },
-        "seminaires": {
-          "title": "Seminari e conferenze",
-          "subtitle": "Attività di formazione e insegnamento.",
-          "heading": "Condividere la competenza, trasmettere il sapere.",
-          "text": "Oltre al suo studio, il Dr. Yassine KALLALI interviene come relatore in seminari professionali dedicati all'implantologia e all'estetica dentale. Ha presentato i suoi protocolli in occasione di [placeholder: congressi dentistici, giornate scientifiche, incontri interprofessionali] in Tunisia e all'estero.",
-          "stats": {
-            "conferences": {
-              "value": "10+",
-              "label": "Conferenze"
-            },
-            "implants": {
-              "value": "1000+",
-              "label": "Impianti inseriti/anno"
-            }
-          }
+        "expertise": {
+          "title": "Ambiti di specializzazione.",
+          "subtitle": "Dove la nostra competenza prende forma",
+          "heading": "I nostri campi d'eccellenza.",
+          "items": [
+            "Implantologia cortico-basale e impianti monoblocco.",
+            "Carico immediato — inserimento dell'impianto e corona provvisoria nella stessa seduta.",
+            "Casi complessi: perdita ossea, estrazioni recenti, insuccessi implantari precedenti.",
+            "Estetica dentale legata alla ricostruzione implantare."
+          ]
+        },
+        "contact": {
+          "title": "Contatto",
+          "subtitle": "Descrivi la tua richiesta tramite il modulo di contatto",
+          "heading": "Parliamo di te",
+          "text": "Parliamo della sua situazione. Descriva la sua richiesta tramite il modulo di contatto — il Dr Kallali o il suo team le risponderà personalmente.",
+          "contact-cta": "Contattaci "
         },
         "langues": {
           "title": "Lingue di consultazione",

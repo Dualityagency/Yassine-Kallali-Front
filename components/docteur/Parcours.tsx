@@ -4,6 +4,8 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Badge } from "../ui/badge";
 import { ArrowUpRight, ArrowRight } from "lucide-react";
+import { Button } from "../ui/button";
+import { Link } from "@/i18n/navigation";
 
 const Parcours = () => {
   const t = useTranslations("doctor.parcours");
@@ -13,26 +15,27 @@ const Parcours = () => {
   const formationItems = [
     {
       title: t("items.formation.items.0.title"),
-      sub: t("items.formation.items.0.sub"),
       place: t("items.formation.items.0.place"),
     },
     {
       title: t("items.formation.items.1.title"),
-      sub: t("items.formation.items.1.sub"),
       place: t("items.formation.items.1.place"),
     },
     {
       title: t("items.formation.items.2.title"),
-      sub: t("items.formation.items.2.sub"),
       place: t("items.formation.items.2.place"),
     },
     {
       title: t("items.formation.items.3.title"),
-      sub: t("items.formation.items.3.sub"),
       place: t("items.formation.items.3.place"),
     },
+    {
+      title: t("items.formation.items.4.title"),
+      place: t("items.formation.items.4.place"),
+    }
   ];
 
+  const expertiseItems =t.raw("items.expertise.items") || [];
   const langues = [
     t("items.langues.list.0"),
     t("items.langues.list.1"),
@@ -44,13 +47,13 @@ const Parcours = () => {
   const renderParcoursPro = () => (
     <div className="flex flex-col gap-5">
       <p className="text-[#0f2a5e] font-semibold text-2xl leading-none">
-        {t("items.parcoursPro.heading")}
+        {t("items.formateur.heading")}
       </p>
-      <p className="text-slate-600 text-xl leading-none">
-        {t("items.parcoursPro.text")}
+      <p className="paragraph-1 ">
+        {t("items.formateur.paragraph-1")}
       </p>
-      <p className="text-[#0f2a5e] font-semibold text-[18px] leading-none">
-        {t("items.parcoursPro.order")}
+      <p className="paragraph-1 ">
+        {t("items.formateur.paragraph-2")}
       </p>
     </div>
   );
@@ -58,13 +61,13 @@ const Parcours = () => {
   const renderParcoursMobile = () => (
     <div className="flex flex-col gap-5">
       <p className="text-[#0f2a5e] font-semibold text-xl leading-none">
-        {t("items.parcoursPro.heading")}
+        {t("items.formateur.heading")}
       </p>
       <p className="text-slate-600 text-[15px] leading-none">
-        {t("items.parcoursPro.text")}
+        {t("items.formateur.paragraph-1")}
       </p>
-      <p className="text-[#0f2a5e] font-semibold text-[18px] leading-none">
-        {t("items.parcoursPro.order")}
+      <p className="text-slate-600 text-[15px] leading-none">
+        {t("items.formateur.paragraph-2")}
       </p>
     </div>
   );
@@ -81,7 +84,6 @@ const Parcours = () => {
           </div>
           <div className={`flex flex-col gap-2 ${pbSize}`}>
             <p className="text-[#0f2a5e] font-semibold text-[18px] leading-tight">{item.title}</p>
-            <p className={`text-slate-600 ${textSize} leading-relaxed`}>{item.sub}</p>
             <p className={`text-slate-400 ${textSize} leading-relaxed`}>{item.place}</p>
           </div>
         </div>
@@ -108,49 +110,42 @@ const Parcours = () => {
   );
 
   const renderSeminaires = (textSize: string, headingSize: string) => (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-5 ">
       <p className={`text-[#0f2a5e] font-semibold ${headingSize} leading-none`}>
-        {t("items.seminaires.heading")}
+        {t("items.expertise.heading")}
       </p>
-      <p className={`text-slate-600 ${textSize} leading-none`}>
-        {t("items.seminaires.text")}
+      <p className={`paragraph1 ${textSize} leading-none`}>
+        {t("items.expertise.subtitle")}
       </p>
-      <div className="flex flex-col sm:flex-row gap-3">
-        <div className="flex-1 bg-[#0f2a5e] rounded-[10px] p-5">
-          <p className="text-white font-bold text-3xl">{t("items.seminaires.stats.conferences.value")}</p>
-          <p className="text-slate-300 text-xs uppercase tracking-wider mt-1">{t("items.seminaires.stats.conferences.label")}</p>
-        </div>
-        <div className="flex-1 bg-[#0f2a5e] rounded-[10px] p-5">
-          <p className="text-white font-bold text-3xl">{t("items.seminaires.stats.implants.value")}</p>
-          <p className="text-slate-300 text-xs uppercase tracking-wider mt-1">{t("items.seminaires.stats.implants.label")}</p>
-        </div>
-      </div>
+      <ul className="flex flex-col gap-y-4">
+        {expertiseItems?.map((item: string, i: number) => (
+          <li key={i} className={`paragraph1 ${textSize} leading-none list-disc list-inside`}>
+            {item}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 
   const renderLangues = (textSize: string, headingSize: string) => (
     <div className="flex flex-col gap-5">
       <p className={`text-[#0f2a5e] font-semibold ${headingSize} leading-none`}>
-        {t("items.langues.heading")}
+        {t("items.contact.heading")}
       </p>
-      <p className={`text-slate-600 ${textSize} leading-none`}>
-        {t("items.langues.text")}
+      <p className={`paragraph1 ${textSize} leading-none`}>
+        {t("items.contact.text")}
       </p>
-      <div className="flex flex-wrap gap-2">
-        {langues.map((lang) => (
-          <Badge key={lang} variant="gray">
-            🌐 {lang}
-          </Badge>
-        ))}
-      </div>
+      <Link href="/contact">
+        <Button size={"lg"} className={"cursor-pointer"}>{t("items.contact.contact-cta")}</Button>
+      </Link>
     </div>
   );
 
   const items = [
     {
       id: 0,
-      title: t("items.parcoursPro.title"),
-      subtitle: t("items.parcoursPro.subtitle"),
+      title: t("items.formateur.title"),
+      subtitle: t("items.formateur.subtitle"),
       content: renderParcoursPro(),
       mobileContent: renderParcoursMobile(),
     },
@@ -163,15 +158,15 @@ const Parcours = () => {
     },
     {
       id: 2,
-      title: t("items.seminaires.title"),
-      subtitle: t("items.seminaires.subtitle"),
+      title: t("items.expertise.title"),
+      subtitle: t("items.expertise.subtitle"),
       content: renderSeminaires("text-xl", "text-2xl"),
       mobileContent: renderSeminaires("text-[15px]", "text-xl"),
     },
     {
       id: 3,
-      title: t("items.langues.title"),
-      subtitle: t("items.langues.subtitle"),
+      title: t("items.contact.title"),
+      subtitle: t("items.contact.subtitle"),
       content: renderLangues("text-xl", "text-2xl"),
       mobileContent: renderLangues("text-[15px]", "text-xl"),
     },

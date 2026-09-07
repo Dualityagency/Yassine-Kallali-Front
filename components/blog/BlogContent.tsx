@@ -22,7 +22,13 @@ export default async function BlogContent({ slug }: BlogContentProps) {
     }
     throw error;
   }
+const API_ORIGIN = process.env.NEXT_PUBLIC_API_URL;
 
+  function resolveImageUrl(image?: string | null) {
+  if (!image) return "";
+  if (image.startsWith("http://") || image.startsWith("https://")) return image;
+  return `${API_ORIGIN}${image}`;
+}
   return (
     <div>
       <div className="container-x">
@@ -32,7 +38,7 @@ export default async function BlogContent({ slug }: BlogContentProps) {
         <h1 className="title1 mb-3 lg:mb-12">{blog.title}</h1>
       </div>
       <Image
-        src={blog.image ?? "/blog/header.webp"}
+        src={resolveImageUrl(blog.image) ?? "/blog/header.webp"}
         alt={blog.title}
         width={5000}
         height={5000}

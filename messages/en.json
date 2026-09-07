@@ -281,12 +281,12 @@
       "title": "Clinical excellence at the heart of every treatment.",
       "description": "Expertise recognized by patients and practitioners from Tunisia and abroad.",
       "items": {
-        "parcoursPro": {
-          "title": "Professional background",
-          "subtitle": "Professional background and expertise.",
-          "heading": "Expertise forged by experience.",
-          "text": "Dr. Yassine KALLALI is a dental surgeon graduated from [Faculty / University], specialized in implantology and dental aesthetics. Based in Sousse since 2015, he has developed a practice focused on immediate post-extraction implants, a demanding technique that he has progressively refined and now teaches to other practitioners. His clinic welcomes patients from France, Belgium, Switzerland, Italy, the United Kingdom and Canada, as well as from the Maghreb diaspora residing in Europe. He consults in French, English, Arabic and Italian.",
-          "order": "He is registered with the Tunisian Order of Dental Surgeons under number N°12345."
+        "formateur": {
+          "title": "International trainer",
+          "subtitle": "Dr. Kallali shares his know-how at international seminars dedicated to modern implantology.",
+          "heading": "Sharing expertise",
+          "paragraph-1": "Dr Kallali regularly serves as a clinical trainer to other dental surgeons. He shares his expertise through international professional seminars focused on modern implantology and immediate loading protocols.",
+          "paragraph-2": "This teaching activity is a direct extension of his continuing education — with AIM Academy in Switzerland (2018) and then IF Germany (2025) — and confirms the exclusive orientation of his practice toward the latest generation of implantology techniques."
         },
         "formation": {
           "title": "Academic training",
@@ -294,42 +294,44 @@
           "heading": "A path of academic excellence.",
           "items": [
             {
-              "title": "Degree in Dental Surgery.",
-              "sub": "Doctorate in Dental Medicine.",
-              "place": "Faculty of Dental Medicine of Monastir, Tunisia (2003)."
+              "title": "Doctor of Dental Medicine.",
+              "place": "Faculty of Dental Medicine of Monastir (Tunisia) (2003)."
             },
             {
-              "title": "Specialization in implantology.",
-              "sub": "University Diploma in Oral Implantology.",
-              "place": "Paris Cité University, France (2008)."
+              "title": "Dental Aesthetics and Clear Aligner Orthodontics.",
+              "place": "Certified training programme (Germany) 2010."
             },
             {
-              "title": "Training in Dental Aesthetics & Smile Design.",
-              "sub": "Certification in Dental Aesthetics and Digital Smile Design (DSD).",
-              "place": "Digital Smile Design Academy, Madrid, Spain (2015)."
+              "title": "Two-Stage Implantology",
+              "place": "Tunisian Union of Dental Surgeons (2012)."
             },
             {
-              "title": "Masterclass in Complete Implant Rehabilitation.",
-              "sub": "Certification in Complete Implant Rehabilitation.",
-              "place": "Malo Clinic, Lisbon, Portugal (2019)."
+              "title": "Monobloc Cortico-Basal Implantology — Monoimplant.",
+              "place": "AIM Academy (Switzerland) (2018)."
+            },
+            {
+              "title": "Monobloc Cortico-Basal Implantology — Ihde Dental.",
+              "place": "IF Germany (2025)."
             }
           ]
         },
-        "seminaires": {
-          "title": "Seminars and conferences",
-          "subtitle": "Training and teaching activities.",
-          "heading": "Sharing expertise, transmitting knowledge.",
-          "text": "Beyond his practice, Dr. Yassine KALLALI participates as a speaker in professional seminars dedicated to implantology and dental aesthetics. He has presented his protocols at [placeholder: dental congresses, scientific days, interprofessional meetings] in Tunisia and abroad.",
-          "stats": {
-            "conferences": {
-              "value": "10+",
-              "label": "Conferences"
-            },
-            "implants": {
-              "value": "1000+",
-              "label": "Implants placed/year"
-            }
-          }
+        "expertise": {
+          "title": "Areas of specialisation.",
+          "subtitle": "Where our expertise comes to life",
+          "heading": "Our core areas of expertise.",
+          "items": [
+            "Cortico-basal implantology and monobloc implants.",
+            "Immediate loading — implant placement and provisional crown in the same session.",
+            "Complex cases: bone loss, recent extractions, previous implant failures.",
+            "Aesthetic dentistry linked to implant reconstruction."
+          ]
+        },
+        "contact": {
+          "title": "Contact",
+          "subtitle": "Tell us about your request through the contact form",
+          "heading": "Let's talk about you",
+          "text": "Let's discuss your situation. Describe your enquiry through the contact form — Dr Kallali or his team will reply personally.",
+          "contact-cta": "Get in touch"
         },
         "langues": {
           "title": "Consultation languages",
