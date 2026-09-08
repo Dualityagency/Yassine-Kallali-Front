@@ -35,13 +35,13 @@
       "adresse_label": "Adresse",
       "adresse_value": "Av. 14 Janvier, Centre Médical El Kantaoui, Imm. B43 4ème étage, Hammam Sousse.",
       "contact_label": "Contact",
-      "contact_value": "+216 21 802 858 / +216 70 633 966",
+      "contact_value": "+216 70 633 966 / WhatsApp +216 53 676 531",
       "email_label": "Email",
       "email_value": "yassinekalleli@gmail.com",
       "horaire_label": "Horaire",
-      "horaire_value": "Lundi - Samedi : 08:00 – 18:00"
+      "horaire_value": "Lundi - Samedi : 09:00 – 18:00"
     },
-    "copyright": "© 2026 Dr. Yassine Kallali. Tous droits réservés. Enregistrement CNOMDT N°12345."
+    "copyright": "© 2026 Dr. Yassine Kallali. Tous droits réservés. Enregistrement CNOMDT N°1813."
   },
   "home": {
     "hero": {
@@ -662,8 +662,11 @@
       "title": "Coordonnées",
       "address-title": "ADRESSE",
       "address-value": "Avenue du 14 Janvier, Sousse 4000, Tunisie.",
+      "open-google-map-cta":"Ouvrez Google Maps",
       "phoneNumber-title": "TÉLÉPHONE",
-      "phoneNumber-value": "+216 73 000 000",
+      "phoneNumber-value": "+216 70 633 966",
+      "whatsApp-title":"WhatsApp",
+      "whatsApp-value":"+216 53 676 531",
       "email-title": "EMAIL",
       "email-value": "contact@cliniquedentairesousse.tn"
     },
@@ -746,7 +749,7 @@
       },
       {
         "title": "Contact",
-        "list": ["+216 21 802 858", "+216 70 633 966"]
+        "list": ["+216 70 633 966","WhatsApp +216 53 676 531"]
       },
       {
         "title": "Email",
@@ -754,7 +757,7 @@
       },
       {
         "title": "Horaire",
-        "list": ["Lundi - Samedi : 08:00 – 18:00"]
+        "list": ["Lundi - Samedi : 09:00 – 18:00"]
       }
     ],
     "navigation": "Navigation",
@@ -773,7 +776,7 @@
     "social-instagram": "Instagram",
     "social-linkedin": "LinkedIn",
     "docter": "Dr. Yassine KALLALI",
-    "copyright": "© 2026 Dr. Yassine Kallali. Tous droits réservés. Enregistrement CNOMDT N°12345",
+    "copyright": "© 2026 Dr. Yassine Kallali. Tous droits réservés. Enregistrement CNOMDT N°1813",
     "designed_by": "Conçu pary"
   },
   "legal": {
@@ -803,7 +806,7 @@
           },
           "cnomdt": {
             "label": "Inscription CNOMDT",
-            "value": "N°12345 (Conseil National de l'Ordre des Médecins Dentistes de Tunisie)"
+            "value": "N°1813 (Conseil National de l'Ordre des Médecins Dentistes de Tunisie)"
           },
           "siege": {
             "label": "Siège Social",

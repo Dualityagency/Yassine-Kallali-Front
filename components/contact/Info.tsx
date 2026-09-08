@@ -1,6 +1,8 @@
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import Link from "next/link";
+import { Button } from "../ui/button";
 
 export default function Info() {
   const t = useTranslations("contact");
@@ -33,9 +35,12 @@ export default function Info() {
               <p className="paragraph2 text-white!">
                 {t("contactDetails.address-value")}
               </p>
+              <Link href={"https://www.google.com/maps/place/Kantaoui+dental+clinic+Dr.Kallali+Yassine/@35.8624054,10.6071148,17z/data=!3m1!4b1!4m6!3m5!1s0x12fd8bbd844b0ac3:0xf5bb8792aea4ce55!8m2!3d35.8624011!4d10.6096897!16s%2Fg%2F11sdxk9dh2?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D"}  
+              target="_blank">
+              <Button variant={"outline"} className="cursor-pointer">{t("contactDetails.open-google-map-cta")}</Button>
+              </Link>
             </div>
           </div>
-
           <div className="flex items-center gap-x-4">
             <Image
               src={"/icons/phone.png"}
@@ -50,6 +55,9 @@ export default function Info() {
               </h3>
               <p className="paragraph2 text-white!">
                 {t("contactDetails.phoneNumber-value")}
+              </p>
+               <p className="paragraph2 text-white!">
+                {t("contactDetails.whatsApp-title")} {t("contactDetails.whatsApp-value")}
               </p>
             </div>
           </div>

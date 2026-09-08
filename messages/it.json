@@ -35,13 +35,13 @@
       "adresse_label": "Indirizzo",
       "adresse_value": "Av. 14 Janvier, Centro Medico El Kantaoui, Ed. B43 4° piano, Hammam Sousse.",
       "contact_label": "Contatto",
-      "contact_value": "+216 21 802 858 / +216 70 633 966",
+      "contact_value": "+216 70 633 966 / WhatsApp +216 53 676 531",
       "email_label": "Email",
       "email_value": "yassinekalleli@gmail.com",
       "horaire_label": "Orari",
-      "horaire_value": "Lunedì - Sabato: 08:00 – 18:00"
+      "horaire_value": "Lunedì - Sabato: 09:00 – 18:00"
     },
-    "copyright": "© 2026 Dr. Yassine Kallali. Tutti i diritti riservati. Registrazione CNOMDT N°12345."
+    "copyright": "© 2026 Dr. Yassine Kallali. Tutti i diritti riservati. Registrazione CNOMDT N°1813."
   },
   "home": {
     "hero": {
@@ -662,8 +662,11 @@
       "title": "Contatti",
       "address-title": "INDIRIZZO",
       "address-value": "Avenue du 14 Janvier, Sousse 4000, Tunisia.",
+      "open-google-map-cta":"Apri Google Maps",
       "phoneNumber-title": "TELEFONO",
-      "phoneNumber-value": "+216 73 000 000",
+      "phoneNumber-value": "+216 70 633 966",
+      "whatsApp-title": "WhatsApp",
+      "whatsApp-value": "+216 53 676 531",
       "email-title": "EMAIL",
       "email-value": "contact@cliniquedentairesousse.tn"
     },
@@ -746,7 +749,7 @@
       },
       {
         "title": "Contatto",
-        "list": ["+216 21 802 858", "+216 70 633 966"]
+        "list": ["+216 70 633 966","WhatsApp +216 53 676 531"]
       },
       {
         "title": "Email",
@@ -754,7 +757,7 @@
       },
       {
         "title": "Orari",
-        "list": ["Lunedì - Sabato: 08:00 – 18:00"]
+        "list": ["Lunedì - Sabato: 09:00 – 18:00"]
       }
     ],
     "navigation": "Navigazione",
@@ -773,7 +776,7 @@
     "social-instagram": "Instagram",
     "social-linkedin": "LinkedIn",
     "docter": "Dr. Yassine KALLALI",
-    "copyright": "© 2026 Dr. Yassine Kallali. Tutti i diritti riservati. Registrazione CNOMDT N°12345",
+    "copyright": "© 2026 Dr. Yassine Kallali. Tutti i diritti riservati. Registrazione CNOMDT N°1813",
     "designed_by": "Progettato da"
   },
   "legal": {
@@ -803,7 +806,7 @@
           },
           "cnomdt": {
             "label": "Iscrizione CNOMDT",
-            "value": "N° 12345 (Consiglio Nazionale dell'Ordine dei Medici Dentisti della Tunisia)"
+            "value": "N° 1813 (Consiglio Nazionale dell'Ordine dei Medici Dentisti della Tunisia)"
           },
           "siege": {
             "label": "Sede Legale",

@@ -39,9 +39,9 @@
       "email_label": "البريد الإلكتروني",
       "email_value": "yassinekalleli@gmail.com",
       "horaire_label": "ساعات العمل",
-      "horaire_value": "الإثنين - السبت: 08:00 – 18:00"
+      "horaire_value": "الإثنين - السبت: 09:00 – 18:00"
     },
-    "copyright": "© 2026 د. ياسين القلالي. جميع الحقوق محفوظة. تسجيل CNOMDT رقم 12345."
+    "copyright": "© 2026 د. ياسين القلالي. جميع الحقوق محفوظة. تسجيل CNOMDT رقم 1813."
   },
   "home": {
     "hero": {
@@ -662,8 +662,11 @@
       "title": "بيانات الاتصال",
       "address-title": "العنوان",
       "address-value": "شارع 14 جانفي، سوسة 4000، تونس.",
+      "open-google-map-cta":"افتح خرائط جوجل",
       "phoneNumber-title": "الهاتف",
-      "phoneNumber-value": "+216 73 000 000",
+      "phoneNumber-value": "+216 70 633 966",
+      "whatsApp-title": "واتساب ",
+      "whatsApp-value": "+216 53 676 531",
       "email-title": "البريد الإلكتروني",
       "email-value": "contact@cliniquedentairesousse.tn"
     },
@@ -754,7 +757,7 @@
       },
       {
         "title": "ساعات العمل",
-        "list": ["الإثنين - السبت: 08:00 – 18:00"]
+        "list": ["الإثنين - السبت: 09:00 – 18:00"]
       }
     ],
     "navigation": "التنقل",
@@ -773,7 +776,7 @@
     "social-instagram": "إنستغرام",
     "social-linkedin": "لينكد إن",
     "docter": "د. ياسين القلالي",
-    "copyright": "© 2026 د. ياسين القلالي. جميع الحقوق محفوظة. تسجيل CNOMDT رقم 12345",
+    "copyright": "© 2026 د. ياسين القلالي. جميع الحقوق محفوظة. تسجيل CNOMDT رقم 1813",
     "designed_by": "صمم بواسطة"
   },
   "legal": {
@@ -800,7 +803,7 @@
           "responsable": { "label": "المسؤول", "value": "د. ياسين قلالي" },
           "cnomdt": {
             "label": "تسجيل CNOMDT",
-            "value": "رقم 12345 (المجلس الوطني لهيئة أطباء الأسنان بتونس)"
+            "value": "رقم 1813 (المجلس الوطني لهيئة أطباء الأسنان بتونس)"
           },
           "siege": {
             "label": "المقر الرئيسي",
