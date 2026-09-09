@@ -37,9 +37,10 @@
       "contact_label": "Contact",
       "contact_value": "+216 70 633 966 / WhatsApp +216 53 676 531",
       "email_label": "Email",
-      "email_value": "yassinekalleli@gmail.com",
+      "email_value": "kantaoui.dental.clinic@gmail.com",
       "horaire_label": "Hours",
-      "horaire_value": "Monday - Saturday: 09:00 – 18:00"
+      "horaire_value": "Monday - Friday : 09:00 – 18:00",
+      "horaire_value2": "Saturday : 08:00 - 13:00"
     },
     "copyright": "© 2026 Dr. Yassine Kallali. All rights reserved. CNOMDT Registration N°1813."
   },
@@ -668,7 +669,7 @@
       "whatsApp-title": "WhatsApp",
       "whatsApp-value": "+216 53 676 531",
       "email-title": "EMAIL",
-      "email-value": "contact@cliniquedentairesousse.tn"
+      "email-value": "kantaoui.dental.clinic@gmail.com"
     },
     "schedules": {
       "title": "Hours",
@@ -679,7 +680,7 @@
         },
         {
           "title": "Saturday",
-          "value": "09:00 - 13:00"
+          "value": "08:00 - 13:00"
         },
         {
           "title": "Sunday",
@@ -753,11 +754,11 @@
       },
       {
         "title": "Email",
-        "list": ["yassinekalleli@gmail.com"]
+        "list": ["kantaoui.dental.clinic@gmail.com"]
       },
       {
         "title": "Hours",
-        "list": ["Monday - Saturday: 09:00 – 18:00"]
+        "list": ["Monday - Friday : 09:00 – 18:00","Saturday : 08:00 - 13:00"]
       }
     ],
     "navigation": "Navigation",

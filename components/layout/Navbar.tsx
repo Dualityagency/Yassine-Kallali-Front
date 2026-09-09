@@ -277,7 +277,7 @@ const Navbar = () => {
                     {item.label}
                   </p>
                   <p className="mt-1 text-white text-[14.77px] font-normal leading-[140%] tracking-normal">
-                    {item.value}
+                    {item.value} <br /> {item.label === t("contact.horaire_label") && t("contact.horaire_value2")}
                   </p>
                 </div>
               ))}

@@ -37,9 +37,10 @@
       "contact_label": "اتصل",
       "contact_value": "+216 21 802 858 / +216 70 633 966",
       "email_label": "البريد الإلكتروني",
-      "email_value": "yassinekalleli@gmail.com",
+      "email_value": "kantaoui.dental.clinic@gmail.com",
       "horaire_label": "ساعات العمل",
-      "horaire_value": "الإثنين - السبت: 09:00 – 18:00"
+      "horaire_value": "الإثنين - الجمعة: 09:00 – 18:00",
+      "horaire_value2": "السبت: 08:00 - 13:00"
     },
     "copyright": "© 2026 د. ياسين القلالي. جميع الحقوق محفوظة. تسجيل CNOMDT رقم 1813."
   },
@@ -668,7 +669,7 @@
       "whatsApp-title": "واتساب ",
       "whatsApp-value": "+216 53 676 531",
       "email-title": "البريد الإلكتروني",
-      "email-value": "contact@cliniquedentairesousse.tn"
+      "email-value": "kantaoui.dental.clinic@gmail.com"
     },
     "schedules": {
       "title": "ساعات العمل",
@@ -679,7 +680,7 @@
         },
         {
           "title": "السبت",
-          "value": "09:00 - 13:00"
+          "value": "08:00 - 13:00"
         },
         {
           "title": "الأحد",
@@ -753,11 +754,11 @@
       },
       {
         "title": "البريد الإلكتروني",
-        "list": ["yassinekalleli@gmail.com"]
+        "list": ["kantaoui.dental.clinic@gmail.com"]
       },
       {
         "title": "ساعات العمل",
-        "list": ["الإثنين - السبت: 09:00 – 18:00"]
+        "list": ["الإثنين - الجمعة: 09:00 – 18:00","السبت: 08:00 - 13:00"]
       }
     ],
     "navigation": "التنقل",
