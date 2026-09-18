@@ -1,35 +1,27 @@
 "use client"
 
 import Image from "next/image"
-import { Link, usePathname, useRouter } from "@/i18n/navigation"
-import { ChevronDown, Globe, X } from "lucide-react"
+import { Link, usePathname } from "@/i18n/navigation"
+import { X } from "lucide-react"
 import { useEffect, useRef, useState } from "react"
-import { useLocale, useTranslations } from "next-intl"
+import { useTranslations } from "next-intl"
+import LocalSelector from "./LocalSelector"
 
-const LANGUAGES: { code: "fr" | "en" | "ar" | "it"; label: string }[] = [
-  { code: "fr", label: "Fr" },
-  { code: "en", label: "En" },
-  { code: "ar", label: "Ar" },
-  { code: "it", label: "It" },
-]
+
 
 const Navbar = () => {
   const t = useTranslations("navbar")
   const pathname = usePathname()
-  const router = useRouter()
-  const currentLocale = useLocale() as "fr" | "en" | "ar" | "it"
 
   const isHome = pathname === "/"
 
-  const [isOpen, setIsOpen] = useState(false)
-  const [isMobileLangOpen, setIsMobileLangOpen] = useState(false)
+ 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
   const [isDesktop, setIsDesktop] = useState(false)
 
   const navRef = useRef<HTMLDivElement>(null)
 
-  const selectedLang = LANGUAGES.find((l) => l.code === currentLocale) ?? LANGUAGES[0]
 
   const navLinks = [
     { name: t("links.accueil"), href: "/" },
@@ -46,12 +38,6 @@ const Navbar = () => {
     { label: t("contact.email_label"), value: t("contact.email_value") },
     { label: t("contact.horaire_label"), value: t("contact.horaire_value") },
   ]
-
-  const handleLangChange = (code: "fr" | "en" | "ar" | "it") => {
-    router.replace(pathname, { locale: code })
-    setIsOpen(false)
-    setIsMobileLangOpen(false)
-  }
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 20)
@@ -134,44 +120,7 @@ const Navbar = () => {
 
           <div className="flex items-center gap-3">
             {/* Language Selector — Desktop */}
-            <div className="relative hidden xl:block">
-              <div className={`rounded-[11px] border p-2 ${isLight ? "border-white" : "border-primary"}`}>
-                <button
-                  onClick={() => setIsOpen(!isOpen)}
-                  className={`flex items-center gap-2 rounded-[7px] px-4 py-2 cursor-pointer ${
-                    isLight ? "bg-white text-primary" : "bg-primary text-white"
-                  }`}
-                >
-                  <Globe size={20} />
-                  <span className="text-[15px] font-semibold">{selectedLang.label}</span>
-                  <ChevronDown
-                    size={16}
-                    className={`transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
-                  />
-                </button>
-
-                {isOpen && (
-                  <div
-                    className={`absolute top-full left-0 mt-2 w-full flex flex-col gap-2 rounded-[11px] border p-2 z-10 ${
-                      isLight ? "border-white bg-primary" : "border-primary bg-white"
-                    }`}
-                  >
-                    {LANGUAGES.filter((l) => l.code !== currentLocale).map((lang) => (
-                      <button
-                        key={lang.code}
-                        onClick={() => handleLangChange(lang.code)}
-                        className={`flex items-center gap-2 rounded-[7px] px-4 py-2 hover:opacity-80 cursor-pointer ${
-                          isLight ? "bg-white text-primary" : "bg-primary text-white"
-                        }`}
-                      >
-                        <Globe size={20} />
-                        <span className="text-[15px] font-semibold">{lang.label}</span>
-                      </button>
-                    ))}
-                  </div>
-                )}
-              </div>
-            </div>
+           <LocalSelector isLight={isLight} />
 
             {/* Mobile Burger */}
             <button
@@ -232,39 +181,10 @@ const Navbar = () => {
                     {t("langue")}
                   </p>
 
-                  <div className="relative inline-block px-4">
-                    <div className="rounded-[11px] border border-primary p-2">
-                      <button
-                        onClick={() => setIsMobileLangOpen(!isMobileLangOpen)}
-                        className="flex items-center gap-2 rounded-[7px] bg-primary px-4 py-2 text-white cursor-pointer"
-                      >
-                        <Globe size={20} />
-                        <span className="text-[15px] font-semibold">{selectedLang.label}</span>
-                        <ChevronDown
-                          size={16}
-                          className={`transition-transform duration-300 ${isMobileLangOpen ? "rotate-180" : ""}`}
-                        />
-                      </button>
-                    </div>
-
-                    {isMobileLangOpen && (
-                      <div className="mt-2 flex w-full flex-col gap-2 rounded-[11px] border border-primary bg-white p-2">
-                        {LANGUAGES.filter((l) => l.code !== currentLocale).map((lang) => (
-                          <button
-                            key={lang.code}
-                            onClick={() => {
-                              handleLangChange(lang.code)
-                              setIsMobileMenuOpen(false)
-                            }}
-                            className="flex items-center gap-2 rounded-[7px] bg-primary px-4 py-2 text-white hover:opacity-90"
-                          >
-                            <Globe size={20} />
-                            <span className="text-[15px] font-semibold">{lang.label}</span>
-                          </button>
-                        ))}
-                      </div>
-                    )}
-                  </div>
+                  <LocalSelector
+                    variant="mobile"
+                    onLocaleChange={() => setIsMobileMenuOpen(false)}
+                  />
                 </div>
               </nav>
             </div>
