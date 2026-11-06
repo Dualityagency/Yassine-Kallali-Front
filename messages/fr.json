@@ -3,11 +3,11 @@
     "title": "test"
   },
   "MetaData": {
-    "title": "Dr. Yassine Kallali | Implant Immédiat & Esthétique Dentaire à Sousse, Tunisie",
+    "title": "Dr. Yassine Kallali | Implant Basal & Esthétique Dentaire à Sousse, Tunisie",
     "description": "Cabinet dentaire spécialisé en implantologie immédiate et esthétique dentaire à Sousse, Tunisie. Plus de 20 ans d'expertise. Patients internationaux bienvenus. Dr. Yassine Kallali - Chirurgien-Dentiste & Implantologiste.",
     "keywords": [
       "implant dentaire Sousse",
-      "implant immédiat Tunisie",
+      "implant basal Tunisie",
       "esthétique dentaire Sousse",
       "Dr. Yassine Kallali",
       "chirurgien dentiste Tunisie",
@@ -24,7 +24,7 @@
   "navbar": {
     "links": {
       "accueil": "Accueil",
-      "implant": "Implant Immédiat",
+      "implant": "Implant Basal",
       "esthetique": "Esthétique dentaire",
       "docteur": "Docteur",
       "blog": "Blog",
@@ -57,7 +57,7 @@
       "description": "Parce que chaque sourire est unique, nous mettons à votre disposition des soins dentaires modernes, personnalisés et réalisés avec passion afin de vous offrir confiance, santé et sérénité au quotidien.",
       "cards": {
         "technique": {
-          "title": "Technique de l'implant immédiat",
+          "title": "Technique de l'implant basal",
           "text": "Réduction du temps de traitement grâce à la pose immédiate de l'implant après extraction, préservant os et gencive."
         },
         "esthetique": {
@@ -187,7 +187,7 @@
           ]
         },
         "smileDesign": {
-          "title": "Smile Design & Simulation Digitale",
+          "title": "Smile Design",
           "badges": [
             "Correction Esthétique",
             "Retouche Du Sourire",
@@ -271,7 +271,7 @@
       "badge": "Une expertise reconnue et transmise",
       "name": "Dr. Yassine KALLALI,",
       "title": "Chirurgien-dentiste, implantologiste et formateur.",
-      "description": "Fort de plus de 20 ans d'expérience, le Dr. Yassine KALLALI, chirurgien-dentiste et implantologiste à Sousse, est reconnu pour son expertise en restauration dentaire complète et en implants dentaires. Également formateur, il partage son savoir-faire auprès de praticiens en Tunisie et à l'international.",
+      "description": "Fort de plus de 20 ans d'expérience, le Dr. Yassine KALLALI, chirurgien-dentiste et implantologiste à Sousse, est reconnu pour son expertise en restauration dentaire complète, en implantologie cortico-basale et en implants dentaires. Également formateur, il partage son savoir-faire auprès de praticiens en Tunisie et à l'international.",
       "badges": {
         "languages": "FR, EN, IT, AR",
         "trainer": "Formateur Certifié"
@@ -339,7 +339,12 @@
           "subtitle": "Langues disponibles en consultation.",
           "heading": "Un accompagnement sans frontières.",
           "text": "Le Dr. Yassine KALLALI reçoit et communique avec ses patients en français, anglais, arabe et italien. Les devis, comptes-rendus post-opératoires et suivis à distance sont rédigés dans la langue du patient.",
-          "list": ["Français", "Anglais", "Arabe", "Italien"]
+          "list": [
+            "Français",
+            "Anglais",
+            "Arabe",
+            "Italien"
+          ]
         }
       }
     },
@@ -377,10 +382,10 @@
       },
       "primaryCard": {
         "practitioners": "+80 Praticiens",
-        "text": "Reconnu pour son expertise en implantologie et ses protocoles rigoureux, le Dr. Yassine KALLALI anime des formations cliniques sur l'implant immédiat post-extraction."
+        "text": "Reconnu pour son expertise en implantologie et ses protocoles rigoureux, le Dr. Yassine KALLALI anime des formations cliniques sur l'implant basal post-extraction."
       },
       "infoCard": {
-        "text": "Ces formations ont lieu au cabinet, en conditions réelles sur patients, en petits groupes, avec des praticiens tunisiens et internationaux.",
+        "text": "Ces formations ont lieu au cabinet et à l’hôpital, en conditions réelles sur patients, en petits groupes, avec des praticiens tunisiens et internationaux.",
         "cta": "Contactez-nous"
       }
     },
@@ -408,11 +413,6 @@
       "title": "Des équipements de pointe au service de l'excellence clinique.",
       "previewAlt": "Aperçu",
       "equipments": [
-        {
-          "image": "/doctor/tech1.png",
-          "title": "Scanner Cone Beam 3D.",
-          "description": "Permet une imagerie 3D précise pour la planification pré-implantaire et une analyse détaillée de l'anatomie osseuse. Cette technologie permet une évaluation fiable des structures anatomiques et optimise la précision des traitements implantaires."
-        },
         {
           "image": "/doctor/tech2.png",
           "title": "Bloc opératoire dédié à l’implantologie.",
@@ -451,18 +451,16 @@
   "implant-immediat": {
     "technologie-de-charge": {
       "bagde": "Technologie de Charge Immédiate",
-      "title-PartOne": "L'implant immédiat post-extraction : ",
+      "title-PartOne": "L'implant basal post-extraction : ",
       "title-PartTwo": "Technique, protocole et résultats.",
-      "description": "L’implant immédiat post-extraction permet de remplacer une dent dès son extraction, lors de la même séance chirurgicale. Découvrez comment fonctionne cette technique d’implant dentaire le même jour en Tunisie, ses indications, ses avantages, le protocole de traitement et les résultats attendus.",
+      "description": "L’implant basal post-extraction permet de remplacer une dent dès son extraction, lors de la même séance chirurgicale. Découvrez comment fonctionne cette technique d’implant dentaire le même jour en Tunisie, ses indications, ses avantages, le protocole de traitement et les résultats attendus.",
       "ctaButton": "Demander une évaluation gratuite"
     },
     "inovation": {
       "badge": "INNOVATION & PRÉCISION",
       "title": "Comprendre l'Implantologie de Demain.",
-      "questionOne": "Qu'est-ce que l'implant immédiat ?",
+      "questionOne": "Qu'est-ce que l'implant basal ?",
       "answerOne": "L'implant est posé dans l'alvéole immédiatement  après l'extraction, sans période d'attente. Cette technique réduit le nombre de séances,  préserve le volume osseux, et raccourcit considérablement le séjour du patient.",
-      "answerOneBadge1": "Scanner 3D",
-      "answerOneBadge2": "Scanner 3D",
       "questionTwo": "Pourquoi cette technique est-elle rare ?",
       "answerTwo": "Elle exige une planification précise, un bilan radiologique 3D (cone beam), et une maîtrise chirurgicale avancée. Tous les cas ne sont pas  éligibles le Dr. Yassine KALLALI évalue chaque situation individuellement."
     },
@@ -492,7 +490,7 @@
     "eligibilité": {
       "badge": "éligibilité",
       "title": "Êtes-vous éligible à la charge immédiate ?",
-      "descriptionPartOne": "L'implant immédiat post-extraction n'est pas indiqué dans toutes les situations. La qualité de l'os, l'état de la dent à extraire et votre santé bucco-dentaire doivent être évalués avec précision. Répondez à ",
+      "descriptionPartOne": "L'implant basal post-extraction n'est pas indiqué dans toutes les situations. La qualité de l'os, l'état de la dent à extraire et votre santé bucco-dentaire doivent être évalués avec précision. Répondez à ",
       "descriptionPartTwo": " 5 questions",
       "descriptionPartThree": " rapides pour recevoir une pré-évaluation clinique personnalisée et savoir si vous êtes candidat à un implant dentaire le même jour en Tunisie.",
       "checkOne": "Analyse de la stabilité primaire",
@@ -526,7 +524,7 @@
       "qaList": [
         {
           "q": "Temps de récupération après l'intervention ?",
-          "a": "La durée du séjour varie selon votre situation clinique. Pour un implant immédiat, la plupart des patients restent entre 2 et 5 jours afin de réaliser le traitement et les contrôles nécessaires."
+          "a": "La durée du séjour varie selon votre situation clinique. Pour un implant basal, la plupart des patients restent entre 2 et 5 jours afin de réaliser le traitement et les contrôles nécessaires."
         },
         {
           "q": "Peut-on prendre l’avion après la pose d’un implant ?",
@@ -545,7 +543,7 @@
           "a": "L’intervention est réalisée sous anesthésie locale. La plupart des patients décrivent un inconfort léger à modéré pendant les premiers jours, généralement bien contrôlé par les médicaments prescrits."
         },
         {
-          "q": "Quelle est la durée de vie d’un implant immédiat ?",
+          "q": "Quelle est la durée de vie d’un implant basal ?",
           "a": "Avec une bonne hygiène bucco-dentaire et un suivi régulier, un implant dentaire peut durer de nombreuses années, voire plusieurs décennies."
         },
         {
@@ -569,7 +567,7 @@
         "Séjour optimisé de 2 à 5 jours",
         "Suivi depuis votre pays de résidence"
       ],
-      "h4": "Découvrez si vous êtes éligible à un implant immédiat en moins de 48h.",
+      "h4": "Découvrez si vous êtes éligible à un implant basal en moins de 48h.",
       "ctaButton": "Demander une évaluation gratuite"
     },
     "toast": {
@@ -619,7 +617,7 @@
       "qaList": [
         {
           "q": "Temps de récupération après l'intervention ?",
-          "a": "La durée du séjour varie selon votre situation clinique. Pour un implant immédiat, la plupart des patients restent entre 2 et 5 jours afin de réaliser le traitement et les contrôles nécessaires."
+          "a": "La durée du séjour varie selon votre situation clinique. Pour un implant basal, la plupart des patients restent entre 2 et 5 jours afin de réaliser le traitement et les contrôles nécessaires."
         },
         {
           "q": "Peut-on prendre l’avion après la pose d’un implant ?",
@@ -634,7 +632,7 @@
           "a": "L’intervention est réalisée sous anesthésie locale. La plupart des patients décrivent un inconfort léger à modéré pendant les premiers jours, généralement bien contrôlé par les médicaments prescrits."
         },
         {
-          "q": "Quelle est la durée de vie d’un implant immédiat ?",
+          "q": "Quelle est la durée de vie d’un implant basal ?",
           "a": "Avec une bonne hygiène bucco-dentaire et un suivi régulier, un implant dentaire peut durer de nombreuses années, voire plusieurs décennies."
         },
         {
@@ -650,7 +648,7 @@
     "contact": {
       "badge": "Prendre contact",
       "title": "Faites le premier pas vers votre nouveau sourire.",
-      "description": "Vous souhaitez savoir si vous êtes éligible à un implant immédiat ?  Remplissez notre formulaire de pré-évaluation — réponse personnalisée sous 48h.",
+      "description": "Vous souhaitez savoir si vous êtes éligible à un implant basal ?  Remplissez notre formulaire de pré-évaluation — réponse personnalisée sous 48h.",
       "cta-button": "Demander une évaluation gratuite"
     }
   },
@@ -663,11 +661,11 @@
       "title": "Coordonnées",
       "address-title": "ADRESSE",
       "address-value": "Avenue du 14 Janvier, Sousse 4000, Tunisie.",
-      "open-google-map-cta":"Ouvrez Google Maps",
+      "open-google-map-cta": "Ouvrez Google Maps",
       "phoneNumber-title": "TÉLÉPHONE",
       "phoneNumber-value": "+216 70 633 966",
-      "whatsApp-title":"WhatsApp",
-      "whatsApp-value":"+216 53 676 531",
+      "whatsApp-title": "WhatsApp",
+      "whatsApp-value": "+216 53 676 531",
       "email-title": "EMAIL",
       "email-value": "kantaoui.dental.clinic@gmail.com"
     },
@@ -700,10 +698,21 @@
       "email-placeholder": "email@exemple.com",
       "phoneNumber-label": "Numéro de téléphone",
       "phoneNumber-placeholder": "+33 6 12 34 56 78",
+      "countryPhone-label": "Pays & téléphone",
+      "countryPhone-placeholder": "Sélectionnez votre pays et saisissez votre numéro",
       "lang-label": "Langue préférée",
-      "languages": ["Français", "Anglais", "Italien", "Arabe"],
+      "languages": [
+        "Français",
+        "Anglais",
+        "Italien",
+        "Arabe"
+      ],
       "typeCare-label": "Type de soin",
-      "types": ["Implant immédiat"],
+      "types": [
+        "Implant basale",
+        "Esthétique",
+        "Autre"
+      ],
       "message-label": "Votre message",
       "message-placeholder": "Décrivez vos besoins ou posez vos questions...",
       "uploadTitle": "Joindre une radiographie dentaire",
@@ -750,15 +759,23 @@
       },
       {
         "title": "Contact",
-        "list": ["+216 70 633 966","WhatsApp +216 53 676 531"]
+        "list": [
+          "+216 70 633 966",
+          "WhatsApp +216 53 676 531"
+        ]
       },
       {
         "title": "Email",
-        "list": ["kantaoui.dental.clinic@gmail.com"]
+        "list": [
+          "kantaoui.dental.clinic@gmail.com"
+        ]
       },
       {
         "title": "Horaire",
-        "list": ["Lundi - Vendredi : 09:00 – 18:00","Samedi : 08:00 - 13:00"]
+        "list": [
+          "Lundi - Vendredi : 09:00 – 18:00",
+          "Samedi : 08:00 - 13:00"
+        ]
       }
     ],
     "navigation": "Navigation",
@@ -767,7 +784,7 @@
     "nav-blog": "Blog",
     "nav-contact": "Contact",
     "treatments": "Traitements",
-    "treatment-implant": "Implant Immédiat",
+    "treatment-implant": "Implant Basal",
     "treatment-esthetic": " Esthétique Dentaire",
     "information": "Information",
     "legal-notice": "Mentions légales",

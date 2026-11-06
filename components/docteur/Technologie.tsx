@@ -17,11 +17,10 @@ const Technologie = () => {
   const [activeIndex, setActiveIndex] = useState(0)
 
   const equipments = [
-    { image: "/doctor/tech1.png", title: t("equipments.0.title"), description: t("equipments.0.description") },
-    { image: "/doctor/tech2.png", title: t("equipments.1.title"), description: t("equipments.1.description") },
-    { image: "/doctor/tech3.png", title: t("equipments.2.title"), description: t("equipments.2.description") },
-    { image: "/doctor/tech4.png", title: t("equipments.3.title"), description: t("equipments.3.description") },
-    { image: "/doctor/tech5.png", title: t("equipments.4.title"), description: t("equipments.4.description") },
+    { image: "/doctor/tech2.png", title: t("equipments.0.title"), description: t("equipments.0.description") },
+    { image: "/doctor/tech3.png", title: t("equipments.1.title"), description: t("equipments.1.description") },
+    { image: "/doctor/tech4.png", title: t("equipments.2.title"), description: t("equipments.2.description") },
+    { image: "/doctor/tech5.png", title: t("equipments.3.title"), description: t("equipments.3.description") },
   ]
 
   const active = equipments[activeIndex]

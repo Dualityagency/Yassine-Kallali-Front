@@ -3,11 +3,11 @@
     "title": "test"
   },
   "MetaData": {
-    "title": "Dr. Yassine Kallali | Immediate Implant & Dental Aesthetics in Sousse, Tunisia",
-    "description": "Specialized dental clinic in immediate implantology and aesthetic dentistry in Sousse, Tunisia. Over 20 years of expertise. International patients welcome. Dr. Yassine Kallali - Dental Surgeon & Implantologist.",
+    "title": "Dr. Yassine Kallali | Basal Implant & Dental Aesthetics in Sousse, Tunisia",
+    "description": "Specialized dental clinic in Basal Implantology and aesthetic dentistry in Sousse, Tunisia. Over 20 years of expertise. International patients welcome. Dr. Yassine Kallali - Dental Surgeon & Implantologist.",
     "keywords": [
       "dental implant Sousse",
-      "immediate implant Tunisia",
+      "basal implant Tunisia",
       "dental aesthetics Sousse",
       "Dr. Yassine Kallali",
       "dental surgeon Tunisia",
@@ -24,7 +24,7 @@
   "navbar": {
     "links": {
       "accueil": "Home",
-      "implant": "Immediate Implant",
+      "implant": "Basal Implant",
       "esthetique": "Dental Aesthetics",
       "docteur": "Doctor",
       "blog": "Blog",
@@ -57,8 +57,8 @@
       "description": "Because every smile is unique, we provide modern, personalized dental care delivered with passion to offer you confidence, health and serenity every day.",
       "cards": {
         "technique": {
-          "title": "Immediate Implant Technique",
-          "text": "Reduced treatment time thanks to immediate implant placement after extraction, preserving bone and gum."
+          "title": "Basal Implant Technique",
+          "text": "Reduced treatment time thanks to basal implant placement after extraction, preserving bone and gum."
         },
         "esthetique": {
           "title": "World-Class Dental Aesthetics",
@@ -187,7 +187,7 @@
           ]
         },
         "smileDesign": {
-          "title": "Smile Design & Digital Simulation",
+          "title": "Smile Design",
           "badges": [
             "Aesthetic Correction",
             "Smile Makeover",
@@ -271,7 +271,7 @@
       "badge": "Recognized and shared expertise",
       "name": "Dr. Yassine KALLALI,",
       "title": "Dental surgeon, implantologist and trainer.",
-      "description": "With over 20 years of experience, Dr. Yassine KALLALI, dental surgeon and implantologist in Sousse, is recognized for his expertise in complete dental restoration and dental implants. Also a trainer, he shares his knowledge with practitioners in Tunisia and internationally.",
+      "description": "With over 20 years of experience, Dr. Yassine KALLALI, dental surgeon and implantologist in Sousse, is recognized for his expertise in complete dental restoration, cortico-basal implantology, and dental implants. Also a trainer, he shares his knowledge with practitioners in Tunisia and internationally.",
       "badges": {
         "languages": "FR, EN, IT, AR",
         "trainer": "Certified Trainer"
@@ -339,7 +339,12 @@
           "subtitle": "Languages available for consultation.",
           "heading": "Support without borders.",
           "text": "Dr. Yassine KALLALI welcomes and communicates with his patients in French, English, Arabic and Italian. Quotes, post-operative reports and remote follow-ups are written in the patient's language.",
-          "list": ["French", "English", "Arabic", "Italian"]
+          "list": [
+            "French",
+            "English",
+            "Arabic",
+            "Italian"
+          ]
         }
       }
     },
@@ -380,7 +385,7 @@
         "text": "Recognized for his expertise in implantology and his rigorous protocols, Dr. Yassine KALLALI leads clinical training on immediate post-extraction implants."
       },
       "infoCard": {
-        "text": "These trainings take place at the clinic, under real conditions on patients, in small groups, with Tunisian and international practitioners.",
+        "text": "These trainings take place at the clinic and in the hospital, under real clinical conditions with patients, in small groups, with Tunisian and international practitioners.",
         "cta": "Contact us"
       }
     },
@@ -408,11 +413,6 @@
       "title": "State-of-the-art equipment at the service of clinical excellence.",
       "previewAlt": "Overview",
       "equipments": [
-        {
-          "image": "/doctor/tech1.png",
-          "title": "3D Cone Beam Scanner.",
-          "description": "Allows precise 3D imaging for pre-implant planning and detailed analysis of bone anatomy. This technology enables reliable assessment of anatomical structures and optimizes the precision of implant treatments."
-        },
         {
           "image": "/doctor/tech2.png",
           "title": "Operating room dedicated to implantology.",
@@ -459,10 +459,8 @@
     "inovation": {
       "badge": "INNOVATION & PRECISION",
       "title": "Understanding Tomorrow's Implantology.",
-      "questionOne": "What is an immediate implant?",
+      "questionOne": "What is an basal implant?",
       "answerOne": "The implant is placed in the socket immediately after extraction, without a waiting period. This technique reduces the number of sessions, preserves bone volume, and considerably shortens the patient's stay.",
-      "answerOneBadge1": "3D Scanner",
-      "answerOneBadge2": "3D Scanner",
       "questionTwo": "Why is this technique rare?",
       "answerTwo": "It requires precise planning, a 3D radiological assessment (cone beam), and advanced surgical mastery. Not all cases are eligible; Dr. Yassine KALLALI evaluates each situation individually."
     },
@@ -491,7 +489,7 @@
     },
     "eligibilité": {
       "badge": "eligibility",
-      "title": "Are You Eligible for Immediate Implant Placement?",
+      "title": "Are You Eligible for Basal Implant Placement?",
       "descriptionPartOne": "Immediate post-extraction implant placement is not suitable for every situation. The quality of your bone, the condition of the tooth to be extracted, and your oral health must be carefully assessed. Answer",
       "descriptionPartTwo": " 5 quick questions",
       "descriptionPartThree": "to receive a personalized clinical pre-assessment and find out whether you are a candidate for a same-day dental implant in Tunisia.",
@@ -521,12 +519,12 @@
       }
     },
     "qa": {
-      "badge": "Frequent questions (immediate implant)",
+      "badge": "Frequent questions (basal implant)",
       "title": "What you need to know before your stay in Sousse.",
       "qaList": [
         {
           "q": "Recovery time after the procedure?",
-          "a": "The length of stay varies according to your clinical situation. For an immediate implant, most patients stay between 2 and 5 days to complete the treatment and necessary check-ups."
+          "a": "The length of stay varies according to your clinical situation. For an basal implant, most patients stay between 2 and 5 days to complete the treatment and necessary check-ups."
         },
         {
           "q": "Can you fly after implant placement?",
@@ -545,7 +543,7 @@
           "a": "The procedure is performed under local anesthesia. Most patients describe mild to moderate discomfort during the first few days, generally well controlled by prescribed medications."
         },
         {
-          "q": "What is the lifespan of an immediate implant?",
+          "q": "What is the lifespan of an basal implant?",
           "a": "With good oral hygiene and regular follow-up, a dental implant can last many years, even several decades."
         },
         {
@@ -569,7 +567,7 @@
         "Optimized stay of 2 to 5 days",
         "Follow-up from your country of residence"
       ],
-      "h4": "Find out if you are eligible for an immediate implant in less than 48 hours.",
+      "h4": "Find out if you are eligible for an basal implant in less than 48 hours.",
       "ctaButton": "Request a Free Evaluation"
     },
     "toast": {
@@ -619,7 +617,7 @@
       "qaList": [
         {
           "q": "Recovery time after the procedure?",
-          "a": "The length of stay varies according to your clinical situation. For an immediate implant, most patients stay between 2 and 5 days to complete the treatment and necessary check-ups."
+          "a": "The length of stay varies according to your clinical situation. For an basal implant, most patients stay between 2 and 5 days to complete the treatment and necessary check-ups."
         },
         {
           "q": "Can you fly after implant placement?",
@@ -634,7 +632,7 @@
           "a": "The procedure is performed under local anesthesia. Most patients describe mild to moderate discomfort during the first few days, generally well controlled by prescribed medications."
         },
         {
-          "q": "What is the lifespan of an immediate implant?",
+          "q": "What is the lifespan of an basal implant?",
           "a": "With good oral hygiene and regular follow-up, a dental implant can last many years, even several decades."
         },
         {
@@ -650,7 +648,7 @@
     "contact": {
       "badge": "Get in touch",
       "title": "Take the first step towards your new smile.",
-      "description": "Would you like to know if you are eligible for an immediate implant? Fill out our pre-assessment form — personalized response within 48 hours.",
+      "description": "Would you like to know if you are eligible for an basal implant? Fill out our pre-assessment form — personalized response within 48 hours.",
       "cta-button": "Request a free evaluation"
     }
   },
@@ -700,10 +698,21 @@
       "email-placeholder": "email@example.com",
       "phoneNumber-label": "Phone Number",
       "phoneNumber-placeholder": "+1 (555) 123-4567",
+      "countryPhone-label": "Country & phone",
+      "countryPhone-placeholder": "Select your country and enter your number",
       "lang-label": "Preferred language",
-      "languages": ["French", "English", "Italian", "Arabic"],
+      "languages": [
+        "French",
+        "English",
+        "Italian",
+        "Arabic"
+      ],
       "typeCare-label": "Type of care",
-      "types": ["Immediate implant"],
+      "types": [
+        "Basal Implantology",
+        "Dental Aesthetics",
+        "Other"
+      ],
       "message-label": "Your Message",
       "message-placeholder": "Describe your needs or ask your questions...",
       "uploadTitle": "Attach dental X-ray",
@@ -750,15 +759,23 @@
       },
       {
         "title": "Contact",
-        "list": ["+216 70 633 966", "WhatsApp +216 53 676 531"]
+        "list": [
+          "+216 70 633 966",
+          "WhatsApp +216 53 676 531"
+        ]
       },
       {
         "title": "Email",
-        "list": ["kantaoui.dental.clinic@gmail.com"]
+        "list": [
+          "kantaoui.dental.clinic@gmail.com"
+        ]
       },
       {
         "title": "Hours",
-        "list": ["Monday - Friday : 09:00 – 18:00","Saturday : 08:00 - 13:00"]
+        "list": [
+          "Monday - Friday : 09:00 – 18:00",
+          "Saturday : 08:00 - 13:00"
+        ]
       }
     ],
     "navigation": "Navigation",
@@ -767,7 +784,7 @@
     "nav-blog": "Blog",
     "nav-contact": "Contact",
     "treatments": "Treatments",
-    "treatment-implant": "Immediate Implant",
+    "treatment-implant": "Basal Implant",
     "treatment-esthetic": "Dental Aesthetics",
     "information": "Information",
     "legal-notice": "Legal notice",

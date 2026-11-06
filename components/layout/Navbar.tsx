@@ -79,6 +79,7 @@ const Navbar = () => {
             isScrolled ? "xl:rounded-[20px] xl:bg-primary" : "xl:bg-transparent"
           }`}
         >
+          
           {/* Desktop logo */}
           <Image
             src="/logo.svg"

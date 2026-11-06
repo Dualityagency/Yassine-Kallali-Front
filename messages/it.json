@@ -3,11 +3,11 @@
     "title": "test"
   },
   "MetaData": {
-    "title": "Dr. Yassine Kallali | Impianto Immediato & Estetica Dentale a Sousse, Tunisia",
+    "title": "Dr. Yassine Kallali | Impianto Basale & Estetica Dentale a Sousse, Tunisia",
     "description": "Clinica dentistica specializzata in implantologia immediata ed estetica dentale a Sousse, Tunisia. Oltre 20 anni di esperienza. Pazienti internazionali benvenuti. Dr. Yassine Kallali - Chirurgo Dentista & Implantologo.",
     "keywords": [
       "impianto dentale Sousse",
-      "impianto immediato Tunisia",
+      "impianto basale Tunisia",
       "estetica dentale Sousse",
       "Dr. Yassine Kallali",
       "chirurgo dentista Tunisia",
@@ -24,7 +24,7 @@
   "navbar": {
     "links": {
       "accueil": "Home",
-      "implant": "Impianto Immediato",
+      "implant": "Impianto Basale",
       "esthetique": "Estetica Dentale",
       "docteur": "Dottore",
       "blog": "Blog",
@@ -57,7 +57,7 @@
       "description": "Poiché ogni sorriso è unico, mettiamo a vostra disposizione cure dentali moderne, personalizzate e realizzate con passione per offrirvi fiducia, salute e serenità quotidiana.",
       "cards": {
         "technique": {
-          "title": "Tecnica dell'impianto immediato",
+          "title": "Tecnica dell'impianto basale",
           "text": "Riduzione del tempo di trattamento grazie all'inserimento immediato dell'impianto dopo l'estrazione, preservando osso e gengiva."
         },
         "esthetique": {
@@ -187,7 +187,7 @@
           ]
         },
         "smileDesign": {
-          "title": "Smile Design & Simulazione Digitale",
+          "title": "Smile Design",
           "badges": [
             "Correzione Estetica",
             "Ritocco del Sorriso",
@@ -271,7 +271,7 @@
       "badge": "Una competenza riconosciuta e trasmessa",
       "name": "Dr. Yassine KALLALI,",
       "title": "Chirurgo dentista, implantologo e formatore.",
-      "description": "Con oltre 20 anni di esperienza, il Dr. Yassine KALLALI, chirurgo dentista e implantologo a Sousse, è riconosciuto per la sua competenza nel restauro dentale completo e negli impianti dentali. Anche formatore, condivide il suo know-how con professionisti in Tunisia e a livello internazionale.",
+      "description": "Con oltre 20 anni di esperienza, il Dr. Yassine KALLALI, chirurgo dentista e implantologo a Sousse, è riconosciuto per la sua competenza nel restauro dentale completo, nell'implantologia cortico-basale e negli impianti dentali. Anche formatore, condivide il suo know-how con professionisti in Tunisia e a livello internazionale.",
       "badges": {
         "languages": "FR, EN, IT, AR",
         "trainer": "Formatore Certificato"
@@ -339,7 +339,12 @@
           "subtitle": "Lingue disponibili per la consultazione.",
           "heading": "Un accompagnamento senza frontiere.",
           "text": "Il Dr. Yassine KALLALI riceve e comunica con i suoi pazienti in francese, inglese, arabo e italiano. I preventivi, i resoconti post-operatori e i follow-up a distanza sono redatti nella lingua del paziente.",
-          "list": ["Francese", "Inglese", "Arabo", "Italiano"]
+          "list": [
+            "Francese",
+            "Inglese",
+            "Arabo",
+            "Italiano"
+          ]
         }
       }
     },
@@ -377,10 +382,10 @@
       },
       "primaryCard": {
         "practitioners": "+80 Professionisti",
-        "text": "Riconosciuto per la sua competenza in implantologia e i suoi protocolli rigorosi, il Dr. Yassine KALLALI conduce formazioni cliniche sull'impianto immediato post-estrattivo."
+        "text": "Riconosciuto per la sua competenza in implantologia e i suoi protocolli rigorosi, il Dr. Yassine KALLALI conduce formazioni cliniche sull'impianto basale post-estrattivo."
       },
       "infoCard": {
-        "text": "Queste formazioni si svolgono presso lo studio, in condizioni reali su pazienti, in piccoli gruppi, con professionisti tunisini e internazionali.",
+        "text": "Queste formazioni si svolgono presso lo studio e in ospedale, in condizioni cliniche reali con pazienti, in piccoli gruppi, con professionisti tunisini e internazionali.",
         "cta": "Contattaci"
       }
     },
@@ -408,11 +413,6 @@
       "title": "Attrezzature all'avanguardia al servizio dell'eccellenza clinica.",
       "previewAlt": "Panoramica",
       "equipments": [
-        {
-          "image": "/doctor/tech1.png",
-          "title": "Scanner Cone Beam 3D.",
-          "description": "Consente un'imaging 3D precisa per la pianificazione pre-implantare e un'analisi dettagliata dell'anatomia ossea. Questa tecnologia permette una valutazione affidabile delle strutture anatomiche e ottimizza la precisione dei trattamenti implantari."
-        },
         {
           "image": "/doctor/tech2.png",
           "title": "Blocco operatorio dedicato all'implantologia.",
@@ -451,18 +451,16 @@
   "implant-immediat": {
     "technologie-de-charge": {
       "bagde": "Tecnologia a Carico Immediato",
-      "title-PartOne": "L'impianto immediato post-estrattivo: ",
+      "title-PartOne": "L'impianto basale post-estrattivo: ",
       "title-PartTwo": "Tecnica, protocollo e risultati.",
-      "description": "L'impianto immediato post-estrattivo permette di sostituire un dente subito dopo la sua estrazione, durante la stessa seduta chirurgica. Scoprite come funziona questa tecnica di impianto dentale in giornata in Tunisia, le sue indicazioni, i vantaggi, il protocollo di trattamento e i risultati attesi.",
+      "description": "L'impianto basale post-estrattivo permette di sostituire un dente subito dopo la sua estrazione, durante la stessa seduta chirurgica. Scoprite come funziona questa tecnica di impianto dentale in giornata in Tunisia, le sue indicazioni, i vantaggi, il protocollo di trattamento e i risultati attesi.",
       "ctaButton": "Richiedi una valutazione gratuita"
     },
     "inovation": {
       "badge": "INNOVAZIONE & PRECISIONE",
       "title": "Comprendere l'Implantologia di Domani.",
-      "questionOne": "Cos'è un impianto immediato?",
+      "questionOne": "Cos'è un impianto basale?",
       "answerOne": "L'impianto viene inserito nell'alveolo immediatamente dopo l'estrazione, senza periodo di attesa. Questa tecnica riduce il numero di sedute, preserva il volume osseo e accorcia considerevolmente il soggiorno del paziente.",
-      "answerOneBadge1": "Scanner 3D",
-      "answerOneBadge2": "Scanner 3D",
       "questionTwo": "Perché questa tecnica è rara?",
       "answerTwo": "Richiede una pianificazione precisa, una valutazione radiologica 3D (cone beam) e una padronanza chirurgica avanzata. Non tutti i casi sono idonei; il Dr. Yassine KALLALI valuta ogni situazione individualmente."
     },
@@ -491,8 +489,8 @@
     },
     "eligibilité": {
       "badge": "idoneità",
-      "title": "Sei idoneo per un impianto immediato?",
-      "descriptionPartOne": "L'impianto immediato post-estrazione non è indicato in tutte le situazioni. La qualità dell'osso, lo stato del dente da estrarre e la salute della tua bocca devono essere valutati con precisione. Rispondi a",
+      "title": "Sei idoneo per un impianto basale?",
+      "descriptionPartOne": "L'impianto basale post-estrazione non è indicato in tutte le situazioni. La qualità dell'osso, lo stato del dente da estrarre e la salute della tua bocca devono essere valutati con precisione. Rispondi a",
       "descriptionPartTwo": " 5 domande rapide",
       "descriptionPartThree": "per ricevere una pre-valutazione clinica personalizzata e scoprire se sei un candidato per un impianto dentale nello stesso giorno in Tunisia.",
       "checkOne": "Analisi della stabilità primaria",
@@ -521,12 +519,12 @@
       }
     },
     "qa": {
-      "badge": "Domande frequenti (impianto immediato)",
+      "badge": "Domande frequenti (impianto basale)",
       "title": "Cosa c'è da sapere prima del vostro soggiorno a Sousse.",
       "qaList": [
         {
           "q": "Tempo di recupero dopo l'intervento?",
-          "a": "La durata del soggiorno varia a seconda della vostra situazione clinica. Per un impianto immediato, la maggior parte dei pazienti rimane tra 2 e 5 giorni per effettuare il trattamento e i controlli necessari."
+          "a": "La durata del soggiorno varia a seconda della vostra situazione clinica. Per un impianto basale, la maggior parte dei pazienti rimane tra 2 e 5 giorni per effettuare il trattamento e i controlli necessari."
         },
         {
           "q": "Si può prendere l'aereo dopo l'inserimento di un impianto?",
@@ -545,7 +543,7 @@
           "a": "L'intervento viene eseguito in anestesia locale. La maggior parte dei pazienti descrive un disagio da lieve a moderato durante i primi giorni, generalmente ben controllato dai farmaci prescritti."
         },
         {
-          "q": "Qual è la durata di un impianto immediato?",
+          "q": "Qual è la durata di un impianto basale?",
           "a": "Con una buona igiene orale e un follow-up regolare, un impianto dentale può durare molti anni, anche diversi decenni."
         },
         {
@@ -569,7 +567,7 @@
         "Soggiorno ottimizzato da 2 a 5 giorni",
         "Follow-up dal tuo Paese di residenza"
       ],
-      "h4": "Scopri se sei idoneo per un impianto immediato in meno di 48 ore.",
+      "h4": "Scopri se sei idoneo per un impianto basale in meno di 48 ore.",
       "ctaButton": "Richiedi una valutazione gratuita"
     },
     "toast": {
@@ -619,7 +617,7 @@
       "qaList": [
         {
           "q": "Tempo di recupero dopo l'intervento?",
-          "a": "La durata del soggiorno varia a seconda della vostra situazione clinica. Per un impianto immediato, la maggior parte dei pazienti rimane tra 2 e 5 giorni per effettuare il trattamento e i controlli necessari."
+          "a": "La durata del soggiorno varia a seconda della vostra situazione clinica. Per un impianto basale, la maggior parte dei pazienti rimane tra 2 e 5 giorni per effettuare il trattamento e i controlli necessari."
         },
         {
           "q": "Si può prendere l'aereo dopo l'inserimento di un impianto?",
@@ -634,7 +632,7 @@
           "a": "L'intervento viene eseguito in anestesia locale. La maggior parte dei pazienti descrive un disagio da lieve a moderato durante i primi giorni, generalmente ben controllato dai farmaci prescritti."
         },
         {
-          "q": "Qual è la durata di un impianto immediato?",
+          "q": "Qual è la durata di un impianto basale?",
           "a": "Con una buona igiene orale e un follow-up regolare, un impianto dentale può durare molti anni, anche diversi decenni."
         },
         {
@@ -650,7 +648,7 @@
     "contact": {
       "badge": "Mettiti in contatto",
       "title": "Fate il primo passo verso il vostro nuovo sorriso.",
-      "description": "Volete sapere se siete idonei per un impianto immediato? Compilate il nostro modulo di pre-valutazione — risposta personalizzata entro 48 ore.",
+      "description": "Volete sapere se siete idonei per un impianto basale? Compilate il nostro modulo di pre-valutazione — risposta personalizzata entro 48 ore.",
       "cta-button": "Richiedi una valutazione gratuita"
     }
   },
@@ -663,7 +661,7 @@
       "title": "Contatti",
       "address-title": "INDIRIZZO",
       "address-value": "Avenue du 14 Janvier, Sousse 4000, Tunisia.",
-      "open-google-map-cta":"Apri Google Maps",
+      "open-google-map-cta": "Apri Google Maps",
       "phoneNumber-title": "TELEFONO",
       "phoneNumber-value": "+216 70 633 966",
       "whatsApp-title": "WhatsApp",
@@ -700,10 +698,21 @@
       "email-placeholder": "esempio@esempio.com",
       "phoneNumber-label": "Numero di telefono",
       "phoneNumber-placeholder": "+39 312 345 6789",
+      "countryPhone-label": "Paese e telefono",
+      "countryPhone-placeholder": "Seleziona il paese e inserisci il numero",
       "lang-label": "Lingua preferita",
-      "languages": ["Francese", "Inglese", "Italiano", "Arabo"],
+      "languages": [
+        "Francese",
+        "Inglese",
+        "Italiano",
+        "Arabo"
+      ],
       "typeCare-label": "Tipo di cura",
-      "types": ["Impianto immediato"],
+      "types": [
+        "Implantologia basale",
+        "Estetica dentale",
+        "Altro"
+      ],
       "message-label": "Il vostro Messaggio",
       "message-placeholder": "Descrivete le vostre esigenze o fate le vostre domande...",
       "uploadTitle": "Allega una radiografia dentale",
@@ -750,15 +759,23 @@
       },
       {
         "title": "Contatto",
-        "list": ["+216 70 633 966","WhatsApp +216 53 676 531"]
+        "list": [
+          "+216 70 633 966",
+          "WhatsApp +216 53 676 531"
+        ]
       },
       {
         "title": "Email",
-        "list": ["kantaoui.dental.clinic@gmail.com"]
+        "list": [
+          "kantaoui.dental.clinic@gmail.com"
+        ]
       },
       {
         "title": "Orari",
-        "list": ["Lunedì - Venerdì : 09:00 – 18:00","Sabato : 08:00 - 13:00"]
+        "list": [
+          "Lunedì - Venerdì : 09:00 – 18:00",
+          "Sabato : 08:00 - 13:00"
+        ]
       }
     ],
     "navigation": "Navigazione",
@@ -767,7 +784,7 @@
     "nav-blog": "Blog",
     "nav-contact": "Contatto",
     "treatments": "Trattamenti",
-    "treatment-implant": "Impianto Immediato",
+    "treatment-implant": "Impianto Basale",
     "treatment-esthetic": "Estetica Dentale",
     "information": "Informazioni",
     "legal-notice": "Note legali",

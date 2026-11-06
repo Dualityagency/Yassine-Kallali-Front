@@ -23,10 +23,6 @@ export default function Innovation() {
                     <Image src={"/icons/nib.png"} width={56} height={56} className="mb-6" alt="nib icon"/>
                     <h2 className="title3 mb-8.75 lg:mb-5.5">{t("inovation.questionOne")}</h2>
                     <p className="paragraph mb-8 lg:mb-3.5">{t("inovation.answerOne")}</p>
-                    <div className="flex gap-x-2">
-                        <Badge variant={"gray"}>{t("inovation.answerOneBadge1")}</Badge>
-                        <Badge variant={"gray"}>{t("inovation.answerOneBadge2")}</Badge>
-                    </div>
                 </div>
 
                 <div className="w-full lg:w-[41%]  rounded-[15px] bg-primary px-5.5 py-8.25">

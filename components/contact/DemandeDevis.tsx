@@ -17,15 +17,21 @@ import { Checkbox } from "../ui/checkbox";
 import CtaButton from "../ui/CtaButton";
 import { useDevis } from "@/hooks/useDevis";
 
+import PhoneInput from "react-phone-number-input";
+import "react-phone-number-input/style.css";
+import en from 'react-phone-number-input/locale/en.json';
+import { useState } from "react";
+import Locale from "react-phone-number-input/locale/en.json";
+
+
 export default function DemandeDevis() {
   const t = useTranslations("contact");
   const languages = t.raw("form.languages") as string[];
   const types = t.raw("form.types") as string[];
   const { devis } = useDevis();
-
+  const [selectedCountry, setSelectedCountry] = useState("TN");
   type Inputs = {
     fullName: string;
-    country: string;
     email: string;
     phoneNumber: string;
     language: string;
@@ -45,8 +51,10 @@ export default function DemandeDevis() {
   });
 
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
-    devis.mutate(data);
-
+    devis.mutate({
+      ...data,
+      country: en[selectedCountry as keyof typeof en]
+    });
     // try {
     //   const res = await fetch("/api/devis", {
     //     method: "POST",
@@ -82,8 +90,8 @@ export default function DemandeDevis() {
       <h2 className="title3 mb-5 lg:mb-3.75">{t("form.title")}</h2>
       <p className="paragraph1 mb-5 lg:mb-8.5 ">{t("form.description")}</p>
       <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-y-3">
-        {/* Input for Full Name & Country */}
-        <div className="flex flex-col lg:flex-row justify-between">
+        {/* Input for Full Name & Email & Country(commented) */}
+        <div className="flex flex-col gap-y-3 lg:flex-row justify-between">
           <div className="flex flex-col gap-y-2.5 w-full lg:w-[47%]">
             <Label>{t("form.fullName-label")}</Label>
             <Input
@@ -97,21 +105,6 @@ export default function DemandeDevis() {
             )}
           </div>
           <div className="flex flex-col gap-y-2.5 w-full lg:w-[47%]">
-            <Label>{t("form.country-label")}</Label>
-            <Input
-              {...register("country", {
-                required: t("toast.errors.countryRequired"),
-              })}
-              placeholder={t("form.country-placeholder")}
-            ></Input>
-            {errors.country && (
-              <p className="text-sm text-red-600">{errors.country.message}</p>
-            )}
-          </div>
-        </div>
-        {/* Input for Email & Phone Number */}
-        <div className="flex flex-col lg:flex-row justify-between">
-          <div className="flex flex-col gap-y-2.5 w-full lg:w-[47%]">
             <Label>{t("form.email-label")}</Label>
             <Input
               {...register("email", {
@@ -122,26 +115,54 @@ export default function DemandeDevis() {
                 },
               })}
               placeholder={t("form.email-placeholder")}
-            ></Input>
+            />
             {errors.email && (
               <p className="text-sm text-red-600">{errors.email.message}</p>
             )}
           </div>
-          <div className="flex flex-col gap-y-2.5 w-full lg:w-[47%]">
-            <Label>{t("form.phoneNumber-label")}</Label>
+          {/* <div className="flex flex-col gap-y-2.5 w-full lg:w-[47%]">
+            <Label>{t("form.country-label")}</Label>
             <Input
-              {...register("phoneNumber", {
-                required: t("toast.errors.phoneNumberRequired"),
+              {...register("country", {
+                required: t("toast.errors.countryRequired"),
               })}
-              placeholder={t("form.phoneNumber-placeholder")}
+              placeholder={t("form.country-placeholder")}
             ></Input>
+            {errors.country && (
+              <p className="text-sm text-red-600">{errors.country.message}</p>
+            )}
+          </div> */}
+        </div>
+        {/* Input for Phone Number & Langue préférée*/}
+        <div className="flex flex-col gap-y-3 lg:flex-row justify-between">
+          <div className="flex flex-col gap-y-2.5 w-full lg:w-[47%]">
+            <Label>{t("form.countryPhone-label")}</Label>
+            <Controller
+              name="phoneNumber"
+              control={control}
+              rules={{
+                required: t("toast.errors.phoneNumberRequired"),
+              }}
+              render={({ field }) => (
+                <PhoneInput
+                  {...field}
+                  international
+                  defaultCountry="TN"
+                  labels={en}
+                  onCountryChange={(country) => {
+                    if (country) setSelectedCountry(country);
+                  }}
+                  placeholder={t("form.countryPhone-placeholder")}
+                  className="flex phone-input
+                  w-full min-w-0 rounded-[9.86px] border-[1.23px] border-border bg-white px-4 py-2.5 lg:py-3 text-[#6B7280] text-[17px] placeholder:text-[17px] font-normal
+                  "
+                />
+              )}
+            />
             {errors.phoneNumber && (
               <p className="text-sm text-red-600">{errors.phoneNumber.message}</p>
             )}
           </div>
-        </div>
-        {/* Langue préférée & Type d soins Selectors  */}
-        <div className="flex flex-col lg:flex-row justify-between">
           <div className="flex flex-col gap-y-2.5 w-full lg:w-[47%]">
             <Label>{t("form.lang-label")}</Label>
             <Controller
@@ -170,6 +191,10 @@ export default function DemandeDevis() {
               )}
             />
           </div>
+        </div>
+        {/* Type d soins Selectors  */}
+        <div className="flex flex-col gap-y-3 lg:flex-row justify-between">
+
           <div className="flex flex-col gap-y-2.5 w-full lg:w-[47%]">
             <Label>{t("form.typeCare-label")}</Label>
             <Controller

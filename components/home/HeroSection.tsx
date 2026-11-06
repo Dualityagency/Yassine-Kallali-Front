@@ -6,9 +6,8 @@ import Link from "next/link";
 
 const HeroSection = () => {
   const t = useTranslations("home.hero");
-
   return (
-    <section className="relative">
+    <section className="relative mt-18 lg:mt-0">
       {/* <Image
         src="/home/home.png"
         alt="Hero Image"
@@ -24,7 +23,7 @@ const HeroSection = () => {
         aria-hidden="true"
         className="w-full h-[461px] lg:h-[809px] object-cover"
       >
-        <source src="/home/Dr%20Yassine%2011.mov" type="video/mp4" />
+      <source src="/home/Dr%20Yassine%2011.mov" type="video/mp4" />
       </video>
       {/* Overlay */}
       <div className="absolute inset-0 flex items-center pt-15 lg:pt-24 shadow-2xl">
@@ -43,6 +42,7 @@ const HeroSection = () => {
             <p className="text-[15px] lg:text-[20px] [text-shadow:_1px_1px_0_#000,-1px_-1px_0_#000,1px_-1px_0_#000,-1px_1px_0_#000] font-normal leading-none tracking-normal text-gray-100 pt-5 pb-5 lg:pt-8 lg:pb-14">
               {t("description")}
             </p>
+            
             <Link href={"/contact"}>
               <CtaButton>{t("cta")}</CtaButton>
             </Link>
