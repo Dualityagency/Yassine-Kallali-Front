@@ -450,55 +450,68 @@
   },
   "implant-immediat": {
     "technologie-de-charge": {
-      "bagde": "Technologie de Charge Immédiate",
-      "title-PartOne": "L'implant basal post-extraction : ",
-      "title-PartTwo": "Technique, protocole et résultats.",
-      "description": "L’implant basal post-extraction permet de remplacer une dent dès son extraction, lors de la même séance chirurgicale. Découvrez comment fonctionne cette technique d’implant dentaire le même jour en Tunisie, ses indications, ses avantages, le protocole de traitement et les résultats attendus.",
+      "bagde": "Mise en charge immédiate",
+      "title-PartOne": "Implant basal post-extraction :",
+      "title-PartTwo": "technique, protocole et résultats",
+      "description": "L’implant basal (ou corticobasal) peut être posé le jour même de l’extraction, au cours de la même séance. Il s’ancre dans l’os cortical, la partie la plus dense et la plus profonde de la mâchoire. C’est ce qui lui permet de convenir à la grande majorité des patients, y compris en cas de perte osseuse importante, et souvent sans greffe osseuse. Découvrez comment fonctionne cette technique à Sousse, en Tunisie, à qui elle s’adresse, comment se déroule le traitement et ce que vous pouvez en attendre.",
       "ctaButton": "Demander une évaluation gratuite"
     },
     "inovation": {
       "badge": "INNOVATION & PRÉCISION",
-      "title": "Comprendre l'Implantologie de Demain.",
-      "questionOne": "Qu'est-ce que l'implant basal ?",
-      "answerOne": "L'implant est posé dans l'alvéole immédiatement  après l'extraction, sans période d'attente. Cette technique réduit le nombre de séances,  préserve le volume osseux, et raccourcit considérablement le séjour du patient.",
+      "title": "Comprendre l’implant basal",
+      "questionOne": "Qu’est-ce qu’un implant basal ?",
+      "answerOneP1": "Un implant dentaire classique s’appuie surtout sur le volume d’os qui l’entoure. Quand cet os a fondu, il faut souvent une greffe osseuse et plusieurs mois d’attente.",
+      "answerOneP2": "L’implant basal est plus fin. Il traverse la zone fragilisée pour aller s’ancrer dans l’os cortical, une couche dense qui reste généralement présente même lorsque l’os a beaucoup diminué. Cet ancrage permet le plus souvent :",
+      "list": [
+        "de poser l’implant dans la même séance que l’extraction ;",
+        "d’éviter une greffe osseuse ;",
+        "de fixer des dents provisoires dans les jours qui suivent."
+      ],
       "questionTwo": "Pourquoi cette technique est-elle rare ?",
       "answerTwo": "Elle exige une planification précise, un bilan radiologique 3D (cone beam), et une maîtrise chirurgicale avancée. Tous les cas ne sont pas  éligibles le Dr. Yassine KALLALI évalue chaque situation individuellement."
     },
     "protocole": {
       "badge": "LE PROTOCOLE",
-      "title": "Comment se déroule la procédure ?",
-      "description": "Une organisation optimisée pour les patients locaux et internationaux.",
+      "title": "Comment se déroule le traitement ?",
+      "description": "Une organisation pensée pour les patients tunisiens comme pour ceux qui viennent de l’étranger.",
       "list": [
         {
-          "title": "Consultation + Bilan",
-          "description": "Analyse radiologique complète par Cone Beam pour valider la densité osseuse."
+          "title": "Consultation et bilan 3D",
+          "description": "Examen clinique et scanner cone beam, pour mesurer l’os disponible et planifier la position de chaque implant. Vous recevez ensuite un plan de traitement et un devis détaillé."
         },
         {
-          "title": "Extraction & Pose",
-          "description": "Extraction atraumatique et mise en place immédiate de l'implant en titane."
+          "title": "Extraction et pose des implants",
+          "description": "Les dents à retirer sont extraites avec le moins de traumatisme possible. Les implants basaux sont posés dans la même séance, sous anesthésie locale."
         },
         {
-          "title": " Couronne Provisoire",
-          "description": "Pose d'une dent esthétique provisoire fixe. Vous repartez avec un sourire complet."
+          "title": "Dents fixes",
+          "description": "Une dent ou un bridge fixe est posé dans les jours qui suivent l’intervention. Vous n’avez pas de prothèse amovible à porter. Le calendrier de la prothèse définitive vous est expliqué dès la consultation, selon votre plan de traitement."
         },
         {
-          "title": "Suivi à distance",
-          "description": "Visioconférence pour les patients étrangers afin de monitorer la cicatrisation."
+          "title": "Suivi, sur place puis à distance",
+          "description": "Contrôles à la clinique avant votre départ, puis suivi par visioconférence pour les patients venus de l’étranger. Des contrôles réguliers et une bonne hygiène sont indispensables pour la durée de vie du traitement."
         }
       ]
     },
     "eligibilité": {
       "badge": "éligibilité",
-      "title": "Êtes-vous éligible à la charge immédiate ?",
-      "descriptionPartOne": "L'implant basal post-extraction n'est pas indiqué dans toutes les situations. La qualité de l'os, l'état de la dent à extraire et votre santé bucco-dentaire doivent être évalués avec précision. Répondez à ",
-      "descriptionPartTwo": " 5 questions",
-      "descriptionPartThree": " rapides pour recevoir une pré-évaluation clinique personnalisée et savoir si vous êtes candidat à un implant dentaire le même jour en Tunisie.",
-      "checkOne": "Analyse de la stabilité primaire",
-      "checkTwo": "Évaluation de la santé gingivale",
-      "checkThree": "Réponse garantie sous 48h",
+      "title": "Êtes-vous candidat à l’implant basal ?",
+      "descriptionPartOne": "La plupart des patients peuvent bénéficier d’un implant basal, même avec peu d’os. Certaines situations demandent toutefois une évaluation particulière :",
+      "listOne": [
+        "certains traitements qui agissent sur l’os ;",
+        "une radiothérapie passée au niveau de la mâchoire ;",
+        "un diabète mal équilibré ;",
+        "un tabagisme important ou un grincement des dents marqué."
+      ],
+      "descriptionPartTwo": "Le questionnaire ci-dessous permet au Dr Kallali d’étudier votre situation et de préparer votre dossier. Votre éligibilité est confirmée après l’examen clinique et le scanner 3D.",
+      "listTwo": [
+        "Votre situation dentaire actuelle",
+        "Vos antécédents de santé utiles",
+        "Vos radiographies, si vous en avez"
+      ],
       "form": {
         "title": "Pré-évaluation gratuite",
-        "description": "5 questions simples pour évaluer votre éligibilité.",
+        "description": "5 questions simples pour une première orientation.",
         "fullName-label": "Nom & Prénom",
         "fullName-placeholder": "Jean Dupont",
         "email-label": "E-mail",
@@ -513,46 +526,56 @@
         "questionFour-placeholder": "Ex. : Diabète de type 2",
         "questionFive-label": "5/ Souhaitez-vous poser l'implant le même jour que l'extraction ?",
         "questionFive-placeholder": "Ex. : Oui, si possible",
-        "info": "Vos données sont 100% confidentielles et sécurisées.",
+        "info": "Nous vous répondons en général sous 48 heures ouvrées. Vos données sont traitées de façon confidentielle et utilisées uniquement pour étudier votre demande.",
+        "lien": "/MentionsLegales",
+        "lienText": "([lien vers la politique de confidentialité]).",
         "ctaSubmit": "Envoyer ma pré-évaluation",
         "ctaSubmitting": "Envoi en cours..."
       }
     },
     "qa": {
-      "badge": "Questions fréquentes (implant-immediat)",
+      "badge": "Questions fréquentes",
       "title": "Ce qu’il faut savoir avant votre séjour à Sousse.",
       "qaList": [
         {
-          "q": "Temps de récupération après l'intervention ?",
-          "a": "La durée du séjour varie selon votre situation clinique. Pour un implant basal, la plupart des patients restent entre 2 et 5 jours afin de réaliser le traitement et les contrôles nécessaires."
+          "q": "Puis-je recevoir un implant basal si l’on m’a dit que je n’avais pas assez d’os ?",
+          "a": "Dans la grande majorité des cas, oui. L’implant basal s’ancre dans l’os cortical, qui reste généralement présent même après une perte osseuse importante. Le scanner 3D permet de le confirmer."
         },
         {
-          "q": "Peut-on prendre l’avion après la pose d’un implant ?",
-          "a": "Oui. Dans la majorité des cas, il est possible de voyager en avion 24 à 48 heures après l’intervention, sous réserve de respecter les recommandations post-opératoires."
+          "q": "Peut-on remplacer une seule dent ?",
+          "a": "Oui. L’implant basal peut remplacer une dent unique comme plusieurs dents ou une arcade complète."
+        },
+        {
+          "q": "Combien de temps dure la récupération ?",
+          "a": "Un gonflement et une gêne sont fréquents pendant quelques jours. Une alimentation molle est recommandée au début. Le Dr Kallali vous remet des consignes écrites et vous indique quand reprendre vos activités."
+        },
+        {
+          "q": "Peut-on prendre l’avion après la pose ?",
+          "a": "En général oui, une fois le contrôle postopératoire effectué à la clinique. Le Dr Kallali vous indique la date de retour adaptée à votre cas."
         },
         {
           "q": "Le suivi est-il possible depuis la France, l’Italie ou le Royaume-Uni ?",
-          "a": "Oui. Le suivi post-opératoire peut être assuré à distance par visioconférence et échanges de documents médicaux, quel que soit votre pays de résidence."
+          "a": "Oui. Un suivi par visioconférence est organisé après votre retour. Certains contrôles peuvent nécessiter une visite à la clinique."
         },
         {
-          "q": "Comment envoyer mes radios ?",
-          "a": "Vous pouvez transmettre vos radios panoramiques, scanners ou Cone Beam directement via notre formulaire sécurisé, par e-mail ou via WhatsApp."
+          "q": "Comment envoyer mes radiographies ?",
+          "a": "Vous pouvez joindre une radio panoramique ou un scanner cone beam récent au formulaire, ou l’envoyer par WhatsApp ou par e-mail. Si vous n’en avez pas, le bilan sera réalisé à la clinique."
         },
         {
           "q": "Est-ce douloureux ?",
-          "a": "L’intervention est réalisée sous anesthésie locale. La plupart des patients décrivent un inconfort léger à modéré pendant les premiers jours, généralement bien contrôlé par les médicaments prescrits."
+          "a": "L’intervention se fait sous anesthésie locale. Une gêne et un gonflement sont habituels les jours suivants. Un traitement contre la douleur vous est prescrit."
         },
         {
           "q": "Quelle est la durée de vie d’un implant basal ?",
-          "a": "Avec une bonne hygiène bucco-dentaire et un suivi régulier, un implant dentaire peut durer de nombreuses années, voire plusieurs décennies."
+          "a": "Elle dépend de votre hygiène, de vos contrôles réguliers, de votre état de santé et d’habitudes comme le tabac ou le grincement des dents. Le traitement est conçu pour durer longtemps, avec un entretien régulier."
         },
         {
-          "q": "Existe-t-il des vols directs depuis Paris, Milan, Bruxelles ou Londres ?",
-          "a": "Oui. Des vols directs ou avec escale courte sont régulièrement disponibles depuis plusieurs grandes villes européennes vers les aéroports desservant la région de Sousse."
+          "q": "Quels aéroports pour venir à Sousse ?",
+          "a": "Trois aéroports desservent Sousse : Monastir, à environ 20 minutes ; Enfidha-Hammamet, à environ 40 minutes ; Tunis-Carthage, à environ 1 h 30 à 2 h de route. Selon les saisons et les compagnies, des vols directs relient ces aéroports à plusieurs villes d’Europe, dont Paris, Milan, Bruxelles et Londres. Nous vous conseillons de vérifier les liaisons au moment de réserver."
         },
         {
           "q": "Quels hébergements sont disponibles à Sousse ?",
-          "a": "Sousse propose un large choix d’hébergements : hôtels, résidences et appartements adaptés à tous les budgets. Notre équipe peut vous conseiller des options proches du cabinet."
+          "a": "Sousse et la zone de Port El Kantaoui offrent un large choix d’hôtels et d’appartements. La clinique vous conseille sur les hébergements adaptés à votre séjour et à votre convalescence."
         }
       ]
     },
@@ -793,6 +816,7 @@
     "social-facebook": "Facebook",
     "social-instagram": "Instagram",
     "social-linkedin": "LinkedIn",
+    "social-tiktok": "TikTok",
     "docter": "Dr. Yassine KALLALI",
     "copyright": "© 2026 Dr. Yassine Kallali. Tous droits réservés. Enregistrement CNOMDT N°1813",
     "designed_by": "Conçu pary"

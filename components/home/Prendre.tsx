@@ -10,7 +10,7 @@ const Prendre = () => {
   return (
     <div className="relative w-full h-[410px] lg:h-[454px] overflow-hidden">
       <Image
-        src="/home/Prendre.png"
+        src="/home/Prendre.webp"
         alt={t("title")}
         fill
         priority

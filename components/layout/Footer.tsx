@@ -118,22 +118,25 @@ export default function Footer() {
             </h4>
             <div className="flex flex-col gap-y-3.5 lg:gap-y-4">
               <Link
-                href="/"
+                href="https://www.facebook.com/Dr.Kalleli.Yassine/"
+                target="_blank"
                 className="font-normal text-gray2 text-[14.2px] lg:text-base leading-[140%]"
               >
                 {t("social-facebook")}
               </Link>
               <Link
-                href="/services"
+                href="https://www.instagram.com/kantaoui_dental_clinic/"
+                target="_blank"
                 className="font-normal text-gray2 text-[14.77px] lg:text-[16px] leading-[140%]"
               >
                 {t("social-instagram")}
               </Link>
               <Link
-                href="/services"
+                href="https://www.tiktok.com/@dr.yassine.kallali"
+                target="_blank"
                 className="font-normal text-gray2 text-[14.77px] lg:text-[16px] leading-[140%]"
               >
-                {t("social-linkedin")}
+                {t("social-tiktok")}
               </Link>
             </div>
           </div>

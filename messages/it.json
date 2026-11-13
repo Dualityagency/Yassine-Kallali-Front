@@ -450,55 +450,68 @@
   },
   "implant-immediat": {
     "technologie-de-charge": {
-      "bagde": "Tecnologia a Carico Immediato",
-      "title-PartOne": "L'impianto basale post-estrattivo: ",
-      "title-PartTwo": "Tecnica, protocollo e risultati.",
-      "description": "L'impianto basale post-estrattivo permette di sostituire un dente subito dopo la sua estrazione, durante la stessa seduta chirurgica. Scoprite come funziona questa tecnica di impianto dentale in giornata in Tunisia, le sue indicazioni, i vantaggi, il protocollo di trattamento e i risultati attesi.",
-      "ctaButton": "Richiedi una valutazione gratuita"
+      "bagde": "Carico immediato",
+      "title-PartOne": "Impianto basale post-estrattivo:",
+      "title-PartTwo": "tecnica, protocollo e risultati",
+      "description": "L’impianto basale (o corticobasale) può essere inserito il giorno stesso dell’estrazione, nella stessa seduta. Si ancora nell’osso corticale, la parte più densa e profonda delle ossa mascellari. Per questo è adatto alla grande maggioranza dei pazienti, anche in caso di importante perdita ossea, e spesso senza innesto osseo. Scopra come funziona questa tecnica a Sousse, in Tunisia, a chi si rivolge, come si svolge il trattamento e cosa può aspettarsi.",
+      "ctaButton": "Richieda una valutazione gratuita"
     },
     "inovation": {
       "badge": "INNOVAZIONE & PRECISIONE",
-      "title": "Comprendere l'Implantologia di Domani.",
-      "questionOne": "Cos'è un impianto basale?",
-      "answerOne": "L'impianto viene inserito nell'alveolo immediatamente dopo l'estrazione, senza periodo di attesa. Questa tecnica riduce il numero di sedute, preserva il volume osseo e accorcia considerevolmente il soggiorno del paziente.",
+      "title": "Capire l’impianto basale",
+      "questionOne": "Che cos’è un impianto basale?",
+      "answerOneP1": "Un impianto dentale tradizionale si appoggia soprattutto sul volume di osso che lo circonda. Quando quest’osso si è riassorbito, spesso servono un innesto osseo e diversi mesi di attesa.",
+      "answerOneP2": "L’impianto basale è più sottile. Attraversa la zona indebolita per ancorarsi nell’osso corticale, uno strato denso che in genere rimane presente anche quando l’osso si è molto ridotto. Nella maggior parte dei casi, questo ancoraggio permette di: ",
+      "list": [
+        "inserire l’impianto nella stessa seduta dell’estrazione;",
+        "evitare un innesto osseo;",
+        "applicare denti provvisori fissi nei giorni successivi."
+      ],
       "questionTwo": "Perché questa tecnica è rara?",
       "answerTwo": "Richiede una pianificazione precisa, una valutazione radiologica 3D (cone beam) e una padronanza chirurgica avanzata. Non tutti i casi sono idonei; il Dr. Yassine KALLALI valuta ogni situazione individualmente."
     },
     "protocole": {
-      "badge": "IL PROTOCOLLO",
-      "title": "Come si svolge la procedura?",
-      "description": "Un'organizzazione ottimizzata per i pazienti locali e internazionali.",
+      "badge": "Il protocollo",
+      "title": "Come si svolge il trattamento?",
+      "description": "Un’organizzazione pensata sia per i pazienti tunisini sia per chi arriva dall’estero.",
       "list": [
         {
-          "title": "Consultazione + Valutazione",
-          "description": "Analisi radiologica completa tramite Cone Beam per convalidare la densità ossea."
+          "title": "Visita e valutazione 3D",
+          "description": "Esame clinico e TAC cone beam, per misurare l’osso disponibile e pianificare la posizione di ogni impianto. Riceve poi un piano di trattamento e un preventivo dettagliato."
         },
         {
-          "title": "Estrazione & Inserimento",
-          "description": "Estrazione atraumatica e inserimento immediato dell'impianto in titanio."
+          "title": "Estrazione e inserimento degli impianti",
+          "description": "I denti da rimuovere vengono estratti nel modo meno traumatico possibile. Gli impianti basali vengono inseriti nella stessa seduta, in anestesia locale."
         },
         {
-          "title": "Corona Provvisoria",
-          "description": "Applicazione di un dente estetico provvisorio fisso. Partite con un sorriso completo."
+          "title": "Denti fissi",
+          "description": "Un dente o un ponte fisso viene applicato nei giorni successivi all’intervento. Non deve portare alcuna protesi mobile. I tempi della protesi definitiva le vengono spiegati fin dalla prima visita, in base al suo piano di trattamento."
         },
         {
-          "title": "Follow-up a distanza",
-          "description": "Videoconferenza per i pazienti stranieri per monitorare la guarigione."
+          "title": "Controlli, in clinica e poi a distanza",
+          "description": "Controlli in clinica prima della partenza, poi follow-up in videochiamata per i pazienti venuti dall’estero. Controlli regolari e una buona igiene orale sono indispensabili per la durata del trattamento."
         }
       ]
     },
     "eligibilité": {
       "badge": "idoneità",
-      "title": "Sei idoneo per un impianto basale?",
-      "descriptionPartOne": "L'impianto basale post-estrazione non è indicato in tutte le situazioni. La qualità dell'osso, lo stato del dente da estrarre e la salute della tua bocca devono essere valutati con precisione. Rispondi a",
-      "descriptionPartTwo": " 5 domande rapide",
-      "descriptionPartThree": "per ricevere una pre-valutazione clinica personalizzata e scoprire se sei un candidato per un impianto dentale nello stesso giorno in Tunisia.",
-      "checkOne": "Analisi della stabilità primaria",
-      "checkTwo": "Valutazione della salute gengivale",
-      "checkThree": "Risposta garantita entro 48 ore",
+      "title": "L’impianto basale fa per lei?",
+      "descriptionPartOne": "La maggior parte dei pazienti può beneficiare di un impianto basale, anche con poco osso. Alcune situazioni richiedono tuttavia una valutazione specifica:",
+      "listOne": [
+        "alcune terapie che agiscono sull’osso;",
+        "una radioterapia pregressa nella zona delle mascelle;",
+        "un diabete non ben compensato;",
+        "un forte tabagismo o un bruxismo marcato."
+      ],
+      "descriptionPartTwo": "Il questionario qui sotto permette al Dott. Kallali di studiare la sua situazione e preparare la sua pratica. L’idoneità viene confermata dopo l’esame clinico e la TAC 3D.",
+      "listTwo": [
+        "La sua situazione dentale attuale",
+        "La sua storia clinica rilevante",
+        "Le sue radiografie, se ne ha"
+      ],
       "form": {
         "title": "Pre-valutazione gratuita",
-        "description": "Rispondi a 5 semplici domande per valutare la tua idoneità.",
+        "description": "5 semplici domande per un primo orientamento.",
         "fullName-label": "Nome e Cognome",
         "fullName-placeholder": "Mario Rossi",
         "email-label": "E-mail",
@@ -513,46 +526,56 @@
         "questionFour-placeholder": "Es.: Diabete di tipo 2",
         "questionFive-label": "5/ Desideri inserire l'impianto lo stesso giorno dell'estrazione?",
         "questionFive-placeholder": "Es.: Sì, se possibile",
-        "info": "I tuoi dati sono protetti e completamente riservati.",
+        "info": "Di norma rispondiamo entro 48 ore lavorative. I suoi dati sono trattati in modo riservato e utilizzati esclusivamente per esaminare la sua richiesta ",
+        "lien": "/MentionsLegales",
+        "lienText": " ([link all’informativa sulla privacy])",
         "ctaSubmit": "Invia la mia pre-valutazione",
         "ctaSubmitting": "Invio in corso..."
       }
     },
     "qa": {
-      "badge": "Domande frequenti (impianto basale)",
-      "title": "Cosa c'è da sapere prima del vostro soggiorno a Sousse.",
+      "badge": "Domande frequenti",
+      "title": "Cosa sapere prima del suo soggiorno a Sousse.",
       "qaList": [
         {
-          "q": "Tempo di recupero dopo l'intervento?",
-          "a": "La durata del soggiorno varia a seconda della vostra situazione clinica. Per un impianto basale, la maggior parte dei pazienti rimane tra 2 e 5 giorni per effettuare il trattamento e i controlli necessari."
+          "q": "Posso ricevere un impianto basale se mi hanno detto che non ho abbastanza osso?",
+          "a": "Nella grande maggioranza dei casi, sì. L’impianto basale si ancora nell’osso corticale, che in genere rimane presente anche dopo un’importante perdita ossea. La TAC 3D permette di confermarlo."
         },
         {
-          "q": "Si può prendere l'aereo dopo l'inserimento di un impianto?",
-          "a": "Sì. Nella maggior parte dei casi, è possibile viaggiare in aereo da 24 a 48 ore dopo l'intervento, a condizione di rispettare le raccomandazioni post-operatorie."
+          "q": "È possibile sostituire un solo dente?",
+          "a": "Sì. L’impianto basale può sostituire un singolo dente così come più denti o un’arcata completa."
         },
         {
-          "q": "Il follow-up è possibile da Francia, Italia o Regno Unito?",
-          "a": "Sì. Il follow-up post-operatorio può essere garantito a distanza tramite videoconferenza e scambio di documenti medici, indipendentemente dal vostro paese di residenza."
+          "q": "Quanto dura il recupero?",
+          "a": "Gonfiore e fastidio sono frequenti per qualche giorno. All’inizio è consigliata un’alimentazione morbida. Il Dott. Kallali le consegna istruzioni scritte e le indica quando riprendere le sue attività."
         },
         {
-          "q": "Come inviare le mie radiografie?",
-          "a": "Potete trasmettere le vostre radiografie panoramiche, scanner o Cone Beam direttamente tramite il nostro modulo sicuro, via e-mail o via WhatsApp."
+          "q": "Si può prendere l’aereo dopo l’intervento?",
+          "a": "In genere sì, dopo il controllo post-operatorio in clinica. Il Dott. Kallali le indica la data di rientro adatta al suo caso."
+        },
+        {
+          "q": "Il follow-up è possibile dall’Italia, dalla Francia o dal Regno Unito?",
+          "a": "Sì. Dopo il suo rientro viene organizzato un follow-up in videochiamata. Alcuni controlli possono richiedere una visita in clinica."
+        },
+        {
+          "q": "Come invio le mie radiografie?",
+          "a": "Può allegare al modulo una panoramica dentale o una TAC cone beam recente, oppure inviarla via WhatsApp o e-mail. Se non ne ha, la valutazione verrà effettuata in clinica."
         },
         {
           "q": "È doloroso?",
-          "a": "L'intervento viene eseguito in anestesia locale. La maggior parte dei pazienti descrive un disagio da lieve a moderato durante i primi giorni, generalmente ben controllato dai farmaci prescritti."
+          "a": "L’intervento si svolge in anestesia locale. Fastidio e gonfiore sono normali nei giorni successivi. Le viene prescritta una terapia antidolorifica."
         },
         {
-          "q": "Qual è la durata di un impianto basale?",
-          "a": "Con una buona igiene orale e un follow-up regolare, un impianto dentale può durare molti anni, anche diversi decenni."
+          "q": "Quanto dura un impianto basale?",
+          "a": "Dipende dalla sua igiene orale, dai controlli regolari, dal suo stato di salute e da abitudini come il fumo o il bruxismo. Il trattamento è concepito per durare a lungo, con una manutenzione regolare."
         },
         {
-          "q": "Esistono voli diretti da Parigi, Milano, Bruxelles o Londra?",
-          "a": "Sì. Voli diretti o con scalo breve sono regolarmente disponibili da diverse grandi città europee verso gli aeroporti che servono la regione di Sousse."
+          "q": "Quali aeroporti servono Sousse?",
+          "a": "Tre aeroporti servono Sousse: Monastir, a circa 20 minuti; Enfidha-Hammamet, a circa 40 minuti; Tunisi-Cartagine, a circa 1 ora e mezza – 2 ore di strada. A seconda della stagione e della compagnia aerea, voli diretti collegano questi aeroporti a diverse città europee, tra cui Milano, Parigi, Bruxelles e Londra. Le consigliamo di verificare i collegamenti al momento della prenotazione."
         },
         {
           "q": "Quali alloggi sono disponibili a Sousse?",
-          "a": "Sousse offre un'ampia scelta di alloggi: hotel, residence e appartamenti adatti a tutte le tasche. Il nostro team può consigliarvi opzioni vicine allo studio."
+          "a": "Sousse e la zona di Port El Kantaoui offrono un’ampia scelta di hotel e appartamenti. La clinica può consigliarle le sistemazioni più adatte al suo soggiorno e alla sua convalescenza."
         }
       ]
     },
@@ -793,6 +816,7 @@
     "social-facebook": "Facebook",
     "social-instagram": "Instagram",
     "social-linkedin": "LinkedIn",
+    "social-tiktok": "TikTok",
     "docter": "Dr. Yassine KALLALI",
     "copyright": "© 2026 Dr. Yassine Kallali. Tutti i diritti riservati. Registrazione CNOMDT N°1813",
     "designed_by": "Progettato da"

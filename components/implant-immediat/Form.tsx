@@ -7,6 +7,7 @@ import { toast } from "react-toastify";
 import CtaButton from "../ui/CtaButton";
 import Image from "next/image";
 import { useContact } from "@/hooks/useContact";
+import Link from "next/link";
 
 export default function Form() {
   const t = useTranslations("implant-immediat");
@@ -139,7 +140,7 @@ export default function Form() {
         <div className="flex items-center gap-x-2.75">
           <Image src={"/icons/lock.png"} width={14.4} height={18} alt="lock" />
           <p className="paragraph2 font-medium!">
-            {t("eligibilité.form.info")}
+            {t("eligibilité.form.info")}<span><Link href={t("eligibilité.form.lien")}>{t("eligibilité.form.lienText")}</Link></span>
           </p>
         </div>
       </form>

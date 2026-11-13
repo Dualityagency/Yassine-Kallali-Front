@@ -8,7 +8,7 @@ export default function PrendreContact() {
   const h3List = t.raw("h3List") as string[];
   return (
     <div
-      className="bg-[url(/home/prendreContact.webp)] bg-cover bg-center lg:bg-top-left bg-no-repeat
+      className="bg-[url(/home/Prendre.webp)] bg-cover bg-center lg:bg-top-left bg-no-repeat
         px-6 lg:px-20 py-12 lg:py-16.5 
         "
     >

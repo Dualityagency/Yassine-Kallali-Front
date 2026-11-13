@@ -7,8 +7,9 @@ import { useTranslations } from "next-intl";
 
 export default function Innovation() {
     const t = useTranslations("implant-immediat")
+    const list = t.raw("inovation.list")
 
-    return(
+    return (
         <div className="container-x flex flex-col gap-y-3.25 lg:gap-y-13.25">
             <div className="flex flex-col items-center gap-y-6 lg:gap-y-9.5">
                 <Badge>{t("inovation.badge")}</Badge>
@@ -20,13 +21,21 @@ export default function Innovation() {
             <div className="flex flex-col lg:flex-row gap-y-6.5 justify-between">
 
                 <div className="w-full lg:w-[57%] rounded-[15px] bg-background px-5.5 py-8.25">
-                    <Image src={"/icons/nib.png"} width={56} height={56} className="mb-6" alt="nib icon"/>
+                    <Image src={"/icons/nib.png"} width={56} height={56} className="mb-6" alt="nib icon" />
                     <h2 className="title3 mb-8.75 lg:mb-5.5">{t("inovation.questionOne")}</h2>
-                    <p className="paragraph mb-8 lg:mb-3.5">{t("inovation.answerOne")}</p>
+                    <p className="paragraph mb-8 lg:mb-3.5">{t("inovation.answerOneP1")}</p>
+                    <p className="paragraph mb-8 lg:mb-3.5">{t("inovation.answerOneP2")}</p>
+                    <ul className="list-disc flex flex-col gap-y-1 lg:gap-y-2 pl-5">
+                        {list.map((item: string, index: number) => (
+                            <li key={index} className="paragraph">
+                                {item}
+                            </li>
+                        ))}
+                    </ul>
                 </div>
 
                 <div className="w-full lg:w-[41%]  rounded-[15px] bg-primary px-5.5 py-8.25">
-                    <Image src={"/icons/!.png"} width={56} height={56} className="mb-6" alt="nib icon"/>
+                    <Image src={"/icons/!.png"} width={56} height={56} className="mb-6" alt="nib icon" />
                     <h2 className="title3 text-white! mb-8.75 lg:mb-5.5">{t("inovation.questionTwo")}</h2>
                     <p className="paragraph text-white! mb-8 lg:mb-3.5">{t("inovation.answerTwo")}</p>
                 </div>

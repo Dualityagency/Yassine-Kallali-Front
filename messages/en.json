@@ -450,55 +450,68 @@
   },
   "implant-immediat": {
     "technologie-de-charge": {
-      "bagde": "Immediate Loading Technology",
-      "title-PartOne": "Immediate post-extraction implant: ",
-      "title-PartTwo": "Technique, protocol and results.",
-      "description": "The immediate post-extraction implant allows replacing a tooth right after its extraction, during the same surgical session. Discover how this same-day dental implant technique works in Tunisia, its indications, advantages, treatment protocol and expected results.",
-      "ctaButton": "Request a free evaluation"
+      "bagde": "Immediate loading",
+      "title-PartOne": "Post-extraction basal implants:",
+      "title-PartTwo": "technique, protocol and results",
+      "description": "A basal (or cortico-basal) implant can be placed on the same day a tooth is removed, during the same appointment. It anchors in the cortical bone, the densest and deepest part of the jaw. This is what makes it suitable for the large majority of patients, including those with significant bone loss, and often without a bone graft. Here you’ll find how this technique works in Sousse, Tunisia, who it is for, how treatment is organised and what you can expect.",
+      "ctaButton": "Request a free assessment"
     },
     "inovation": {
       "badge": "INNOVATION & PRECISION",
-      "title": "Understanding Tomorrow's Implantology.",
-      "questionOne": "What is an basal implant?",
-      "answerOne": "The implant is placed in the socket immediately after extraction, without a waiting period. This technique reduces the number of sessions, preserves bone volume, and considerably shortens the patient's stay.",
+      "title": "Understanding the basal implant",
+      "questionOne": "What is a basal implant?",
+      "answerOneP1": "A conventional dental implant relies mainly on the volume of bone around it. When that bone has shrunk, a bone graft and several months of waiting are often needed.",
+      "answerOneP2": "A basal implant is thinner. It passes through the weakened area to anchor in the cortical bone, a dense layer that usually remains even when a lot of bone has been lost. In most cases, this anchorage makes it possible to:",
+      "list": [
+        "place the implant in the same session as the extraction;",
+        "avoid a bone graft;",
+        "fit temporary fixed teeth within the following days."
+      ],
       "questionTwo": "Why is this technique rare?",
       "answerTwo": "It requires precise planning, a 3D radiological assessment (cone beam), and advanced surgical mastery. Not all cases are eligible; Dr. Yassine KALLALI evaluates each situation individually."
     },
     "protocole": {
-      "badge": "THE PROTOCOL",
-      "title": "How does the procedure take place?",
-      "description": "An optimized organization for local and international patients.",
+      "badge": "The protocol",
+      "title": "How does treatment work?",
+      "description": "Organised for patients from Tunisia and from abroad alike.",
       "list": [
         {
-          "title": "Consultation + Assessment",
-          "description": "Complete radiological analysis by Cone Beam to validate bone density."
+          "title": "Consultation and 3D assessment",
+          "description": "A clinical examination and a cone beam scan to measure the available bone and plan the position of each implant. You then receive a treatment plan and a detailed quote."
         },
         {
-          "title": "Extraction & Placement",
-          "description": "Atraumatic extraction and immediate placement of the titanium implant."
+          "title": "Extraction and implant placement",
+          "description": "The teeth to be removed are extracted as gently as possible. The basal implants are placed in the same session, under local anaesthesia."
         },
         {
-          "title": "Temporary Crown",
-          "description": "Placement of a fixed temporary aesthetic tooth. You leave with a complete smile."
+          "title": "Fixed teeth",
+          "description": "A fixed tooth or bridge is fitted within the days following surgery. There is no removable denture to wear. The timeline for your final prosthesis is explained at the consultation, according to your treatment plan."
         },
         {
-          "title": "Remote follow-up",
-          "description": "Video conference for foreign patients to monitor healing."
+          "title": "Follow-up, at the clinic and then remotely",
+          "description": "Check-ups at the clinic before you leave, then video-call follow-up for patients who travelled from abroad. Regular check-ups and good oral hygiene are essential for your treatment to last."
         }
       ]
     },
     "eligibilité": {
       "badge": "eligibility",
-      "title": "Are You Eligible for Basal Implant Placement?",
-      "descriptionPartOne": "Immediate post-extraction implant placement is not suitable for every situation. The quality of your bone, the condition of the tooth to be extracted, and your oral health must be carefully assessed. Answer",
-      "descriptionPartTwo": " 5 quick questions",
-      "descriptionPartThree": "to receive a personalized clinical pre-assessment and find out whether you are a candidate for a same-day dental implant in Tunisia.",
-      "checkOne": "Primary stability analysis",
-      "checkTwo": "Gum health assessment",
-      "checkThree": "Guaranteed response within 48 hours",
+      "title": "Are you a candidate for a basal implant?",
+      "descriptionPartOne": "Most patients can benefit from a basal implant, even with little bone. Some situations do, however, call for a specific assessment:",
+      "listOne": [
+        "certain treatments that affect the bone;",
+        "past radiotherapy to the jaw;",
+        "poorly controlled diabetes;",
+        "heavy smoking or significant teeth grinding."
+      ],
+      "descriptionPartTwo": "The questionnaire below allows Dr Kallali to review your situation and prepare your file. Your suitability is confirmed after the clinical examination and the 3D scan.",
+      "listTwo": [
+        "Your current dental situation",
+        "Relevant medical history",
+        "Your X-rays, if you have any"
+      ],
       "form": {
-        "title": "Free Pre-Assessment",
-        "description": "Answer 5 simple questions to evaluate your eligibility.",
+        "title": "Free pre-assessment",
+        "description": "5 simple questions for a first opinion.",
         "fullName-label": "Full Name",
         "fullName-placeholder": "John Smith",
         "email-label": "Email",
@@ -513,46 +526,56 @@
         "questionFour-placeholder": "E.g.: Type 2 diabetes",
         "questionFive-label": "5/ Would you like the implant to be placed on the same day as the extraction?",
         "questionFive-placeholder": "E.g.: Yes, if possible",
-        "info": "Your data is 100% confidential and secure.",
-        "ctaSubmit": "Submit My Pre-Assessment",
+        "info": "We usually reply within 48 working hours. Your data is handled confidentially and used only to review your request ",
+        "lien": "/MentionsLegales",
+        "lienText": " ([link to privacy policy]).",
+        "ctaSubmit": "Send my pre-assessment",
         "ctaSubmitting": "Submitting..."
       }
     },
     "qa": {
-      "badge": "Frequent questions (basal implant)",
-      "title": "What you need to know before your stay in Sousse.",
+      "badge": "Frequently asked questions",
+      "title": "What to know before your stay in Sousse.",
       "qaList": [
         {
-          "q": "Recovery time after the procedure?",
-          "a": "The length of stay varies according to your clinical situation. For an basal implant, most patients stay between 2 and 5 days to complete the treatment and necessary check-ups."
+          "q": "Can I have a basal implant if I’ve been told I don’t have enough bone?",
+          "a": "In the large majority of cases, yes. The basal implant anchors in the cortical bone, which usually remains even after significant bone loss. The 3D scan confirms it."
         },
         {
-          "q": "Can you fly after implant placement?",
-          "a": "Yes. In most cases, it is possible to travel by plane 24 to 48 hours after the procedure, provided you follow the post-operative recommendations."
+          "q": "Can a single tooth be replaced?",
+          "a": "Yes. A basal implant can replace a single tooth as well as several teeth or a full arch."
         },
         {
-          "q": "Is follow-up possible from France, Italy or the UK?",
-          "a": "Yes. Post-operative follow-up can be provided remotely via video conference and exchange of medical documents, regardless of your country of residence."
+          "q": "How long is the recovery?",
+          "a": "Swelling and discomfort are common for a few days. A soft diet is recommended at first. Dr Kallali gives you written instructions and tells you when you can resume your activities."
         },
         {
-          "q": "How can I send my X-rays?",
-          "a": "You can send your panoramic X-rays, scanners or Cone Beam directly via our secure form, by email or via WhatsApp."
+          "q": "Can I fly after the procedure?",
+          "a": "Generally yes, once your post-operative check-up has been done at the clinic. Dr Kallali tells you the right return date for your case."
         },
         {
-          "q": "Is it painful?",
-          "a": "The procedure is performed under local anesthesia. Most patients describe mild to moderate discomfort during the first few days, generally well controlled by prescribed medications."
+          "q": "Is follow-up possible from France, Italy or the United Kingdom?",
+          "a": "Yes. Video-call follow-up is arranged after you return home. Some check-ups may require a visit to the clinic."
         },
         {
-          "q": "What is the lifespan of an basal implant?",
-          "a": "With good oral hygiene and regular follow-up, a dental implant can last many years, even several decades."
+          "q": "How do I send my X-rays?",
+          "a": "You can attach a recent panoramic X-ray or cone beam scan to the form, or send it by WhatsApp or email. If you don’t have one, the assessment will be done at the clinic."
         },
         {
-          "q": "Are there direct flights from Paris, Milan, Brussels or London?",
-          "a": "Yes. Direct flights or short stopover flights are regularly available from several major European cities to airports serving the Sousse region."
+          "q": "Does it hurt?",
+          "a": "The procedure is carried out under local anaesthesia. Some discomfort and swelling are usual in the following days. Pain relief medication is prescribed."
         },
         {
-          "q": "What accommodations are available in Sousse?",
-          "a": "Sousse offers a wide choice of accommodations: hotels, residences and apartments to suit all budgets. Our team can advise you on options close to the clinic."
+          "q": "How long does a basal implant last?",
+          "a": "It depends on your oral hygiene, regular check-ups, general health and habits such as smoking or teeth grinding. The treatment is designed for long-term use, with regular maintenance."
+        },
+        {
+          "q": "Which airports serve Sousse?",
+          "a": "Three airports serve Sousse: Monastir, about 20 minutes away; Enfidha-Hammamet, about 40 minutes away; Tunis-Carthage, about 1.5 to 2 hours by road. Depending on the season and the airline, direct flights connect these airports with several European cities, including Paris, Milan, Brussels and London. We recommend checking routes when you book."
+        },
+        {
+          "q": "What accommodation is available in Sousse?",
+          "a": "Sousse and the Port El Kantaoui area offer a wide choice of hotels and apartments. The clinic can advise you on accommodation suited to your stay and your recovery."
         }
       ]
     },
@@ -793,6 +816,7 @@
     "social-facebook": "Facebook",
     "social-instagram": "Instagram",
     "social-linkedin": "LinkedIn",
+    "social-tiktok": "TikTok",
     "docter": "Dr. Yassine KALLALI",
     "copyright": "© 2026 Dr. Yassine Kallali. All rights reserved. CNOMDT Registration N°1813",
     "designed_by": "Designed by"
