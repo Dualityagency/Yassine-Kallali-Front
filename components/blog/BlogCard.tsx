@@ -37,7 +37,7 @@ export default function BlogCard({
         <h2 className="title4 text-[15.29px]! lg:text-[18px]!">{title}</h2>
         <div className="flex justify-between items-center">
           <h3 className="font-medium text-[#959595] text-[11.89px] lg:text-[14px]">
-            {date} <span className="px-0.75">{t("minutes-read")}</span> {readTime}
+           {readTime}<span className="px-0.75">{t("minutes-read")}</span> 
           </h3>
           <Flesh href={`/blog/${slug}`} />
         </div>
