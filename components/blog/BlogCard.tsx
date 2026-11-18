@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import { Badge } from "../ui/badge";
 import Flesh from "../ui/Flesh";
 
@@ -18,6 +19,7 @@ export default function BlogCard({
   readTime,
   slug,
 }: BlogCardProps) {
+  const t =useTranslations("blog");
   return (
     <div className="w-full h-97.5 lg:w-99.5 lg:h-114.75 rounded-[12.74px] lg:rounded-[15px] border border-border overflow-hidden">
       <div
@@ -35,7 +37,7 @@ export default function BlogCard({
         <h2 className="title4 text-[15.29px]! lg:text-[18px]!">{title}</h2>
         <div className="flex justify-between items-center">
           <h3 className="font-medium text-[#959595] text-[11.89px] lg:text-[14px]">
-            {date} <span className="px-0.75">.</span> {readTime}
+            {date} <span className="px-0.75">{t("minutes-read")}</span> {readTime}
           </h3>
           <Flesh href={`/blog/${slug}`} />
         </div>

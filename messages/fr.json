@@ -625,6 +625,7 @@
     "filter-all": "Tous",
     "empty": "Aucun article trouvé pour cette catégorie.",
     "loading": "Chargement des articles...",
+    "minutes-read": "min de lecture",
     "error": "Impossible de charger les articles.",
     "contact": {
       "badge": "Prendre contact",
